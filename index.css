@@ -127,11 +127,9 @@
 }
 
 .u-section-2 .u-btn-1 {
-  background-image: none;
-  font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 2px;
   border-style: solid;
+  text-transform: uppercase;
   margin: 30px auto 0;
   padding: 6px 46px 7px 45px;
 }
@@ -162,11 +160,9 @@
 }
 
 .u-section-2 .u-btn-2 {
-  background-image: none;
-  font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 2px;
   border-style: solid;
+  text-transform: uppercase;
   margin: 30px auto 0;
   padding: 6px 46px 7px 45px;
 }
@@ -197,11 +193,9 @@
 }
 
 .u-section-2 .u-btn-3 {
-  background-image: none;
-  font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 2px;
   border-style: solid;
+  text-transform: uppercase;
   margin: 30px auto 0;
   padding: 6px 46px 7px 45px;
 }
@@ -234,12 +228,24 @@
     height: 218px;
   }
 
+  .u-section-2 .u-btn-1 {
+    font-weight: 400;
+  }
+
   .u-section-2 .u-image-2 {
     height: 218px;
   }
 
+  .u-section-2 .u-btn-2 {
+    font-weight: 400;
+  }
+
   .u-section-2 .u-image-3 {
     height: 218px;
+  }
+
+  .u-section-2 .u-btn-3 {
+    font-weight: 400;
   }
 }
 
