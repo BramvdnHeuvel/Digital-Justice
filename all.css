@@ -1,0 +1,244 @@
+:root {
+    --color-white: rgb(255, 255, 255);
+    --shade-white-1: rgb(242, 242, 242);
+    --shade-white-2: rgb(229, 229, 229);
+    --shade-white-3: rgb(217, 217, 217);
+    --shade-white-4: rgb(192, 192, 192);
+    --shade-white-5: rgb(179, 179, 179);
+    --shade-white-6: rgb(153, 153, 153);
+
+    --color-black: rgb(0, 0, 0);
+    --shade-black-1: rgb(128, 128, 128);
+    --shade-black-2: rgb(102, 102, 102);
+    --shade-black-3: rgb(77, 77, 77);
+    --shade-black-4: rgb(64, 64, 64);
+    --shade-black-5: rgb(51, 51, 51);
+    --shade-black-6: rgb(26, 26, 26);
+
+    --color-green: rgb(46, 147, 122);
+    --shade-green-1: rgb(237, 251, 248);
+    --shade-green-2: rgb(184, 240, 226);
+    --shade-green-3: rgb(135, 229, 206);
+    --shade-green-4: rgb(46, 147, 122);
+    --shade-green-5: rgb(55, 99, 88);
+    --shade-green-6: rgb(41, 51, 48);
+
+    --color-orange: rgb(242, 148, 49);
+    --shade-orange-1: rgb(254, 244, 233);
+    --shade-orange-2: rgb(250, 211, 170);
+    --shade-orange-3: rgb(246, 179, 109);
+    --shade-orange-4: rgb(178, 126, 72);
+    --shade-orange-5: rgb(115, 92, 69);
+    --shade-orange-6: rgb(51, 46, 41);
+
+    --color-greeny: rgb(130, 198, 181);
+    --shade-greeny-1: rgb(241, 249, 247);
+    --shade-greeny-2: rgb(200, 232, 224);
+    --shade-greeny-3: rgb(163, 215, 202);
+    --shade-greeny-4: rgb(105, 149, 138);
+    --shade-greeny-5: rgb(75, 100, 94);
+    --shade-greeny-6: rgb(41, 51, 48);
+
+    --color-orangey: rgb(229, 152, 70);
+    --shade-orangey-1: rgb(252, 244, 235);
+    --shade-orangey-2: rgb(245, 212, 177);
+    --shade-orangey-3: rgb(237, 181, 122);
+    --shade-orangey-4: rgb(170, 126, 80);
+    --shade-orangey-5: rgb(110, 91, 70);
+    --shade-orangey-6: rgb(51, 46, 41);
+
+    --color-gray: rgb(185, 193, 204);
+    --shade-gray-1: rgb(245, 247, 250);
+    --shade-gray-2: rgb(224, 229, 235);
+    --shade-gray-3: rgb(204, 211, 219);
+    --shade-gray-4: rgb(133, 142, 153);
+    --shade-gray-5: rgb(85, 92, 102);
+    --shade-gray-6: rgb(41, 45, 51);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--shade-black-5);
+    color: var(--color-white);
+    padding: 50px 0;
+}
+footer a {
+    color: var(--shade-green-3);
+}
+
+/*
+ * Color schemes
+ */
+
+/* Light green */
+.light-green {
+    background-color: var(--shade-greeny-2);
+    color: var(--shade-green-4);
+}
+.light-green a.btn {
+    color: var(--shade-green-4);
+}
+.light-green a.btn.filled, .light-green a.btn:hover {
+    background-color: var(--shade-green-4);
+    color: var(--color-white);
+}
+.light-green article p {
+    color: var(--shade-green-5);
+}
+/* Full green */
+.full-green {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+.full-green a.btn.filled, .full-green a.btn:hover {
+    border-color: var(--color-green);
+}
+
+/*
+ * Sections
+ */
+section {
+    position: relative;
+    padding: 40px;
+}
+section > h1, section > h2, section > h3,
+section > h4, section > h5, section > h6,
+section > p,  section > span {
+    text-align: center;
+}
+section > h4 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+section > h1 {
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+}
+section > h4 {
+    font-size: 1.5rem;
+}
+
+/*
+ * Articles
+ */
+article {
+    position: relative;
+}
+article img {
+    max-width: 100%;
+}
+
+
+/* Medium
+ */
+article.medium-preview {
+    max-width: 500px;
+    text-align: center;
+    background-color: var(--color-white);
+    border-radius: 15px;
+
+    margin: 20px;
+    padding: 40px 20px;
+}
+/* Two-parts
+ */
+article.two-parts {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+    justify-content: center;
+
+    position: relative;
+}
+article.two-parts > div {
+    flex: 1 0 50%;
+    min-width: 270px;
+}
+article.two-parts .four-cards {
+    position: relative;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+
+    flex: 1 1 600px;
+}
+article.two-parts .four-cards > div {
+    flex: 1 0 250px;
+    min-width: 40%;
+
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+article.two-parts > .image {
+    position: relative;
+}
+article.two-parts > .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+article.two-parts > .text > * {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/*
+ * Buttons
+ */
+a.btn {
+    letter-spacing: 2px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 30px auto 0;
+    padding: 6px 46px 7px 45px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.btn.filled, a.btn:hover {
+    border-color: var(--shade-green-4);
+}
+a.btn.big {
+    text-transform: uppercase;
+}
+a.btn.round {
+    border-radius: 30px;
+}
+
+/*
+ * Flexboxes
+ */
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.flex-container article {
+    flex: 1 0 250px;
+}
+article.medium-preview > .flex-container {
+    align-content: space-between;
+    height: 100%;
+}
+article.medium-preview > .flex-container > * {
+    flex: 1 0 250px;
+}
