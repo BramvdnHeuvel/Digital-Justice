@@ -117,6 +117,7 @@ a.btn {
 /* Simple gray */
 .simple-gray {
     background-color: var(--shade-gray-2);
+    color: var(--color-black);
 }
 
 /*
@@ -153,12 +154,15 @@ section > h4 {
 article {
     position: relative;
 }
+article:not(:last-child) {
+    margin-bottom: 40px;
+}
 article img {
     max-width: 100%;
 }
 
 
-/* Medium
+/* Medium preview
  */
 article.medium-preview {
     max-width: 500px;
@@ -169,6 +173,26 @@ article.medium-preview {
     margin: 20px;
     padding: 40px 20px;
 }
+/* Large preview
+ */
+article.large-preview h1 {
+    font-size: 3rem;
+}
+article.large-preview {
+    font-size: 1.5rem;
+}
+article.large-preview .text {
+    padding-bottom: 20px;
+}
+article.large-preview .text > * {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: var(--color-black);
+    background-color: initial;
+}
+article.large-preview .text > p + p {
+    margin-top: 10px;
+}
 /* Two-parts
  */
 article.two-parts {
@@ -178,6 +202,9 @@ article.two-parts {
     justify-content: center;
 
     position: relative;
+}
+article.two-parts.reverse {
+    flex-direction: row-reverse;
 }
 article.two-parts > div {
     flex: 1 0 50%;
@@ -211,6 +238,8 @@ article.two-parts > .text {
     flex-direction: column;
     justify-content: center;
     align-content: flex-start;
+
+    margin-bottom: 7px;
 }
 article.two-parts > .text > * {
     margin-left: 20px;
