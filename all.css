@@ -78,6 +78,11 @@ footer a {
 /*
  * Color schemes
  */
+a.btn {
+    color: var(--color-black);
+    background-color: var(--color-orange);
+    border-color: var(--color-orange);
+}
 
 /* Light green */
 .light-green {
@@ -85,6 +90,8 @@ footer a {
     color: var(--shade-green-4);
 }
 .light-green a.btn {
+    background-color: initial;
+    border-color: var(--shade-green-4);
     color: var(--shade-green-4);
 }
 .light-green a.btn.filled, .light-green a.btn:hover {
@@ -99,8 +106,17 @@ footer a {
     background-color: var(--color-green);
     color: var(--color-white);
 }
+.full-green a.btn {
+    background-color: initial;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
 .full-green a.btn.filled, .full-green a.btn:hover {
     border-color: var(--color-green);
+}
+/* Simple gray */
+.simple-gray {
+    background-color: var(--shade-gray-2);
 }
 
 /*
@@ -213,9 +229,6 @@ a.btn {
     padding: 6px 46px 7px 45px;
     text-decoration: none;
     cursor: pointer;
-}
-a.btn.filled, a.btn:hover {
-    border-color: var(--shade-green-4);
 }
 a.btn.big {
     text-transform: uppercase;
