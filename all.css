@@ -54,6 +54,7 @@
     --shade-gray-4: rgb(133, 142, 153);
     --shade-gray-5: rgb(85, 92, 102);
     --shade-gray-6: rgb(41, 45, 51);
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -125,10 +126,15 @@ a.btn {
     background-color: var(--shade-gray-2);
     color: var(--color-black);
 }
-/* Article orange */
+/* Simple orange */
 .simple-orange {
     background-color: var(--shade-orange-2);
     color: var(--shade-black-6);
+}
+/* Full orange */
+.half-orange {
+    background-color: var(--shade-orange-3);
+    color: var(--color-black);
 }
 /* Black text */
 .black-text {
@@ -313,6 +319,12 @@ article.essay-title h1 {
     font-size: 4rem;
     font-weight: 400;
     margin-top: 0;
+}
+article.essay-title h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.125rem;
 }
 article.essay-title p {
     font-size: 1.5rem;
