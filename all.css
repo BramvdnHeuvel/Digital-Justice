@@ -57,7 +57,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Source Sans Pro',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -73,6 +73,12 @@ footer {
 }
 footer a {
     color: var(--shade-green-3);
+}
+
+a {
+    color: var(--color-green);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*
@@ -119,6 +125,15 @@ a.btn {
     background-color: var(--shade-gray-2);
     color: var(--color-black);
 }
+/* Article orange */
+.simple-orange {
+    background-color: var(--shade-orange-2);
+    color: var(--shade-black-6);
+}
+/* Black text */
+.black-text {
+    color: var(--color-black);
+}
 
 /*
  * Sections
@@ -161,7 +176,34 @@ article img {
     max-width: 100%;
 }
 
+/* Small preview
+ */
+article.small-preview {
+    padding: 30px;
+    margin-bottom: 20px;
 
+    display: flex;
+    flex-flow: row nowrap;
+}
+article.small-preview .image {
+    flex: 0 0 110px;
+    margin-right: 20px;
+}
+article.small-preview .image img {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+}
+article.small-preview .text h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-top: 22.5px
+}
+article.small-preview .text * {
+    margin-bottom: 0;
+}
 /* Medium preview
  */
 article.medium-preview {
@@ -175,11 +217,15 @@ article.medium-preview {
 }
 /* Large preview
  */
-article.large-preview h1 {
-    font-size: 3rem;
-}
 article.large-preview {
     font-size: 1.5rem;
+
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto
+}
+article.large-preview h1 {
+    font-size: 3rem;
 }
 article.large-preview .text {
     padding-bottom: 20px;
@@ -244,6 +290,64 @@ article.two-parts > .text {
 article.two-parts > .text > * {
     margin-left: 20px;
     margin-right: 20px;
+}
+article.two-parts .large.text {
+    text-align: center;
+}
+article.two-parts .large.text h2 {
+    font-weight: 400;
+    font-size: 4rem;
+}
+/* Essay title
+ */
+article.essay-title {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+article.essay-title h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+article.essay-title p {
+    font-size: 1.5rem;
+}
+article.essay-title img {
+    width: 250px;
+}
+/* Essay
+ */
+article.essay {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+article.essay .text, article.two-parts .text {
+    min-width: 350px;
+}
+article.essay h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: 0 auto 10px;
+    font-size: 2.5rem;
+}
+article.essay h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+article.essay h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin: 0 auto 15px;
+}
+article.essay > .text > p {
+    padding-right: 30px;
 }
 
 
