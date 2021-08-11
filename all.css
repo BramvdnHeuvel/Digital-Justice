@@ -175,6 +175,9 @@ article:not(:last-child) {
 article img {
     max-width: 100%;
 }
+article p, article ul {
+    font-size: 1.125rem;
+}
 
 /* Small preview
  */
