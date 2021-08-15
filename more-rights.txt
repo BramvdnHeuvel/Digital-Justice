@@ -1,0 +1,55 @@
+This file documents what all rights ultimately should link towards.
+These rights are selected on the topic and interest.
+The rule of thumb should be "if the reader agrees with this, they'll probably find this interesting as well".
+
+Not all rights exist yet, however, so the pages will be given temporary links in the meantime.
+
+Abandonware Continuity
+- Right to Repair
+- Software Autonomy
+- Software Warranty
+
+Data Sovereignty
+- Freedom of Installation
+- Privacy
+- Security
+
+Freedom of Installation
+- Abandonware Continuity
+- Data Sovereignty
+- Privacy
+
+Interoperability
+- Data Sovereignty
+- Openness
+- Software Autonomy
+
+Openness
+- Data Sovereignty
+- Interoperability
+- Privacy
+
+Privacy
+- Freedom of Installation
+- Openness
+- Security
+
+Right to Repair
+- Interoperability
+- Software Autonomy
+- Software Warranty
+
+Security
+- Data Sovereignty
+- Openness
+- Privacy
+
+Software Autonomy
+- Freedom of Installation
+- Interoperability
+- Right to Repair
+
+Software Warranty
+- Abandonware Continuity
+- Right to Repair
+- Security

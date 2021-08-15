@@ -16,6 +16,12 @@ var ideals = [
         description: "Walled gardens limit freedom. Anyone should have the right to reprogram their device.",
         image: "images/software-autonomy.png",
         page: "/software-autonomy.html"
+    },
+    {
+        name: "Abandonware Continuity",
+        description: "In contrast to Mickey Mouse, not being able to use software from a dead person may harm humans.",
+        image: "images/abandonware-continuity.png",
+        page: "/abandonware-continuity.html"
     }
 ];
 
