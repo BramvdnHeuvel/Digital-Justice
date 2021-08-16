@@ -181,6 +181,11 @@ article:not(:last-child) {
 article img {
     max-width: 100%;
 }
+section article img.icon {
+    width: 50px;
+    position: relative;
+    top: 18px;
+}
 article p, article ul {
     font-size: 1.125rem;
 }
@@ -364,7 +369,46 @@ article.essay h6 {
 article.essay > .text > p {
     padding-right: 30px;
 }
-
+/* Blog
+ */
+article.blog {
+    max-width: 820px;
+}
+article.blog .img-center {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+article.blog img {
+    max-height: 500px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+article.blog table {
+    margin: 0 auto;
+}
+article.blog h1, article.blog h2, article.blog h3, 
+article.blog h4, article.blog h5, article.blog h6 {
+    font-family: 'Playfair Display', serif;
+}
+article.blog h1 {
+    font-size: 2rem;
+}
+article.blog h2 {
+    font-size: 1.75rem;
+}
+article.blog h3 {
+    font-size: 1.5rem;
+}
+article.blog h4 {
+    font-size: 1.25rem;
+}
+article.blog h5 {
+    font-size: 1rem;
+}
+article.blog h6 {
+    font-size: 0.75rem;
+}
 
 /*
  * Buttons
