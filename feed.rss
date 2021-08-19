@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Digital Justice Blog</title>
+        <link>https://digital-justice.com/</link>
+        <description>Blog on digital rights</description>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 19 Aug 2021 18:47:00 GMT</lastBuildDate>
+        <image>
+            <title>Digital Justice</title>
+            <link>https://digital-justice.com/</link>
+            <url>https://digital-justice.com/icons/android-chrome-512x512.png</url>
+            <width>512</width>
+            <height>512</height>
+        </image>
+        <item>
+            <title>How to join Matrix</title>
+            <pubDate>Thu, 19 Aug 2021 18:47:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/how-to-join-matrix.html</link>
+            <description><![CDATA[Find a tutorial <a href="https://digital-justice.com/articles/how-to-join-matrix.html">here</a> on how to join Matrix!]]></description>
+            <author src="matrix">@bramvdnheuvel:nltrix.net</author>
+        </item>
+    </channel>
+</rss>
