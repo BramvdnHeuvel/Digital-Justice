@@ -4,4 +4,4 @@ This list sorts articles by order of published date.
 No.     File                    Author          Name
 1       how-to-join-matrix.html BramvdnHeuvel   How to join the Matrix network
 2       decentralize.html       BramvdnHeuvel   Dear politicians of the EU, it's time to decentralize the internet
-
+3       skip-signal.html        BramvdnHeuvel   Skip Signal and move to Matrix before it's too late
