@@ -19,6 +19,9 @@
     <meta name="title" content="Abandonware Continuity">
     <meta name="description" content="In contrast to Mickey Mouse, not being able to use software from a dead person may harm humans. Hence software should become public domain at the end of its lifecycle: use it or lose it.">
 
+    <!-- FontAwesome -->
+    <link rel="stylesheet" type="text/css" href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://digital-justice.com/">
@@ -41,7 +44,15 @@
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <a href="/"><i class="fas fa-home"></i> Home</a>
+            <a href="/rights.html">Digital rights</a>
+            <a href="/#articles-todo">Articles</a>
+            <a href="javascript:void(0)" class="hamburger" onclick="openHamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <script src="js/open-hamburger.js"></script>
     </header>
     <section class="simple-orange">
         <article class="essay-title">

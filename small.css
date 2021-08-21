@@ -1,0 +1,27 @@
+nav a:not(:first-child) {
+    display: none;
+}
+nav a.hamburger {
+    display: block;
+}
+nav a:not(:first-child):not(.hamburger) {
+    background-color: var(--shade-gray-4);
+}
+nav a:not(:first-child):not(.hamburger):hover {
+    background-color: var(--shade-gray-3);
+    color: var(--color-black);
+}
+
+nav.open {
+    position: relative;
+}
+nav.open a.hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+nav.open a {
+    float: none;
+    display: block;
+    text-align: left;
+}

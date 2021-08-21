@@ -66,6 +66,27 @@ body {
     margin: 0;
 }
 
+nav {
+    background-color: var(--shade-black-5);
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    /*text-decoration: none;*/
+    padding: 14px 16px;
+    color: var(--color-white);
+}
+nav a:hover {
+    background-color: var(--shade-gray-4);
+    color: var(--shade-gray-1);
+}
+nav a.hamburger {
+    float: right;
+    display: none;
+}
+
 footer {
     text-align: center;
     background-color: var(--shade-black-5);

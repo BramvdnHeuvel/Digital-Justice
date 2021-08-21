@@ -10,12 +10,16 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="all.css">
+    <link rel="stylesheet" media="screen and (max-width: 48em)" href="small.css">
 
     <!-- Meta tags -->
     <!-- Primary Meta Tags -->
     <title>Digital Justice</title>
     <meta name="title" content="Digital Justice">
     <meta name="description" content="Stop raising your finger at Facebook for stealing our data. Insteads use modern solutions tovercome challengesms that arise in a digital world. Here's how.">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" type="text/css" href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -39,15 +43,23 @@
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <a href="/"><i class="fas fa-home"></i> Home</a>
+            <a href="/rights.html">Digital rights</a>
+            <a href="/#articles-todo">Articles</a>
+            <a href="javascript:void(0)" class="hamburger" onclick="openHamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <script src="js/open-hamburger.js"></script>
     </header>
     <section class="simple-gray">
         <h1 style="font-size: 3.5rem;">Digital Justice</h1>
         <p>Solve the issues that arise in a digital world.</p>
-        <p><a class="btn filled" href="/rights.html">Read More</a></p>
+        <p><a class="btn filled" href="rights.html">Read More</a></p>
     </section>
     <section>
-        <h4>Most recent articles</h4>
+        <h4 id="articles-todo">Most recent articles</h4>
         <div class="flex-container" style="flex-wrap: nowrap;justify-content: center;">
             <div style="width: 350px;margin-right: 10px;">
                 <h3>Dear politicians of the EU, it's time to decentralize the internet</h3>
