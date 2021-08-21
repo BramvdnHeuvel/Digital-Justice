@@ -22,6 +22,12 @@ var ideals = [
         description: "In contrast to Mickey Mouse, not being able to use software from a dead person may harm humans.",
         image: "images/abandonware-continuity.png",
         page: "/abandonware-continuity.html"
+    },
+    {
+        name: "Right to Repair",
+        description: "You should be able to repair broken electronic parts instead of having to buy a new device.",
+        image: "images/right-to-repair.png",
+        page: "/right-to-repair.html"
     }
 ];
 

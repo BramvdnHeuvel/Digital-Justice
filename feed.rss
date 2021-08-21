@@ -5,7 +5,7 @@
         <link>https://digital-justice.com/</link>
         <description>Blog on digital rights</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 19 Aug 2021 23:09:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
         <image>
             <title>Digital Justice</title>
             <link>https://digital-justice.com/</link>
@@ -13,6 +13,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>New digital right: right to repair</title>
+            <pubDate>Sat, 21 Aug 2021 12:58:00</pubDate>
+            <link>https://digital-justice.com/right-to-repair.html</link>
+            <description><![CDATA[Learn more about this new digital right: it's the <a href="https://digital-justice.com/right-to-repair.html">right to repair</a>!]]>]></description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
         <item>
             <title>Skip Signal and move to Matrix before it's too late</title>
             <pubDate>Thu, 19 Aug 2021 23:09:00</pubDate>
