@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Open Sans font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet"/>
+<!-- Playfair Display font-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" id="u-page-google-font" rel="stylesheet"/>
+<!-- CSS -->
+<link href="../all.css" rel="stylesheet" type="text/css"/>
+<!-- Meta tags -->
+<!-- Primary Meta Tags -->
+<title>Kaip prisijungti prie "Matrix" tinklo</title>
+<meta content='Kaip prisijungti prie "Matrix" tinklo' name="title"/>
+<meta content='Yra humanitarinių ir ekonominių priežasčių prisijungti prie "Matrix". Štai kaip pradėti naudotis Matrica!' name="description"/>
+<!-- FontAwesome -->
+<link href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://digital-justice.com/" property="og:url"/>
+<meta content='Kaip prisijungti prie "Matrix" tinklo' property="og:title"/>
+<meta content='Yra humanitarinių ir ekonominių priežasčių prisijungti prie "Matrix". Štai kaip pradėti naudotis Matrica!' property="og:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://digital-justice.com/" property="twitter:url"/>
+<meta content='Kaip prisijungti prie "Matrix" tinklo' property="twitter:title"/>
+<meta content='Yra humanitarinių ir ekonominių priežasčių prisijungti prie "Matrix". Štai kaip pradėti naudotis Matrica!' property="twitter:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="twitter:image"/>
+<!-- Favicon -->
+<!-- Favicon -->
+<link href="https://digital-justice.com/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://digital-justice.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://digital-justice.com/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://digital-justice.com/icons/site.webmanifest" rel="manifest"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="../index.html"><i class="fas fa-home"></i> Pradžia</a>
+<a href="../rights.html">Skaitmeninės teisės</a>
+<a href="index.html">Straipsniai</a>
+<div id="language-picker"></div>
+<a class="hamburger" href="javascript:void(0)" onclick="openHamburger()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+<script src="https://digital-justice.com/js/open-hamburger.js"></script>
+</header>
+<section class="simple-orange">
+<article class="essay-title">
+<h1>Kaip prisijungti prie "Matrix" tinklo</h1>
+<p>Peržiūrėkite originalų straipsnį <a href="https://noordstar.me/b/how-to-join-matrix.md">čia</a> arba skaitykite toliau.</p>
+<p>Numatoma skaitymo trukmė: <img class="icon" src="../images/clock.svg"/> 3 min.</p>
+</article>
+</section>
+<section class="simple-gray flex-container">
+<article class="blog">
+<span class="card-type">Mokomoji programa</span>
+<hr/>
+<h1 id="how-to-join-the-matrix-network">Kaip prisijungti prie "Matrix" tinklo</h1>
+<p>Yra <a href="https://noordstar.me/b/decentralize.md" target="_blank">humanitarinių priežasčių</a>, taip pat <a href="https://www.youtube.com/watch?v=PTL-8Lc_nAI&amp;" target="_blank">ekonominių priežasčių</a> prisijungti prie "Matrix". Šiame straipsnyje daroma prielaida, kad norite pabandyti, ir aš jums paaiškinsiu, kaip prie jos prisijungti!</p>
+<p>Matricoje užtikrinamas privatumas ir duomenų suverenumas, tačiau prisijungti prie tinklo gali būti sunku ir painu. Tai paprasta pamoka, kuri padės jums susikurti "Matrix" paskyrą.</p>
+<div>
+<ul>
+<li><a href="#how-to-join-the-matrix-network">Kaip prisijungti prie "Matrix" tinklo</a>
+<ul>
+<li><a href="#quick-guide">Greitasis vadovas</a></li>
+<li><a href="#step-1-choose-a-client">1 žingsnis: pasirinkite klientą</a>
+<ul>
+<li><a href="#element">Elementas</a></li>
+<li><a href="#fluffychat">FluffyChat</a></li>
+<li><a href="#matrixcli">matrixcli</a></li>
+<li><a href="#miitrix">Miitrix</a></li>
+</ul>
+</li>
+<li><a href="#step-2-choose-a-homeserver">2 žingsnis: pasirinkite namų serverį</a></li>
+<li><a href="#step-3-create-an-account">3 žingsnis: susikurkite paskyrą</a></li>
+<li><a href="#step-4-connect-to-your-friends">4 veiksmas: prisijunkite prie draugų</a></li>
+<li><a href="#step-5-connect-with-people-on-other-platforms">5 veiksmas: užmegzkite ryšį su žmonėmis kitose platformose</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="quick-guide">Greitasis vadovas</h2>
+<p>Jei negalite pasirinkti, pasinaudokite šiomis galimybėmis. 1 žingsnyje pasirinkite <strong>Elementą</strong>. Pasirinkite <strong>nltrix.net</strong>, jei mokate olandų kalbą ir gyvenate Europoje, kitu atveju 2 žingsnyje pasirinkite <strong>matrix.org</strong>.</p>
+<h2 id="step-1-choose-a-client">1 žingsnis: pasirinkite klientą</h2>
+<p>Norėdami kalbėti per "Matrix", turite naudoti programėlę. Tačiau nesvarbu, kokią programėlę pasirinksite! Visos tinka ir visos gali bendrauti tarpusavyje. Be to, kai tik persigalvojate, visada galite pakeisti programėlę.</p>
+<p>Jei norite patys pasirinkti klientą, galite <a href="https://matrix.org/clients/">surasti galimų klientų sąrašą čia</a>. Priešingu atveju leiskite pateikti keletą rekomendacijų.</p>
+<h3 id="element">Elementas</h3>
+<div class="img-center">
+<img alt="Element logo" src="../images/element.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://element.io/">Elementas</a> - tai programa, kurią aktyviai prižiūri organizacija "Matrica".</p>
+<p><strong>Platformos:</strong> Naršyklė, "Windows", "Linux", "Android", "iOS</p>
+<ul>
+<li>✅ Paprastai greičiausiai gaunate naujausius atnaujinimus;</li>
+<li>✅ Oficialiai remia organizacija "Matrix";</li>
+<li>✅ Palaiko visas Matricos funkcijas;</li>
+<li>❌ Sukurta programuotojams ir kartais gali būti šiek tiek sudėtinga.</li>
+</ul>
+<h3 id="fluffychat">FluffyChat</h3>
+<div class="img-center">
+<img alt="FluffyChat logo" src="../images/fluffychat.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://fluffychat.im/">FluffyChat</a> yra atvirojo kodo programėlė, kurią lengva naudoti ir labai patogu naudoti. Jos funkcionalumas yra ribotas, o tai reiškia, kad ją lengva suprasti, bet taip pat ribota tai, ką ji leidžia daryti "Matrix". Ši programėlė geriausiai tinka vaikams ir žmonėms, kurie nėra labai gerai susipažinę su socialiniais tinklais.</p>
+<p><strong>Platformos:</strong> Naršyklė, Linux, Android, iOS</p>
+<ul>
+<li>✅ Lengva naudoti ir pasiimti;</li>
+<li>✅ Paprasta vartotojo sąsaja;</li>
+<li>❌ Ribotas funkcionalumas.</li>
+</ul>
+<h3 id="matrixcli">matrixcli</h3>
+<p>Jei esate programuotojas, kuris nekenčia grafinių sąsajų ir mėgsta visas savo komandas vykdyti tiesiogiai terminale, tuomet <a href="https://github.com/saadrushd/matrixcli">matrixcli</a> yra kaip tik tai, ko jums reikia.</p>
+<p>Ką galima pasakyti? Tai komandinės eilutės klientas. Galiu lažintis, kad "Vim" mėgėjams patinka toks klientas.</p>
+<ul>
+<li>✅ Labai minimaliai veikia jūsų kompiuterio našumą;</li>
+<li>❌ Didžiulė nenaudėlė žmonėms, kurie nemoka programuoti;</li>
+<li>❌ Dėl sąsajos trūkumo kai kuriems žmonėms gali būti nuobodu ja naudotis.</li>
+</ul>
+<h3 id="miitrix">Miitrix</h3>
+<div class="img-center">
+<img alt="Miitrix on a Nintendo 3DS" src="../images/miitrix-600.jpg" style="max-width:450px;"/>
+</div>
+<p>Ką?! Jūs galite bendrauti su "Matrix" tinklu iš savo "Nintendo 3DS"?! Teisingai, su <a href="https://github.com/Sorunome/miitrix">Miitrix</a> galite! Nežinau, kodėl to norėtumėte, bet manau, kad galite.</p>
+<ul>
+<li>✅ Jį galite naudoti "Nintendo 3DS";</li>
+<li>❌ Jį galima naudoti tik su "Nintendo 3DS".</li>
+</ul>
+<h2 id="step-2-choose-a-homeserver">2 žingsnis: pasirinkite namų serverį</h2>
+<p>Galite laisvai naudoti bet kurį jums patinkantį serverį. Šiame serveryje bus talpinama jūsų paskyra ir duomenys. Šiuo metu negalite perkelti paskyrų į skirtingus namų serverius, todėl šiuo metu galite tik <em>perjungti</em> namų serverį sukurdami naują paskyrą.</p>
+<p>Rekomenduočiau vieną iš šių namų serverių. Arba galite patys pasirinkti namų serverį. Namų serveriai <a href="https://publiclist.anchel.nl/">iš šio sąrašo</a> turėtų būti tinkami.</p>
+<table border="1">
+<thead>
+<tr>
+<th>Serverio pavadinimas</th>
+<th>Domenas</th>
+<th>Aprašymas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://app.element.io/">Matricos serveris</a></td>
+<td>matrix.org</td>
+<td>
+<ul>
+<li>Oficialus Matrix serveris</li>
+<li>Naujausia garantija</li>
+<li>Kartais vėluoja, nes turi per daug naudotojų</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://element.nltrix.net/">NLtrix serveris</a></td>
+<td>nltrix.net</td>
+<td>
+<ul>
+<li>Didelio našumo nemokamas olandų serveris</li>
+<li>Labai greitai Nyderlandų gyventojams</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://webchat.kde.org/">KDE serveris</a></td>
+<td>kur.modular.im</td>
+<td>
+<ul>
+<li>Powered by a donorystės iš bendruomenės</li>
+<li>Tikrai rūpinasi privatumu</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-3-create-an-account">3 žingsnis: susikurkite paskyrą</h2>
+<p>Įdiekite programą, kurią pasirinkote 1 žingsnyje. Įsitikinkite, kad pasirinkote tinkamą namų serverį <strong>prieš susikurdami paskyrą</strong>. Pavyzdžiui, jei 2 žingsnyje pasirinkote <strong>NLtrix serverį</strong>, įsitikinkite, kad susikūrėte paskyrą domene <code>nltrix.net</code>. Dauguma programų pagal nutylėjimą turi <code>matrix.org</code>.</p>
+<h2 id="step-4-connect-to-your-friends">4 veiksmas: prisijunkite prie draugų</h2>
+<p>Jei reikia pagalbos, prisijunkite prie kambario <code>#matrix:matrix.org</code>. Čia nepažįstamieji internete mielai padės jums judėti pirmyn. Be to, nedvejodami kreipkitės į mane adresu <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</a> dėl pagalbos.</p>
+<p>Jei šį straipsnį jums atsiuntė draugas, jis tikriausiai turi paskyrą ir esu tikras, kad mielai jums padės. Nusiųskite jiems pokalbio užklausą ir turėsite savo visiškai užšifruotą žinutę su draugu!</p>
+<h2 id="step-5-connect-with-people-on-other-platforms">5 veiksmas: užmegzkite ryšį su žmonėmis kitose platformose</h2>
+<p>Visa Matricos esmė yra ta, kad ji gali bendrauti net su kitų platformų žmonėmis! Netrukus parašysiu straipsnius apie tai, kaip galite sujungti savo "Telegram" ir "Discord" pokalbius. Kai tik juos parašysiu, paskelbsiu juos čia.</p>
+<p>Tai galite išsiaiškinti ir patys <a href="https://t2bot.io/">t2bot.io</a>.</p>
+<p>Kol kas mėgaukitės tikrai privačiais pokalbiais Matricoje!</p>
+</article>
+</section>
+<footer>
+<p>Šią svetainę sukūrė <a href="https://noordstar.me/">BramvdnHeuvel</a>.<br/> Su jais galite susisiekti per <a href="mailto:digital-rights@bram.blmgroep.nl">paštą</a> arba <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Matrix</a>.</p>
+<script src="https://digital-justice.com/js/language-picker.js"></script>
+</footer>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Open Sans font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet"/>
+<!-- Playfair Display font-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" id="u-page-google-font" rel="stylesheet"/>
+<!-- CSS -->
+<link href="../all.css" rel="stylesheet" type="text/css"/>
+<!-- Meta tags -->
+<!-- Primary Meta Tags -->
+<title>Miten liittyä Matrix-verkkoon</title>
+<meta content="Miten liittyä Matrix-verkkoon" name="title"/>
+<meta content="Matrixiin liittymiselle on sekä humanitaarisia että taloudellisia syitä. Näin pääset alkuun Matrixissa!" name="description"/>
+<!-- FontAwesome -->
+<link href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://digital-justice.com/" property="og:url"/>
+<meta content="Miten liittyä Matrix-verkkoon" property="og:title"/>
+<meta content="Matrixiin liittymiselle on sekä humanitaarisia että taloudellisia syitä. Näin pääset alkuun Matrixissa!" property="og:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://digital-justice.com/" property="twitter:url"/>
+<meta content="Miten liittyä Matrix-verkkoon" property="twitter:title"/>
+<meta content="Matrixiin liittymiselle on sekä humanitaarisia että taloudellisia syitä. Näin pääset alkuun Matrixissa!" property="twitter:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="twitter:image"/>
+<!-- Favicon -->
+<!-- Favicon -->
+<link href="https://digital-justice.com/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://digital-justice.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://digital-justice.com/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://digital-justice.com/icons/site.webmanifest" rel="manifest"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="../index.html"><i class="fas fa-home"></i> Etusivu</a>
+<a href="../rights.html">Digitaaliset oikeudet</a>
+<a href="index.html">Artikkelit</a>
+<div id="language-picker"></div>
+<a class="hamburger" href="javascript:void(0)" onclick="openHamburger()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+<script src="https://digital-justice.com/js/open-hamburger.js"></script>
+</header>
+<section class="simple-orange">
+<article class="essay-title">
+<h1>Miten liittyä Matrix-verkkoon</h1>
+<p>Katso alkuperäinen artikkeli <a href="https://noordstar.me/b/how-to-join-matrix.md">täältä</a>, tai jatka lukemista.</p>
+<p>Arvioitu lukuaika: <img class="icon" src="../images/clock.svg"/> 3 min.</p>
+</article>
+</section>
+<section class="simple-gray flex-container">
+<article class="blog">
+<span class="card-type">Tutorial</span>
+<hr/>
+<h1 id="how-to-join-the-matrix-network">Miten liittyä Matrix-verkkoon</h1>
+<p>On <a href="https://noordstar.me/b/decentralize.md" target="_blank">humanitaarisia syitä</a> sekä <a href="https://www.youtube.com/watch?v=PTL-8Lc_nAI&amp;" target="_blank">taloudellisia syitä</a> liittyä Matrixiin. Tässä artikkelissa oletetaan, että olet valmis kokeilemaan sitä, ja selitän sinulle, miten voit liittyä siihen!</p>
+<p>Matrixissa taataan yksityisyys ja tietosuoja, mutta verkostoon liittyminen voi olla vaikeaa ja hämmentävää. Tämä on yksinkertainen opetusohjelma, joka auttaa sinua perustamaan Matrix-tilisi.</p>
+<div>
+<ul>
+<li><a href="#how-to-join-the-matrix-network">Miten liittyä Matrix-verkkoon</a>
+<ul>
+<li><a href="#quick-guide">Pikaopas</a></li>
+<li><a href="#step-1-choose-a-client">Vaihe 1: valitse asiakas</a>
+<ul>
+<li><a href="#element">Elementti</a></li>
+<li><a href="#fluffychat">FluffyChat</a></li>
+<li><a href="#matrixcli">matrixcli</a></li>
+<li><a href="#miitrix">Miitrix</a></li>
+</ul>
+</li>
+<li><a href="#step-2-choose-a-homeserver">Vaihe 2: valitse kotipalvelin</a></li>
+<li><a href="#step-3-create-an-account">Vaihe 3: luo tili</a></li>
+<li><a href="#step-4-connect-to-your-friends">Vaihe 4: muodosta yhteys ystäviisi</a></li>
+<li><a href="#step-5-connect-with-people-on-other-platforms">Vaihe 5: muodosta yhteys ihmisiin muilla alustoilla</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="quick-guide">Pikaopas</h2>
+<p>Jos et voi valita, ota seuraavat vaihtoehdot. Valitse <strong>Elementti</strong> vaiheessa 1. Valitse <strong>nltrix.net</strong>, jos puhut hollantia ja asut Euroopassa, muuten valitse <strong>matrix.org</strong> vaiheessa 2.</p>
+<h2 id="step-1-choose-a-client">Vaihe 1: valitse asiakas</h2>
+<p>Sinun on käytettävä sovellusta puhuaksesi Matrixissa. Sillä ei kuitenkaan ole väliä, minkä sovelluksen valitset! Kaikki kelpaavat, ja kaikki voivat kommunikoida keskenään. Lisäksi voit aina vaihtaa sovellusta, kun muutat mielesi.</p>
+<p>Jos haluat valita asiakkaan itse, voit <a href="https://matrix.org/clients/">löytää luettelon saatavilla olevista asiakkaista täältä</a>. Muuten annan sinulle muutamia suosituksia.</p>
+<h3 id="element">Elementti</h3>
+<div class="img-center">
+<img alt="Element logo" src="../images/element.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://element.io/">Elementti</a> on sovellus, jota Matrix-organisaatio ylläpitää aktiivisesti.</p>
+<p><strong>Alustat:</strong> Selain, Windows, Linux, Android, iOS.</p>
+<ul>
+<li>✅ Yleensä nopein sovellus, joka saa uusimmat päivitykset;</li>
+<li>✅ Matrix-organisaation virallisesti tukema;</li>
+<li>✅ Tukee kaikkia Matrixin toimintoja;</li>
+<li>❌ Tehty ohjelmoijille ja voi joskus olla hieman monimutkainen.</li>
+</ul>
+<h3 id="fluffychat">FluffyChat</h3>
+<div class="img-center">
+<img alt="FluffyChat logo" src="../images/fluffychat.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://fluffychat.im/">FluffyChat</a> on avoimen lähdekoodin sovellus, joka on helppokäyttöinen ja erittäin käyttäjäystävällinen. Sen toiminnallisuus on rajoitettu, mikä tarkoittaa, että se on sekä helppotajuinen että rajoitettu siinä, mitä sillä voi tehdä Matrixissa. Tämä sovellus sopii parhaiten lapsille ja ihmisille, jotka eivät ole kovin perehtyneitä sosiaaliseen mediaan.</p>
+<p><strong>Alustat:</strong> Selain, Linux, Android, iOS.</p>
+<ul>
+<li>✅ Helppo käyttää ja ottaa käyttöön;</li>
+<li>✅ Yksinkertainen käyttöliittymä;</li>
+<li>❌ Rajoitettu toiminnallisuus.</li>
+</ul>
+<h3 id="matrixcli">matrixcli</h3>
+<p>Jos olet ohjelmoija, joka vihaa graafisia käyttöliittymiä ja rakastaa suorien komentojen suorittamista päätelaitteessa kaikille komennoilleen, <a href="https://github.com/saadrushd/matrixcli">matrixcli</a> on juuri sitä, mitä tarvitset.</p>
+<p>Mitä sanottavaa siinä on? Se on komentoriviohjelma. Veikkaan, että Vimin ystävät nauttivat tällaisesta clientistä.</p>
+<ul>
+<li>✅ Super minimaalinen tietokoneen suorituskyvylle;</li>
+<li>❌ Suuri kielto ihmisille, jotka eivät osaa ohjelmoida;</li>
+<li>❌ Käyttöliittymän puute voi tehdä sen käytöstä työlästä joillekin ihmisille.</li>
+</ul>
+<h3 id="miitrix">Miitrix</h3>
+<div class="img-center">
+<img alt="Miitrix on a Nintendo 3DS" src="../images/miitrix-600.jpg" style="max-width:450px;"/>
+</div>
+<p>Mitä?! Voit puhua Matrix-verkkoon Nintendo 3DS:lläsi?! Aivan oikein, <a href="https://github.com/Sorunome/miitrix">Miitrixin</a> avulla voit! En tiedä, miksi haluaisit, mutta luultavasti voisit.</p>
+<ul>
+<li>✅ Voit käyttää sitä Nintendo 3DS:llä;</li>
+<li>❌ Voit käyttää sitä vain Nintendo 3DS:llä.</li>
+</ul>
+<h2 id="step-2-choose-a-homeserver">Vaihe 2: valitse kotipalvelin</h2>
+<p>Voit käyttää vapaasti haluamaasi palvelinta. Tämä palvelin isännöi tiliäsi ja tietojasi. Tällä hetkellä et voi siirtää tilejä eri kotipalvelimille, joten voit tällä hetkellä <em>vaihtaa</em> kotipalvelimien välillä vain luomalla uuden tilin.</p>
+<p>Suosittelen yhtä seuraavista kotipalvelimista. Vaihtoehtoisesti voit valita kotipalvelimen itse. Kotipalvelimet <a href="https://publiclist.anchel.nl/">tältä listalta</a> riittänevät hyvin.</p>
+<table border="1">
+<thead>
+<tr>
+<th>Palvelimen nimi</th>
+<th>Verkkotunnus</th>
+<th>Kuvaus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://app.element.io/">Matrix Server</a></td>
+<td>matrix.org</td>
+<td>
+<ul>
+<li>Virallinen Matrix-palvelin</li>
+<li>Ajantasainen takuu</li>
+<li>Joskus viiveinen, koska sillä on liikaa käyttäjiä</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://element.nltrix.net/">NLtrix-palvelin</a></td>
+<td>nltrix.net</td>
+<td>
+<ul>
+<li>Suorituskykyinen ilmainen hollantilainen palvelin</li>
+<li>Erittäin nopeasti Alankomaissa asuville</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://webchat.kde.org/">KDE-palvelin</a></td>
+<td>kde.modular.im</td>
+<td>
+<ul>
+<li>Powered by yhteisön lahjoitukset</li>
+<li>Välittää todella yksityisyydestä</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-3-create-an-account">Vaihe 3: luo tili</h2>
+<p>Asenna vaiheessa 1 valitsemasi sovellus. Varmista, että valitset oikean kotipalvelimen <strong>ennen</strong> tilin luomista. Jos esimerkiksi valitset <strong>NLtrix-palvelimen</strong> vaiheessa 2, varmista, että luot tilin verkkotunnukseen <code>nltrix.net</code>. Useimmilla sovelluksilla on oletuksena <code>matrix.org</code>.</p>
+<h2 id="step-4-connect-to-your-friends">Vaihe 4: muodosta yhteys ystäviisi</h2>
+<p>Jos tarvitset apua, liity huoneeseen <code>#matrix:matrix.org</code>. Täällä tuntemattomat internetissä auttavat sinua mielellään eteenpäin. Lisäksi voit ottaa minuun yhteyttä <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</a> saadaksesi tukea.</p>
+<p>Jos ystävä lähetti tämän artikkelin sinulle, hänellä on luultavasti tili ja hän varmasti auttaa sinua mielellään. Lähetä heille chat-pyyntö, niin saat oman täysin päästä päähän salatun viestin ystäväsi kanssa!</p>
+<h2 id="step-5-connect-with-people-on-other-platforms">Vaihe 5: muodosta yhteys ihmisiin muilla alustoilla</h2>
+<p>Matrixin koko pointti on, että sillä voi jopa keskustella muiden alustojen ihmisten kanssa! Kirjoitan pian artikkeleita siitä, miten voit yhdistää Telegram- ja Discord-keskustelusi. Kun olen kirjoittanut ne, julkaisen ne täällä.</p>
+<p>Voit myös selvittää asian itse <a href="https://t2bot.io/">t2bot.io</a>-sivustolla.</p>
+<p>Nauttikaa toistaiseksi todella yksityisistä keskusteluistanne Matrixissa!</p>
+</article>
+</section>
+<footer>
+<p>Tämän verkkosivuston on rakentanut <a href="https://noordstar.me/">BramvdnHeuvel</a>. <br/> Voit ottaa heihin yhteyttä <a href="mailto:digital-rights@bram.blmgroep.nl">sähköpostitse</a> tai <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Matrix</a>.</p>
+<script src="https://digital-justice.com/js/language-picker.js"></script>
+</footer>
+</body>
+</html>

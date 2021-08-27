@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Open Sans font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet"/>
+<!-- Playfair Display font-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" id="u-page-google-font" rel="stylesheet"/>
+<!-- CSS -->
+<link href="../all.css" rel="stylesheet" type="text/css"/>
+<!-- Meta tags -->
+<!-- Primary Meta Tags -->
+<title>Hogyan csatlakozhat a Matrix hálózathoz</title>
+<meta content="Hogyan csatlakozhat a Matrix hálózathoz" name="title"/>
+<meta content="A Mátrixhoz való csatlakozásnak humanitárius és gazdasági okai is vannak. Így kezdhetsz bele a Mátrixba!" name="description"/>
+<!-- FontAwesome -->
+<link href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://digital-justice.com/" property="og:url"/>
+<meta content="Hogyan csatlakozhat a Matrix hálózathoz" property="og:title"/>
+<meta content="A Mátrixhoz való csatlakozásnak humanitárius és gazdasági okai is vannak. Így kezdhetsz bele a Mátrixba!" property="og:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://digital-justice.com/" property="twitter:url"/>
+<meta content="Hogyan csatlakozhat a Matrix hálózathoz" property="twitter:title"/>
+<meta content="A Mátrixhoz való csatlakozásnak humanitárius és gazdasági okai is vannak. Így kezdhetsz bele a Mátrixba!" property="twitter:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="twitter:image"/>
+<!-- Favicon -->
+<!-- Favicon -->
+<link href="https://digital-justice.com/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://digital-justice.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://digital-justice.com/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://digital-justice.com/icons/site.webmanifest" rel="manifest"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="../index.html"><i class="fas fa-home"></i> Főoldal</a>
+<a href="../rights.html">Digitális jogok</a>
+<a href="index.html">Cikkek</a>
+<div id="language-picker"></div>
+<a class="hamburger" href="javascript:void(0)" onclick="openHamburger()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+<script src="https://digital-justice.com/js/open-hamburger.js"></script>
+</header>
+<section class="simple-orange">
+<article class="essay-title">
+<h1>Hogyan csatlakozhat a Matrix hálózathoz</h1>
+<p>Tekintse meg az eredeti cikket <a href="https://noordstar.me/b/how-to-join-matrix.md">itt</a>, vagy olvasson tovább.</p>
+<p>Becsült olvasási idő: <img class="icon" src="../images/clock.svg"/> 3 perc.</p>
+</article>
+</section>
+<section class="simple-gray flex-container">
+<article class="blog">
+<span class="card-type">Tutorial</span>
+<hr/>
+<h1 id="how-to-join-the-matrix-network">Hogyan csatlakozhat a Matrix hálózathoz</h1>
+<p>Vannak <a href="https://noordstar.me/b/decentralize.md" target="_blank">humanitárius okok</a> és <a href="https://www.youtube.com/watch?v=PTL-8Lc_nAI&amp;" target="_blank">gazdasági okok</a> is a Mátrixhoz való csatlakozásra. Ez a cikk feltételezi, hogy hajlandó vagy kipróbálni, és elmagyarázom neked, hogyan csatlakozhatsz!</p>
+<p>A Mátrixon garantált a magánélet és az adatszuverenitás, de a hálózathoz való csatlakozás nehéz és zavaros lehet. Ez egy egyszerű bemutató, amely segít a Matrix-fiók beállításában.</p>
+<div>
+<ul>
+<li><a href="#how-to-join-the-matrix-network">Hogyan csatlakozhat a Matrix hálózathoz</a>
+<ul>
+<li><a href="#quick-guide">Gyors útmutató</a></li>
+<li><a href="#step-1-choose-a-client">1. lépés: válasszon ügyfelet</a>
+<ul>
+<li><a href="#element">Element</a></li>
+<li><a href="#fluffychat">FluffyChat</a></li>
+<li><a href="#matrixcli">matrixcli</a></li>
+<li><a href="#miitrix">Miitrix</a></li>
+</ul>
+</li>
+<li><a href="#step-2-choose-a-homeserver">2. lépés: háziszerver kiválasztása</a></li>
+<li><a href="#step-3-create-an-account">3. lépés: hozzon létre egy fiókot</a></li>
+<li><a href="#step-4-connect-to-your-friends">4. lépés: csatlakozz a barátaidhoz</a></li>
+<li><a href="#step-5-connect-with-people-on-other-platforms">5. lépés: kapcsolódjon az emberekkel más platformokon</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="quick-guide">Gyors útmutató</h2>
+<p>Ha nem tudsz választani, válaszd a következő lehetőségeket. Válassza az <strong>Element</strong> opciót az 1. lépésben. Válassza a <strong>nltrix.net</strong> címet, ha beszél hollandul és Európában él, egyébként válassza a <strong>matrix.org</strong> címet a 2. lépésben.</p>
+<h2 id="step-1-choose-a-client">1. lépés: válasszon ügyfelet</h2>
+<p>A Mátrixon való beszélgetéshez egy alkalmazást kell használni. Nem számít azonban, hogy melyik alkalmazást választod! Mindegyik jó, és mindegyik képes kommunikálni egymással. Sőt, bármikor válthatsz alkalmazást, amikor meggondolod magad.</p>
+<p>Ha maga szeretne klienst választani, akkor <a href="https://matrix.org/clients/">itt találja meg az elérhető kliensek listáját</a>. Egyébként hadd adjak néhány ajánlást.</p>
+<h3 id="element">Element</h3>
+<div class="img-center">
+<img alt="Element logo" src="../images/element.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://element.io/">Element</a> az az alkalmazás, amelyet a Mátrix szervezet aktívan karbantart.</p>
+<p><strong>Platformok:</strong> Böngésző, Windows, Linux, Android, iOS</p>
+<ul>
+<li>✅ Általában a leggyorsabban kapja meg a legújabb frissítéseket az alkalmazás;</li>
+<li>✅ A Matrix szervezet hivatalosan támogatja;</li>
+<li>✅ Támogatja az összes Matrix funkcionalitást;</li>
+<li>❌ Programozóknak készült, és néha kissé bonyolult lehet.</li>
+</ul>
+<h3 id="fluffychat">FluffyChat</h3>
+<div class="img-center">
+<img alt="FluffyChat logo" src="../images/fluffychat.png" style="max-width:450px;"/>
+</div>
+<p>A <a href="https://fluffychat.im/">FluffyChat</a> egy nyílt forráskódú alkalmazás, amely könnyen használható és nagyon felhasználóbarát. Funkcionalitása korlátozott, ami azt jelenti, hogy egyszerre könnyen érthető, de korlátozott is abban, amit a Mátrixon megtehetsz. Ez az alkalmazás leginkább gyerekeknek és a közösségi médiában kevéssé jártas embereknek való.</p>
+<p><strong>Platformok:</strong> Böngésző, Linux, Android, iOS</p>
+<ul>
+<li>✅ Könnyen használható és könnyen kezelhető;</li>
+<li>✅ Egyszerű felhasználói felület;</li>
+<li>❌ Korlátozott funkcionalitás.</li>
+</ul>
+<h3 id="matrixcli">matrixcli</h3>
+<p>Ha olyan programozó vagy, aki utálja a GUI-kat, és szereti, ha minden parancsát közvetlenül a terminálban futtatja, akkor a <a href="https://github.com/saadrushd/matrixcli">matrixcli</a> pont erre van szükséged.</p>
+<p>Mit is mondhatnék? Ez egy parancssori kliens. Fogadok, hogy a Vim-rajongóknak tetszik egy ilyen kliens.</p>
+<ul>
+<li>✅ Szuper minimalista a számítógép teljesítményére;</li>
+<li>❌ Hatalmas nem-nem azoknak, akik nem tudnak programozni;</li>
+<li>❌ A felület hiánya egyesek számára fárasztóvá teheti a használatát.</li>
+</ul>
+<h3 id="miitrix">Miitrix</h3>
+<div class="img-center">
+<img alt="Miitrix on a Nintendo 3DS" src="../images/miitrix-600.jpg" style="max-width:450px;"/>
+</div>
+<p>Mi?! A Nintendo 3DS-edről beszélhetsz a Mátrix hálózathoz?! Így van, a <a href="https://github.com/Sorunome/miitrix">Miitrix</a> segítségével igen! Nem tudom, miért akarnád, de gondolom, megteheted.</p>
+<ul>
+<li>✅ Nintendo 3DS-en is használhatod;</li>
+<li>❌ Csak Nintendo 3DS-en használható.</li>
+</ul>
+<h2 id="step-2-choose-a-homeserver">2. lépés: háziszerver kiválasztása</h2>
+<p>Szabadon használhatod azt a szervert, amelyiket csak szeretnéd. Ez a szerver lesz a fiókod és az adataid tárhelye. Jelenleg nem tudod áthelyezni a fiókokat különböző háziszerverekre, így jelenleg csak <em>váltani</em> tudsz a háziszerverek között egy új fiók létrehozásával.</p>
+<p>Én a következő háziszerverek egyikét ajánlanám. Alternatívaként választhatsz magadnak is háziszervert. A <a href="https://publiclist.anchel.nl/">a listán szereplő <a href="https://publiclist.anchel.nl/">homeoszerverek</a> megfelelnek.</a></p>
+<table border="1">
+<thead>
+<tr>
+<th>Szerver neve</th>
+<th>Domain</th>
+<th>Leírás</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://app.element.io/">Matrix Server</a></td>
+<td>matrix.org</td>
+<td>
+<ul>
+<li>Hivatalos Matrix szerver</li>
+<li>Naprakész garancia</li>
+<li>Néha késik, mert túl sok felhasználó van</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://element.nltrix.net/">NLtrix szerver</a></td>
+<td>nltrix.net</td>
+<td>
+<ul>
+<li>Nagy teljesítményű ingyenes holland szerver</li>
+<li>Nagyon gyors a hollandiai lakosok számára</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://webchat.kde.org/">KDE szerver</a></td>
+<td>kde.modular.im</td>
+<td>
+<ul>
+<li>Egy közösség adományaiból működik</li>
+<li>Tényleg törődik az adatvédelemmel</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-3-create-an-account">3. lépés: hozzon létre egy fiókot</h2>
+<p>Telepítse az 1. lépésben kiválasztott alkalmazást. Győződjön meg róla, hogy <strong>előtt</strong> választja ki a megfelelő háziszervert, mielőtt létrehozza a fiókját. Ha például a 2. lépésben az <strong>NLtrix szervert</strong> választod, győződj meg róla, hogy a <code>nltrix.net</code> tartományban hozol létre fiókot. A legtöbb alkalmazás alapértelmezés szerint <code>matrix.org</code>.</p>
+<h2 id="step-4-connect-to-your-friends">4. lépés: csatlakozz a barátaidhoz</h2>
+<p>Ha segítségre van szüksége, csatlakozzon a <code>#matrix:matrix.org</code> szobához. Itt az interneten idegenek szívesen segítenek neked a továbblépésben. Emellett bátran fordulj hozzám a <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</a> címen, ha segítségre van szükséged.</p>
+<p>Ha egy barátod küldte neked ezt a cikket, akkor valószínűleg van egy fiókja, és biztos vagyok benne, hogy szívesen segít neked. Küldj nekik egy chat-kérést, és máris lesz egy saját, teljesen végponttól végpontig titkosított üzeneted a barátoddal!</p>
+<h2 id="step-5-connect-with-people-on-other-platforms">5. lépés: kapcsolódjon az emberekkel más platformokon</h2>
+<p>A Matrix lényege, hogy még más platformokon lévő emberekkel is tud beszélgetni! Hamarosan cikkeket írok arról, hogyan tudod összekapcsolni a Telegram és Discord beszélgetéseidet. Amint megírtam őket, közzéteszem itt lent.</p>
+<p>A <a href="https://t2bot.io/">t2bot.io</a> oldalon maga is kitalálhatja.</p>
+<p>Egyelőre élvezzétek az igazán privát beszélgetéseket a Mátrixon!</p>
+</article>
+</section>
+<footer>
+<p>Ezt a weboldalt a <a href="https://noordstar.me/">BramvdnHeuvel</a> készítette.<br/> Kapcsolatba léphet velük <a href="mailto:digital-rights@bram.blmgroep.nl">E-mail</a> vagy a <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Mátrix</a> oldalon.</p>
+<script src="https://digital-justice.com/js/language-picker.js"></script>
+</footer>
+</body>
+</html>

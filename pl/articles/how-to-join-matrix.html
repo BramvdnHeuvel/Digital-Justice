@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Open Sans font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet"/>
+<!-- Playfair Display font-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" id="u-page-google-font" rel="stylesheet"/>
+<!-- CSS -->
+<link href="../all.css" rel="stylesheet" type="text/css"/>
+<!-- Meta tags -->
+<!-- Primary Meta Tags -->
+<title>Jak dołączyć do sieci Matrix</title>
+<meta content="Jak dołączyć do sieci Matrix" name="title"/>
+<meta content="Istnieją powody humanitarne, jak również ekonomiczne, aby dołączyć do Matrixa. Oto jak zacząć na Matrixie!" name="description"/>
+<!-- FontAwesome -->
+<link href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://digital-justice.com/" property="og:url"/>
+<meta content="Jak dołączyć do sieci Matrix" property="og:title"/>
+<meta content="Istnieją powody humanitarne, jak również ekonomiczne, aby dołączyć do Matrixa. Oto jak zacząć na Matrixie!" property="og:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://digital-justice.com/" property="twitter:url"/>
+<meta content="Jak dołączyć do sieci Matrix" property="twitter:title"/>
+<meta content="Istnieją powody humanitarne, jak również ekonomiczne, aby dołączyć do Matrixa. Oto jak zacząć na Matrixie!" property="twitter:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="twitter:image"/>
+<!-- Favicon -->
+<!-- Favicon -->
+<link href="https://digital-justice.com/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://digital-justice.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://digital-justice.com/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://digital-justice.com/icons/site.webmanifest" rel="manifest"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="../index.html"><i class="fas fa-home"></i> Strona główna</a>
+<a href="../rights.html">Prawa cyfrowe</a>
+<a href="index.html">Artykuły</a>
+<div id="language-picker"></div>
+<a class="hamburger" href="javascript:void(0)" onclick="openHamburger()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+<script src="https://digital-justice.com/js/open-hamburger.js"></script>
+</header>
+<section class="simple-orange">
+<article class="essay-title">
+<h1>Jak dołączyć do sieci Matrix</h1>
+<p>Zobacz oryginalny artykuł <a href="https://noordstar.me/b/how-to-join-matrix.md">tutaj</a>, lub czytaj dalej.</p>
+<p>Przewidywany czas czytania: <img class="icon" src="../images/clock.svg"/> 3 min.</p>
+</article>
+</section>
+<section class="simple-gray flex-container">
+<article class="blog">
+<span class="card-type">Tutorial</span>
+<hr/>
+<h1 id="how-to-join-the-matrix-network">Jak dołączyć do sieci Matrix</h1>
+<p>Istnieją <a href="https://noordstar.me/b/decentralize.md" target="_blank">powody humanitarne</a>, jak również <a href="https://www.youtube.com/watch?v=PTL-8Lc_nAI&amp;" target="_blank">powody ekonomiczne</a>, aby dołączyć do Matrixa. Ten artykuł zakłada, że jesteś gotów spróbować, a ja wyjaśnię ci, jak się do niego przyłączyć!</p>
+<p>Prywatność i suwerenność danych są gwarantowane na Matrixie, ale dołączenie do sieci może być trudne i zagmatwane. Oto prosty tutorial, który pomoże ci założyć konto na Matrixie.</p>
+<div>
+<ul>
+<li><a href="#how-to-join-the-matrix-network">Jak dołączyć do sieci Matrix</a>
+<ul>
+<li><a href="#quick-guide">Szybki przewodnik</a></li>
+<li><a href="#step-1-choose-a-client">Krok 1: wybierz klienta</a>
+<ul>
+<li><a href="#element">Element</a></li>
+<li><a href="#fluffychat">FluffyChat</a></li>
+<li><a href="#matrixcli">matrixcli</a></li>
+<li><a href="#miitrix">Miitrix</a></li>
+</ul>
+</li>
+<li><a href="#step-2-choose-a-homeserver">Krok 2: wybierz serwer domowy</a></li>
+<li><a href="#step-3-create-an-account">Krok 3: utwórz konto</a></li>
+<li><a href="#step-4-connect-to-your-friends">Krok 4: połącz się z przyjaciółmi</a></li>
+<li><a href="#step-5-connect-with-people-on-other-platforms">Krok 5: połącz się z ludźmi na innych platformach</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="quick-guide">Szybki przewodnik</h2>
+<p>Jeśli nie możesz wybrać, skorzystaj z następujących opcji. Wybierz <strong>Element</strong> w kroku 1. Wybierz <strong>nltrix.net</strong>, jeśli mówisz po holendersku i mieszkasz w Europie, w przeciwnym razie wybierz <strong>matrix.org</strong> w kroku 2.</p>
+<h2 id="step-1-choose-a-client">Krok 1: wybierz klienta</h2>
+<p>Aby rozmawiać przez Matrixa, musisz użyć aplikacji. Nie ma jednak znaczenia, którą aplikację wybierzesz! Wszystkie są w porządku, i wszystkie mogą komunikować się ze sobą. Co więcej, zawsze możesz zmienić aplikację, gdy zmienisz zdanie.</p>
+<p>Jeśli chcesz wybrać klienta samemu, możesz <a href="https://matrix.org/clients/">znaleźć listę dostępnych klientów tutaj</a>. W przeciwnym razie, pozwól mi dać ci kilka rekomendacji.</p>
+<h3 id="element">Element</h3>
+<div class="img-center">
+<img alt="Element logo" src="../images/element.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://element.io/">Element</a> to aplikacja, która jest aktywnie utrzymywana przez organizację Matrix.</p>
+<p><strong>Platformy:</strong> Przeglądarka, Windows, Linux, Android, iOS</p>
+<ul>
+<li>✅ Zazwyczaj jest to najszybsza aplikacja do otrzymywania najnowszych aktualizacji;</li>
+<li>✅ Oficjalnie wspierane przez organizację Matrix;</li>
+<li>✅ Obsługuje wszystkie funkcje Matrixa;</li>
+<li>❌ Stworzony dla programistów i czasami może być trochę skomplikowany.</li>
+</ul>
+<h3 id="fluffychat">FluffyChat</h3>
+<div class="img-center">
+<img alt="FluffyChat logo" src="../images/fluffychat.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://fluffychat.im/">FluffyChat</a> to aplikacja open source, która jest łatwa w użyciu i bardzo przyjazna dla użytkownika. Jego funkcjonalność jest ograniczona, co oznacza, że jest zarówno łatwe do zrozumienia, ale również ograniczone w tym, co pozwala zrobić na Matrix. Ta aplikacja najlepiej nadaje się dla dzieci i ludzi, którzy nie są bardzo zaznajomieni z mediami społecznościowymi.</p>
+<p><strong>Platformy:</strong> Przeglądarka, Linux, Android, iOS</p>
+<ul>
+<li>✅ Łatwy do użycia i odbioru;</li>
+<li>✅ Proste UI;</li>
+<li>❌ Ograniczona funkcjonalność.</li>
+</ul>
+<h3 id="matrixcli">matrixcli</h3>
+<p>Jeśli jesteś programistą, który nienawidzi GUI i kocha uruchamiać bezpośrednie komendy w terminalu dla wszystkich swoich poleceń, to <a href="https://github.com/saadrushd/matrixcli">matrixcli</a> jest właśnie tym, czego potrzebujesz.</p>
+<p>Co tu jest do powiedzenia? Jest to klient wiersza poleceń. Założę się, że miłośnicy Vima lubią tego typu klienta.</p>
+<ul>
+<li>✅ Super minimalistyczny na wydajność komputera;</li>
+<li>❌ Wielkie nie-nie dla ludzi, którzy nie potrafią programować;</li>
+<li>❌ Brak interfejsu może sprawić, że dla niektórych osób będzie on uciążliwy w użyciu.</li>
+</ul>
+<h3 id="miitrix">Miitrix</h3>
+<div class="img-center">
+<img alt="Miitrix on a Nintendo 3DS" src="../images/miitrix-600.jpg" style="max-width:450px;"/>
+</div>
+<p>Co?! Możesz rozmawiać z Matrix sieci z Nintendo 3DS?! To prawda, z <a href="https://github.com/Sorunome/miitrix">Miitrix</a> można! Nie wiem, dlaczego chcesz, ale myślę, że można.</p>
+<ul>
+<li>✅ Możesz go używać na Nintendo 3DS;</li>
+<li>❌ Możesz go używać tylko na Nintendo 3DS.</li>
+</ul>
+<h2 id="step-2-choose-a-homeserver">Krok 2: wybierz serwer domowy</h2>
+<p>Możesz używać dowolnego serwera, który Ci się podoba. Ten serwer będzie hostował twoje konto i twoje dane. Obecnie nie możesz przenosić kont na różne serwery domowe, więc obecnie możesz tylko <em>przełączyć</em> między serwerami domowymi poprzez utworzenie nowego konta.</p>
+<p>Polecam jeden z poniższych homeserwerów. Alternatywnie, możesz sam wybrać homeserwer. homeservers <a href="https://publiclist.anchel.nl/">z tej listy</a> powinny być w porządku.</p>
+<table border="1">
+<thead>
+<tr>
+<th>Nazwa serwera</th>
+<th>Domena</th>
+<th>Opis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://app.element.io/">Serwer Matrix</a></td>
+<td>matrix.org</td>
+<td>
+<ul>
+<li>Oficjalny serwer Matrixa</li>
+<li>Aktualna gwarancja</li>
+<li>Czasami laguje, ponieważ ma zbyt wielu użytkowników.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://element.nltrix.net/">Serwer NLtrix</a></td>
+<td>nltrix.net</td>
+<td>
+<ul>
+<li>Wysokowydajny darmowy serwer holenderski</li>
+<li>Bardzo szybko dla mieszkańców Holandii</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://webchat.kde.org/">Serwer KDE</a></td>
+<td>kde.modular.im</td>
+<td>
+<ul>
+<li>Zasilany przez darowizny od społeczności</li>
+<li>Naprawdę troszczy się o prywatność</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-3-create-an-account">Krok 3: utwórz konto</h2>
+<p>Zainstaluj aplikację, którą wybrałeś w kroku 1. Upewnij się, że wybrałeś właściwy serwer domowy <strong>przed</strong> utworzeniem konta. Na przykład, jeśli wybierzesz serwer <strong>NLtrix</strong> w kroku 2, upewnij się, że utworzysz konto w domenie <code>nltrix.net</code>. Większość aplikacji ma domyślnie domenę <code>matrix.org</code>.</p>
+<h2 id="step-4-connect-to-your-friends">Krok 4: połącz się z przyjaciółmi</h2>
+<p>Jeśli potrzebujesz pomocy, dołącz do pokoju <code>#matrix:matrix.org</code>. Tutaj, obcy ludzie w internecie chętnie pomogą Ci iść naprzód. Dodatkowo, nie krępuj się skontaktować się ze mną pod adresem <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</a> w celu uzyskania wsparcia.</p>
+<p>Jeśli przyjaciel wysłał ten artykuł do Ciebie, prawdopodobnie ma konto i jestem pewien, że z chęcią Ci pomoże. Wyślij prośbę o czat do nich, a będziesz miał swoją własną, w pełni zaszyfrowaną wiadomość z przyjacielem!</p>
+<h2 id="step-5-connect-with-people-on-other-platforms">Krok 5: połącz się z ludźmi na innych platformach</h2>
+<p>Cały punkt Matrix jest to, że może nawet rozmawiać z ludźmi na innych platformach! Wkrótce napiszę artykuły o tym, jak możesz połączyć swoje rozmowy na Telegramie i Discordzie. Jak tylko je napiszę, opublikuję je tutaj.</p>
+<p>Możesz też sam to sprawdzić na <a href="https://t2bot.io/">t2bot.io</a>.</p>
+<p>Na razie, cieszcie się swoimi prawdziwie prywatnymi rozmowami na Matrixie!</p>
+</article>
+</section>
+<footer>
+<p>Ta strona została zbudowana przez <a href="https://noordstar.me/">BramvdnHeuvel</a>.<br/> Możesz skontaktować się z nimi przez <a href="mailto:digital-rights@bram.blmgroep.nl">email</a> lub na <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Matrix</a>.</p>
+<script src="https://digital-justice.com/js/language-picker.js"></script>
+</footer>
+</body>
+</html>

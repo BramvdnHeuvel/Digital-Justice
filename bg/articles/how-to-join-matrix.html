@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Open Sans font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet"/>
+<!-- Playfair Display font-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" id="u-page-google-font" rel="stylesheet"/>
+<!-- CSS -->
+<link href="../all.css" rel="stylesheet" type="text/css"/>
+<!-- Meta tags -->
+<!-- Primary Meta Tags -->
+<title>Как да се присъедините към мрежата Matrix</title>
+<meta content="Как да се присъедините към мрежата Matrix" name="title"/>
+<meta content="Има хуманитарни и икономически причини да се присъедините към Matrix. Ето как да започнете работа в Matrix!" name="description"/>
+<!-- FontAwesome -->
+<link href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://digital-justice.com/" property="og:url"/>
+<meta content="Как да се присъедините към мрежата Matrix" property="og:title"/>
+<meta content="Има хуманитарни и икономически причини да се присъедините към Matrix. Ето как да започнете работа в Matrix!" property="og:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://digital-justice.com/" property="twitter:url"/>
+<meta content="Как да се присъедините към мрежата Matrix" property="twitter:title"/>
+<meta content="Има хуманитарни и икономически причини да се присъедините към Matrix. Ето как да започнете работа в Matrix!" property="twitter:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="twitter:image"/>
+<!-- Favicon -->
+<!-- Favicon -->
+<link href="https://digital-justice.com/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://digital-justice.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://digital-justice.com/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://digital-justice.com/icons/site.webmanifest" rel="manifest"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="../index.html"><i class="fas fa-home"></i> Начало</a>
+<a href="../rights.html">Цифрови права</a>
+<a href="index.html">Статии</a>
+<div id="language-picker"></div>
+<a class="hamburger" href="javascript:void(0)" onclick="openHamburger()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+<script src="https://digital-justice.com/js/open-hamburger.js"></script>
+</header>
+<section class="simple-orange">
+<article class="essay-title">
+<h1>Как да се присъедините към мрежата Matrix</h1>
+<p>Вижте оригиналната статия <a href="https://noordstar.me/b/how-to-join-matrix.md">тук</a> или продължете да четете.</p>
+<p>Очаквано време за четене: <img class="icon" src="../images/clock.svg"/> 3 мин.</p>
+</article>
+</section>
+<section class="simple-gray flex-container">
+<article class="blog">
+<span class="card-type">Tutorial</span>
+<hr/>
+<h1 id="how-to-join-the-matrix-network">Как да се присъедините към мрежата Matrix</h1>
+<p>Има <a href="https://noordstar.me/b/decentralize.md" target="_blank">хуманитарни причини</a>, както и <a href="https://www.youtube.com/watch?v=PTL-8Lc_nAI&amp;" target="_blank">икономически причини</a> да се присъедините към Матрицата. Тази статия предполага, че сте готови да опитате, а аз ще ви обясня как да се присъедините към нея!</p>
+<p>Поверителността и суверенитетът на данните са гарантирани в Матрицата, но присъединяването към мрежата може да е трудно и объркващо. Това е прост урок, който ще ви помогне да настроите акаунта си в Matrix.</p>
+<div>
+<ul>
+<li><a href="#how-to-join-the-matrix-network">Как да се присъедините към мрежата Matrix</a>
+<ul>
+<li><a href="#quick-guide">Кратко ръководство</a></li>
+<li><a href="#step-1-choose-a-client">Стъпка 1: избор на клиент</a>
+<ul>
+<li><a href="#element">Елемент</a></li>
+<li><a href="#fluffychat">FluffyChat</a></li>
+<li><a href="#matrixcli">matrixcli</a></li>
+<li><a href="#miitrix">Miitrix</a></li>
+</ul>
+</li>
+<li><a href="#step-2-choose-a-homeserver">Стъпка 2: избор на хоумсървър</a></li>
+<li><a href="#step-3-create-an-account">Стъпка 3: създаване на акаунт</a></li>
+<li><a href="#step-4-connect-to-your-friends">Стъпка 4: свържете се с приятелите си</a></li>
+<li><a href="#step-5-connect-with-people-on-other-platforms">Стъпка 5: свържете се с хора от други платформи</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="quick-guide">Кратко ръководство</h2>
+<p>Ако не можете да изберете, използвайте следните възможности. Изберете <strong>Елемент</strong> на стъпка 1. Изберете <strong>nltrix.net</strong>, ако говорите холандски и живеете в Европа, в противен случай изберете <strong>matrix.org</strong> на стъпка 2.</p>
+<h2 id="step-1-choose-a-client">Стъпка 1: избор на клиент</h2>
+<p>Трябва да използвате приложение, за да говорите по Матрицата. Няма значение обаче кое приложение ще изберете! Всички са подходящи и всички могат да комуникират помежду си. Освен това винаги можете да смените приложението, когато промените решението си.</p>
+<p>Ако искате сами да изберете клиент, можете да <a href="https://matrix.org/clients/">намерите списък на наличните клиенти тук</a>. В противен случай ще си позволя да ви дам някои препоръки.</p>
+<h3 id="element">Елемент</h3>
+<div class="img-center">
+<img alt="Element logo" src="../images/element.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://element.io/">Елемент</a> е приложението, което се поддържа активно от организацията Матрицата.</p>
+<p><strong>Платформи:</strong> Браузър, Windows, Linux, Android, iOS</p>
+<ul>
+<li>✅ Обикновено това е най-бързото приложение за получаване на най-новите актуализации;</li>
+<li>✅ Официално подкрепено от организацията Matrix;</li>
+<li>✅ Поддържа всички функционалности на Matrix;</li>
+<li>❌ Направен е за програмисти и понякога може да бъде малко сложен.</li>
+</ul>
+<h3 id="fluffychat">FluffyChat</h3>
+<div class="img-center">
+<img alt="FluffyChat logo" src="../images/fluffychat.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://fluffychat.im/">FluffyChat</a> е приложение с отворен код, което е лесно за използване и много удобно за потребителя. Функционалността му е ограничена, което означава, че е едновременно лесно за разбиране, но и ограничено в това, което ви позволява да правите в Матрицата. Това приложение е най-подходящо за деца и за хора, които не са много запознати със социалните медии.</p>
+<p><strong>Платформи:</strong> Браузър, Linux, Android, iOS</p>
+<ul>
+<li>✅ Лесен за използване и възприемане;</li>
+<li>✅ Опростен потребителски интерфейс;</li>
+<li>❌ Ограничена функционалност.</li>
+</ul>
+<h3 id="matrixcli">matrixcli</h3>
+<p>Ако сте програмист, който мрази графичните потребителски интерфейси и обича да изпълнява директни команди в терминала за всичките си команди, тогава <a href="https://github.com/saadrushd/matrixcli">matrixcli</a> е точно това, което ви трябва.</p>
+<p>Какво има да се каже? Това е клиент за команден ред. Обзалагам се, че любителите на Vim се радват на такъв вид клиент.</p>
+<ul>
+<li>✅ Супер минимално въздействие върху производителността на компютъра ви;</li>
+<li>❌ Огромна грешка за хора, които не могат да програмират;</li>
+<li>❌ Липсата на интерфейс може да я направи досадна за използване от някои хора.</li>
+</ul>
+<h3 id="miitrix">Miitrix</h3>
+<div class="img-center">
+<img alt="Miitrix on a Nintendo 3DS" src="../images/miitrix-600.jpg" style="max-width:450px;"/>
+</div>
+<p>Какво?! Можете да говорите с мрежата на Матрицата от своето Nintendo 3DS?! Точно така, с <a href="https://github.com/Sorunome/miitrix">Miitrix</a> можете! Не знам защо бихте искали да го направите, но предполагам, че можете.</p>
+<ul>
+<li>✅ Можете да я използвате на Nintendo 3DS;</li>
+<li>❌ Можете да го използвате само на Nintendo 3DS.</li>
+</ul>
+<h2 id="step-2-choose-a-homeserver">Стъпка 2: избор на хоумсървър</h2>
+<p>Свободни сте да използвате който и да е сървър, който ви харесва. На този сървър ще бъдат разположени вашият акаунт и данните ви. Понастоящем не можете да премествате акаунти на различни хоумсървъри, така че в момента можете да <em>превключвате</em> между хоумсървърите само чрез създаване на нов акаунт.</p>
+<p>Бих препоръчал един от следните домашни сървъри. Алтернативно, можете сами да изберете хоумсървър. Хоумсървърите <a href="https://publiclist.anchel.nl/">от този списък</a> би трябвало да са подходящи.</p>
+<table border="1">
+<thead>
+<tr>
+<th>Име на сървъра</th>
+<th>Домейн</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://app.element.io/">Матричен сървър</a></td>
+<td>matrix.org</td>
+<td>
+<ul>
+<li>Официален сървър на Matrix</li>
+<li>Актуална гаранция</li>
+<li>Понякога се бави, защото има твърде много потребители</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://element.nltrix.net/">Сървър NLtrix</a></td>
+<td>nltrix.net</td>
+<td>
+<ul>
+<li>Високопроизводителен безплатен холандски сървър</li>
+<li>Много бързо за жителите на Нидерландия</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://webchat.kde.org/">Сървър на KDE</a></td>
+<td>kde.modular.im</td>
+<td>
+<ul>
+<li>Поддържа се от дарения от общността</li>
+<li>Наистина се грижи за поверителността</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-3-create-an-account">Стъпка 3: създаване на акаунт</h2>
+<p>Инсталирайте приложението, което сте избрали в стъпка 1. Уверете се, че сте избрали правилния хоумсървър <strong>преди</strong> да създадете акаунта си. Например, ако сте избрали <strong>сървъра на NLtrix</strong> в стъпка 2, уверете се, че сте създали акаунт в домейна <code>nltrix.net</code>. При повечето приложения по подразбиране се използва домейнът <code>matrix.org</code>.</p>
+<h2 id="step-4-connect-to-your-friends">Стъпка 4: свържете се с приятелите си</h2>
+<p>Ако имате нужда от помощ, присъединете се към стаята <code>#matrix:matrix.org</code>. Тук непознати хора в интернет с удоволствие ще ви помогнат да продължите напред. Освен това не се колебайте да се свържете с мен на адрес <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</a> за подкрепа.</p>
+<p>Ако някой приятел ви е изпратил тази статия, той вероятно има акаунт и съм сигурен, че ще се радва да ви помогне. Изпратете заявка за чат до тях и ще имате свое собствено напълно криптирано от край до край съобщение с приятеля си!</p>
+<h2 id="step-5-connect-with-people-on-other-platforms">Стъпка 5: свържете се с хора от други платформи</h2>
+<p>Целият смисъл на Матрицата е, че тя може да говори дори с хора от други платформи! Скоро ще напиша статии за това как можете да свържете разговорите си в Telegram и Discord. След като ги напиша, ще ги публикувам тук.</p>
+<p>Можете също така да го разберете сами на <a href="https://t2bot.io/">t2bot.io</a>.</p>
+<p>Засега се наслаждавайте на истински личните си разговори в Матрицата!</p>
+</article>
+</section>
+<footer>
+<p>Този уебсайт е създаден от <a href="https://noordstar.me/">BramvdnHeuvel</a>.<br/> Можете да се свържете с тях на <a href="mailto:digital-rights@bram.blmgroep.nl">електронна поща</a> или на <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Матрикс</a>.</p>
+<script src="https://digital-justice.com/js/language-picker.js"></script>
+</footer>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Open Sans font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet"/>
+<!-- Playfair Display font-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" id="u-page-google-font" rel="stylesheet"/>
+<!-- CSS -->
+<link href="../all.css" rel="stylesheet" type="text/css"/>
+<!-- Meta tags -->
+<!-- Primary Meta Tags -->
+<title>Kuidas liituda Matrixi võrguga</title>
+<meta content="Kuidas liituda Matrixi võrguga" name="title"/>
+<meta content="Matrixiga liitumiseks on nii humanitaarsed kui ka majanduslikud põhjused. Siin on, kuidas Matrixiga alustada!" name="description"/>
+<!-- FontAwesome -->
+<link href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://digital-justice.com/" property="og:url"/>
+<meta content="Kuidas liituda Matrixi võrguga" property="og:title"/>
+<meta content="Matrixiga liitumiseks on nii humanitaarsed kui ka majanduslikud põhjused. Siin on, kuidas Matrixiga alustada!" property="og:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://digital-justice.com/" property="twitter:url"/>
+<meta content="Kuidas liituda Matrixi võrguga" property="twitter:title"/>
+<meta content="Matrixiga liitumiseks on nii humanitaarsed kui ka majanduslikud põhjused. Siin on, kuidas Matrixiga alustada!" property="twitter:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="twitter:image"/>
+<!-- Favicon -->
+<!-- Favicon -->
+<link href="https://digital-justice.com/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://digital-justice.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://digital-justice.com/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://digital-justice.com/icons/site.webmanifest" rel="manifest"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="../index.html"><i class="fas fa-home"></i> Kodu</a>
+<a href="../rights.html">Digitaalsed õigused</a>
+<a href="index.html">Artiklid</a>
+<div id="language-picker"></div>
+<a class="hamburger" href="javascript:void(0)" onclick="openHamburger()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+<script src="https://digital-justice.com/js/open-hamburger.js"></script>
+</header>
+<section class="simple-orange">
+<article class="essay-title">
+<h1>Kuidas liituda Matrixi võrguga</h1>
+<p>Vaata originaalartiklit <a href="https://noordstar.me/b/how-to-join-matrix.md">homme</a> või loe edasi.</p>
+<p>Eeldatav lugemisaeg: <img class="icon" src="../images/clock.svg"/> 3 min.</p>
+</article>
+</section>
+<section class="simple-gray flex-container">
+<article class="blog">
+<span class="card-type">Tutorial</span>
+<hr/>
+<h1 id="how-to-join-the-matrix-network">Kuidas liituda Matrixi võrguga</h1>
+<p>Matrixiga liitumiseks on nii <a href="https://noordstar.me/b/decentralize.md" target="_blank">humanitaarsed põhjused</a> kui ka <a href="https://www.youtube.com/watch?v=PTL-8Lc_nAI&amp;" target="_blank">majanduslikud põhjused</a>. See artikkel eeldab, et olete valmis seda proovima ja ma selgitan teile, kuidas sellega liituda!</p>
+<p>Matrixis on tagatud privaatsus ja andmete suveräänsus, kuid võrgustikuga liitumine võib olla keeruline ja segane. See on lihtne õpetus, mis aitab teil Matrixi kontot luua.</p>
+<div>
+<ul>
+<li><a href="#how-to-join-the-matrix-network">Kuidas liituda Matrixi võrguga</a>
+<ul>
+<li><a href="#quick-guide">Kiirjuhend</a></li>
+<li><a href="#step-1-choose-a-client">1. samm: vali klient</a>
+<ul>
+<li><a href="#element">Element</a></li>
+<li><a href="#fluffychat">FluffyChat</a></li>
+<li><a href="#matrixcli">matrixcli</a></li>
+<li><a href="#miitrix">Miitrix</a></li>
+</ul>
+</li>
+<li><a href="#step-2-choose-a-homeserver">2. samm: vali koduserver</a></li>
+<li><a href="#step-3-create-an-account">3. samm: looge konto</a></li>
+<li><a href="#step-4-connect-to-your-friends">4. samm: ühendage oma sõpradega</a></li>
+<li><a href="#step-5-connect-with-people-on-other-platforms">5. samm: võtke ühendust inimestega teistel platvormidel</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="quick-guide">Kiirjuhend</h2>
+<p>Kui te ei saa valida, võtke järgmised võimalused. Valige <strong>Element</strong> sammul 1. Vali <strong>nltrix.net</strong>, kui sa räägid hollandi keelt ja elad Euroopas, muidu vali 2. sammul <strong>matrix.org</strong>.</p>
+<h2 id="step-1-choose-a-client">1. samm: vali klient</h2>
+<p>Matrixiga rääkimiseks tuleb kasutada rakendust. See ei ole aga oluline, millise rakenduse te valite! Kõik sobivad ja kõik saavad omavahel suhelda. Peale selle saate alati rakendust vahetada, kui muudate meelt.</p>
+<p>Kui soovite ise klienti valida, saate <a href="https://matrix.org/clients/">saada nimekirja olemasolevatest klientidest siit</a>. Muidu annan teile mõned soovitused.</p>
+<h3 id="element">Element</h3>
+<div class="img-center">
+<img alt="Element logo" src="../images/element.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://element.io/">Element</a> on rakendus, mida aktiivselt hooldab organisatsioon Matrix.</p>
+<p><strong>Platvormid:</strong> Brauser, Windows, Linux, Android, iOS</p>
+<ul>
+<li>✅ Tavaliselt kõige kiirem rakendus, et saada viimaseid uuendusi;</li>
+<li>✅ Ametlikult toetab organisatsioon Matrix;</li>
+<li>✅ Toetab kogu Matrixi funktsionaalsust;</li>
+<li>❌ Valmistatud programmeerijatele ja võib mõnikord olla veidi keeruline.</li>
+</ul>
+<h3 id="fluffychat">FluffyChat</h3>
+<div class="img-center">
+<img alt="FluffyChat logo" src="../images/fluffychat.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://fluffychat.im/">FluffyChat</a> on avatud lähtekoodiga rakendus, mida on lihtne kasutada ja mis on väga kasutajasõbralik. Selle funktsionaalsus on piiratud, mis tähendab, et see on nii kergesti mõistetav, kuid ka piiratud selles, mida see võimaldab Matrixil teha. See rakendus sobib kõige paremini lastele ja inimestele, kes ei ole sotsiaalmeediaga väga kursis.</p>
+<p><strong>Platvormid:</strong> Brauser, Linux, Android, iOS</p>
+<ul>
+<li>✅ Lihtne kasutada ja kätte saada;</li>
+<li>✅ Lihtne kasutajaliides;</li>
+<li>❌ Piiratud funktsionaalsus.</li>
+</ul>
+<h3 id="matrixcli">matrixcli</h3>
+<p>Kui te olete programmeerija, kes vihkab GUI-d ja armastab kõigi oma käskude jaoks otsekorraldusi terminalis käivitada, siis <a href="https://github.com/saadrushd/matrixcli">matrixcli</a> on just see, mida te vajate.</p>
+<p>Mida seal öelda? See on käsurea klient. Vean kihla, et Vim-armastajatele meeldib selline klient.</p>
+<ul>
+<li>✅ Super minimalistlik arvuti jõudlusele;</li>
+<li>❌ Suur ei-ei inimestele, kes ei oska programmeerida;</li>
+<li>❌ Kasutajaliidese puudumine võib muuta selle kasutamise mõnede inimeste jaoks tüütuks.</li>
+</ul>
+<h3 id="miitrix">Miitrix</h3>
+<div class="img-center">
+<img alt="Miitrix on a Nintendo 3DS" src="../images/miitrix-600.jpg" style="max-width:450px;"/>
+</div>
+<p>Mida?! Nintendo 3DS-i kaudu saab rääkida Matrixi võrguga?! Just nii, <a href="https://github.com/Sorunome/miitrix">Miitrix</a> abil saab! Ma ei tea, miks sa seda tahaksid, aga ma arvan, et sa võiksid.</p>
+<ul>
+<li>✅ Saate seda kasutada Nintendo 3DS-i peal;</li>
+<li>❌ Saate seda kasutada ainult Nintendo 3DS-i peal.</li>
+</ul>
+<h2 id="step-2-choose-a-homeserver">2. samm: vali koduserver</h2>
+<p>Võite vabalt kasutada ükskõik millist serverit. See server haldab teie kontot ja andmeid. Hetkel ei saa kontosid erinevatele koduserveritele üle viia, seega saate hetkel ainult <em>vahetada</em> koduserveri vahel, luues uue konto.</p>
+<p>Ma soovitaksin ühte järgmistest kodukasutajatest. Alternatiivina võite ise valida homeserveri. Koduserverid <a href="https://publiclist.anchel.nl/">tollest nimekirjast</a> peaksid sobima.</p>
+<table border="1">
+<thead>
+<tr>
+<th>Serveri nimi</th>
+<th>Domeen</th>
+<th>Kirjeldus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://app.element.io/">Matrix Server</a></td>
+<td>matrix.org</td>
+<td>
+<ul>
+<li>Ametlik Matrixi server</li>
+<li>Ajakohastatud garantii</li>
+<li>Mõnikord lakkab, sest sellel on liiga palju kasutajaid</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://element.nltrix.net/">NLtrixi server</a></td>
+<td>nltrix.net</td>
+<td>
+<ul>
+<li>Suure jõudlusega tasuta Hollandi server</li>
+<li>Väga kiiresti Madalmaade elanike jaoks</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://webchat.kde.org/">KDE server</a></td>
+<td>kde.modular.im</td>
+<td>
+<ul>
+<li>Powered by kogukonna annetused</li>
+<li>Tõesti hoolib privaatsusest</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-3-create-an-account">3. samm: looge konto</h2>
+<p>Installige rakendus, mille valisite sammus 1. Veenduge, et valite õige koduserveri <strong>eelselt</strong>, enne kui loote oma konto. Näiteks, kui valisid sammus 2 <strong>NLtrixi serveri</strong>, siis veendu, et loote konto domeenil <kood>nltrix.net</kood>. Enamik rakendusi on vaikimisi <code>matrix.org</code>.</p>
+<h2 id="step-4-connect-to-your-friends">4. samm: ühendage oma sõpradega</h2>
+<p>Kui vajate abi, liituge ruumiga <code>#matrix:matrix.org</code>. Siin aitavad võõrad inimesed internetis teid hea meelega edasi. Lisaks võite julgelt võtta minuga ühendust aadressil <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</a>, et saada tuge.</p>
+<p>Kui sõber saatis sulle selle artikli, siis on tal tõenäoliselt konto olemas ja ma olen kindel, et ta aitab sind hea meelega. Saatke neile vestlusküsimus ja teil on oma sõbraga täiesti lõpuni krüpteeritud sõnum!</p>
+<h2 id="step-5-connect-with-people-on-other-platforms">5. samm: võtke ühendust inimestega teistel platvormidel</h2>
+<p>Kogu Matrixi mõte on see, et sellega saab isegi teiste platvormide inimestega rääkida! Ma kirjutan peagi artiklid sellest, kuidas saab Telegrami ja Discordi vestlusi ühendada. Kui ma olen need kirjutanud, postitan need siia alla.</p>
+<p>Saate selle ka ise välja selgitada <a href="https://t2bot.io/">t2bot.io</a> veebilehel <a href="https://t2bot.io/">t2bot.io</a>.</p>
+<p>Seniks nautige oma tõeliselt privaatseid vestlusi Matrixil!</p>
+</article>
+</section>
+<footer>
+<p>Selle veebilehe on koostanud <a href="https://noordstar.me/">BramvdnHeuvel</a>. <br/> Võite nendega ühendust võtta <a href="mailto:digital-rights@bram.blmgroep.nl">Email</a> või <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Matrix</a> kaudu.</p>
+<script src="https://digital-justice.com/js/language-picker.js"></script>
+</footer>
+</body>
+</html>

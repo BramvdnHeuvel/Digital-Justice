@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Open Sans font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet"/>
+<!-- Playfair Display font-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" id="u-page-google-font" rel="stylesheet"/>
+<!-- CSS -->
+<link href="../all.css" rel="stylesheet" type="text/css"/>
+<!-- Meta tags -->
+<!-- Primary Meta Tags -->
+<title>Kedves uniós politikusok, ideje decentralizálni az internetet!</title>
+<meta content="Kedves uniós politikusok, ideje decentralizálni az internetet!" name="title"/>
+<meta content="Ebben a cikkben elmagyarázom neked, hogy mi is az a decentralizált kommunikációs hálózat, és miért érdemes foglalkoznod vele." name="description"/>
+<!-- FontAwesome -->
+<link href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://digital-justice.com/" property="og:url"/>
+<meta content="Kedves uniós politikusok, ideje decentralizálni az internetet!" property="og:title"/>
+<meta content="Ebben a cikkben elmagyarázom neked, hogy mi is az a decentralizált kommunikációs hálózat, és miért érdemes foglalkoznod vele." property="og:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://digital-justice.com/" property="twitter:url"/>
+<meta content="Kedves uniós politikusok, ideje decentralizálni az internetet!" property="twitter:title"/>
+<meta content="Ebben a cikkben elmagyarázom neked, hogy mi is az a decentralizált kommunikációs hálózat, és miért érdemes foglalkoznod vele." property="twitter:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="twitter:image"/>
+<!-- Favicon -->
+<!-- Favicon -->
+<link href="https://digital-justice.com/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://digital-justice.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://digital-justice.com/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://digital-justice.com/icons/site.webmanifest" rel="manifest"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="../index.html"><i class="fas fa-home"></i> Főoldal</a>
+<a href="../rights.html">Digitális jogok</a>
+<a href="index.html">Cikkek</a>
+<div id="language-picker"></div>
+<a class="hamburger" href="javascript:void(0)" onclick="openHamburger()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+<script src="https://digital-justice.com/js/open-hamburger.js"></script>
+</header>
+<section class="simple-orange">
+<article class="essay-title">
+<h1>Kedves uniós politikusok, ideje decentralizálni az internetet!</h1>
+<p>Tekintse meg az eredeti cikket <a href="https://noordstar.me/b/decentralize.md">itt</a>, vagy olvasson tovább.</p>
+<p>Becsült olvasási idő: &lt;../images/clock.svg"/&gt; 7 perc.</p>
+</article>
+</section>
+<section class="simple-gray flex-container">
+<article class="blog">
+<span>Vélemény</span><hr/>
+<h1 id="dear-politicians-of-the-eu-its-time-to-decentralize-the-internet">Kedves uniós politikusok, ideje decentralizálni az internetet!</h1>
+<p>Nem gyakran fordul elő, hogy valaki több mint 6 kg paradicsomkonzervet vásárol, hogy kifejezze a véleményét, de velem ez történt. És nem, nem azzal a szándékkal vettem a paradicsomot, hogy valakit megdobáljak vele. Ehelyett a konzervek egy <strong>decentralizált kommunikációs hálózat</strong> demonstrációjához voltak szükségesek. Ebben a cikkben elmagyarázom nektek, hogy mi ez, és miért kellene érdekeljen titeket.</p>
+<div class="img-center">
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="1" class="expanding-iframe" frameborder="0" height="278.4375" sheight="315" src="https://www.youtube.com/embed/v5Y8zCwIxjI" swidth="560" width="495"></iframe>
+</div>
+<div class="toc">
+<ul>
+<li><a href="#dear-politicians-of-the-eu-its-time-to-decentralize-the-internet">Kedves uniós politikusok, ideje decentralizálni az internetet!</a><ul>
+<li><a href="#what-is-that-decentralization">Mi ez, decentralizáció?</a><ul>
+<li><a href="#the-rise-of-matrix">A Mátrix felemelkedése</a></li>
+<li><a href="#decentralisation-as-a-concept">A decentralizáció mint fogalom</a></li>
+</ul>
+</li>
+<li><a href="#the-unfairness-of-centralised-communication">A központosított kommunikáció igazságtalansága</a><ul>
+<li><a href="#if-you-switch-everyone-must-switch">Ha te váltasz, MINDENKINEK váltania kell</a></li>
+<li><a href="#censorship-is-executed-freely-by-a-company">A cenzúrát szabadon végzi egy cég</a></li>
+<li><a href="#the-doorbell-that-doesnt-work-when-google-is-down">A csengő, ami nem működik, ha a Google nem működik.</a></li>
+</ul>
+</li>
+<li><a href="#how-decentralization-solves-them">Hogyan oldja meg őket a decentralizáció</a></li>
+<li><a href="#what-the-eu-should-do-to-make-it-perfect">Mit kellene tennie az EU-nak, hogy tökéletes legyen</a><ul>
+<li><a href="#my-proposal">Az én javaslatom</a></li>
+<li><a href="#how-to-realise-your-goals-while-fighting-big-companies">Hogyan valósítsd meg a céljaidat a nagyvállalatokkal való harcban</a></li>
+<li><a href="#what-would-opta-20-do">Mit tenne az OPTA 2.0?</a></li>
+<li><a href="#why-hasnt-it-happened-yet">Miért nem történt még meg?</a></li>
+</ul>
+</li>
+<li><a href="#what-you-can-do-about-it">Mit tehetsz ellene</a></li>
+<li><a href="#sources">Források</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p><br/>
+<br/></p>
+<h2 id="what-is-that-decentralization">Mi ez, decentralizáció?</h2>
+<p>Tavaly januárban kaptam egy Whatsapp-üzenetet egy Whatsapp-csoportos csevegésben az egyik barátomtól, Sarah-tól. Elmondta, hogy el fogja hagyni a Whatsappot, és megkérdezte, hogy mindannyian (25 ember) leállnánk-e, hogy a csoportos csevegést átállítsuk a <a href="https://signal.org/">Signal</a>-ra, egy üzenetküldő alkalmazásra, amely általánosan ismert lett a titkosított üzenetküldéséről és arról, hogy "jó alternatívája a Whatsappnak".</p>
+<p>Hogy őszinte legyek, engem személy szerint kissé bosszantott ez a dolog. Már van <strong>Whatsapp</strong>, <strong>Slack</strong>, <strong>Discord</strong>, <strong>MS Teams</strong>, <strong>Gmail</strong>, <strong>Snapchat</strong>, <strong>Telegram</strong> és más üzenetküldő alkalmazások telepítve, és az utolsó dolog, amire vágyom, hogy <em>még egy</em> alkalmazást telepítsek a telefonomra. Egy ideális világban <em>egy</em> alkalmazással rendelkeznék, talán kettővel, és az összes kommunikációmat ezen az egy vagy két alkalmazáson keresztül intézném.</p>
+<p>Ugyanakkor nem akartam elveszíteni a kapcsolatot Sarah-val, így itt zsákutcába kerültem: elveszítsem a digitális kapcsolatot Sarah-val, vagy telepítsek még egy üzenetküldő alkalmazást a telefonomra? Arra gondoltam, hogy bárcsak használhatnám a <strong>Whatsapp</strong> fiókomat, és beszélhetnék a barátommal a <strong>Signal</strong>-on.</p>
+<blockquote>
+<p>Milyen jó lenne, ha nem számítana, hogy melyik alkalmazással beszélsz a rokonaiddal?</p>
+</blockquote>
+<p>A témáról beszélgettem néhány rokonommal, és ekkor merült fel a decentralizált kommunikációs protokoll koncepciója, ami felkeltette az érdeklődésemet.</p>
+<h3 id="the-rise-of-matrix">A Mátrix felemelkedése</h3>
+<p>Úgy tűnik, létezik egy <strong><a href="https://matrix.org/">Mátrix</a></strong> nevű szervezet, amely egy <strong>decentralizált kommunikációs protokollt</strong> határozott meg. A protokolljuk koncepciója az, hogy decentralizált, interoperábilis kommunikációt tesz lehetővé. <a href="https://hacks.mozilla.org/2018/10/dweb-decentralised-real-time-interoperable-communication-with-matrix/">[1]</a> Mit jelent ez? Azt jelenti, hogy én használhatok bármilyen tetszőleges alkalmazást, te használhatsz bármilyen (másik) tetszőleges alkalmazást, és mi továbbra is beszélhetünk egymással a saját alkalmazásainkon!</p>
+<p>Vagyis ezt jelenti az <strong>interoperabilitás</strong>: <ins>hogy különböző alkalmazások képesek legyenek egymással beszélni</ins>. A <strong>decentralizáció</strong> azt jelenti, hogy <ins>nem függsz egyetlen cégtől sem a rokonoddal való beszélgetésedben</ins>. Rajtad és beszélgetőpartnereden kívül senki más nem választja meg, hogyan kommunikáljatok.</p>
+<p>Ahhoz, hogy elmagyarázzuk, hogyan működik a decentralizáció, először a hagyományos kommunikációs alkalmazásokat kell megvizsgálnunk, mint például a <strong>Whatsapp</strong>. Az ilyen alkalmazások centralizáltak: ez azt jelenti, hogy mind te, mind a barátod a Whatsapp szerveréhez beszéltek, és az a szerver adja tovább az üzeneteket a másiknak. Hacsak Ön vagy a barátja nem a Facebooknál dolgozik, nincs hozzáférése a szerverhez, és a <strong>bizalom</strong> segítségével feltételezi, hogy a Facebook nem fogja eladni az adatait, vagy olyan célokra felhasználni, amelyeket Ön nem értékel.</p>
+<p><div class="img-center"><img alt="Facebook CEO Mark Zuckerberg gives a presentation." src="../images/Mark-Zuckerberg.jpg" title="Mark Zuckerberg, CEO of Facebook, has been under fire for transferring European data to American servers, where Facebook cannot guarantee European privacy law."/></div></p>
+<p>Egy olyan protokoll, mint a <strong>Mátrix</strong> lényege, hogy decentralizált: ahelyett, hogy mindketten egy olyan szolgáltatásban bíznátok, mint a <strong>Whatsapp</strong>, mindketten kiválaszthatjátok a saját szervereteket, amelyben megbízhattok: Ez azt jelenti, hogy elméletileg én választhatnék egy olyan szolgáltatást, mint a <strong>Discord</strong>, te pedig egy olyan szolgáltatást, mint a <strong>Telegram</strong>, és egyik szolgáltatás sem lenne felelős az összes üzenetünkért: ha valaha is bizalmatlanságot éreznénk valamelyik szolgáltatással szemben, egyszerűen kiléphetnénk a szolgáltatásból, és átmehetnénk egy másik szerverre.</p>
+<h3 id="decentralisation-as-a-concept">A decentralizáció mint fogalom</h3>
+<p>Az alábbi kép mutatja, hogyan működik egy olyan szolgáltatás, mint a <strong>Mátrix</strong>: ahelyett, hogy minden kommunikáció egyetlen szerveren keresztül menne, sok szétszórt szerver van mindenfelé, és minden egyes pont képes beszélni minden más ponttal.</p>
+<p><div class="img-center"><img alt="Simplified representations of a centralised and a decentralised network" src="../images/Decentralization_diagram.svg" title="The difference between the networks becomes clear: one person or company controls everything in a centralised network, while no-one is in charge in a decentralised network."/></div></p>
+<p>Ez őrült ötletnek tűnik, és néhányan talán azt is gondolják, hogy veszélyes lehet egy nagy szerver biztonságát kiadni, de ez nem így van. Az olyan hálózatok, mint a <strong>Matrix</strong> lehetővé teszik az üzenetek végponttól végpontig tartó titkosítását <a href="https://matrix.org/docs/guides/end-to-end-encryption-implementation-guide">[2]</a>, és egyéb biztonsági intézkedéseket is hoztak a teljes biztonság érdekében. Továbbá a francia és a német kormány a kormányzati tárgyak tekintetében átállt a <strong>Matrix</strong>-ra, <a href="https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app">[3]</a> és Németország több mint félmillió licencet szállított a decentralizált szerverekre, hogy segítse a német oktatási rendszer kommunikációját. <a href="https://sifted.eu/articles/element-germany-deal/">[4]</a> <em>(Megjegyzés: a Matrix használatához nem kell licenc. Ehelyett Németország saját szervereket vásárolt, hogy a Matrixot önállóan hosztolhassa)</em>.</p>
+<blockquote>
+<p>A decentralizált kommunikáció már itt van - és itt is marad.</p>
+</blockquote>
+<p>Nem csak a mátrix.org fejlesztői álltak elő ezzel az ötlettel. Más decentralizált kommunikációs hálózatok is jelen vannak: a nyílt kommunikációs protokollt <a href="https://xmpp.org/">XMPP</a> már 1999-ben bemutatták, és más hálózatok is egyre nagyobb lendületet vesznek. A decentralizált kommunikáció már itt van - és itt is marad.</p>
+<p><br/></p>
+<h2 id="the-unfairness-of-centralised-communication">A központosított kommunikáció igazságtalansága</h2>
+<p>Legyünk őszinték, az internet a legszebb szemétkupac, amit valaha is néztél. A jelenlegi generációnkban nagyon sok megoldandó probléma van az interneten, de oldjuk meg lépésről lépésre. Az első problémánk? A központosított kommunikáció igazságtalansága.</p>
+<p>Több okot is fel tudnék sorolni, hogy miért nem igazságos egy központosított szerver, amely minden kommunikációt irányít - és bár mindenkinek nyilvánvalónak kellene lennie, mégis felsorolom őket.</p>
+<h3 id="if-you-switch-everyone-must-switch">Ha te váltasz, MINDENKINEK váltania kell</h3>
+<p>Nem Sarah volt az egyetlen rokonom, aki megkért, hogy lépjek át a Signalra - a Whatsapp nemrég megváltoztatta az alkalmazás használatának néhány feltételét, és a szakértők aggódnak az adatvédelem miatt. <a href="https://www.businessinsider.com/whatsapp-experts-users-worry-about-sharing-personal-data-with-facebook-2021-1?international=true&amp;r=US&amp;IR=T">[5]</a> Nyilvánvaló, hogy a felhasználók elárasztották az olyan alkalmazásokat, mint a <strong>Telegram</strong> és a <strong>Signal</strong>, mert ezek megbízhatóbbak és megbízhatóbbak.</p>
+<p>Ezek az emberek ténylegesen átálltak az új platformra, és végleg törölték <strong>Whatsapp</strong> fiókjukat, ahogyan az uniós polgároknak joguk van hozzá? Nos... néhányan megtették, de a legtöbben továbbra is megtartották a <strong>Whatsapp</strong> szolgáltatást. És miért? Mert a fiókjuk törlésével megszakadna a kapcsolat néhány jó barátjukkal - és ez tisztességtelen előnyhöz juttatja az olyan szolgáltatásokat, mint a <strong>Whatsapp</strong>. Mindenkinek megvan az az egy nagymamája vagy olvasóklubja, akivel még mindig törődik a <strong>Facebookon</strong> vagy a <strong>Whatsappon</strong>, és csak úgy lehet őket leszoktatni a platformról, ha MINDENKIT meggyőzünk, hogy lépjen át.</p>
+<blockquote>
+<p>"Nem KELL elfogadnod a feltételeinket - ha nem akarsz az anyáddal csevegni".</p>
+</blockquote>
+<p>Jelenleg mindenki azzal van elfoglalva, hogy meggyőzze egymást arról, hogy hagyja el a platformokat, hogy átálljon egy másikra, csakhogy mindenkinek a telefonja tele lesz tucatnyi alkalmazással, mind olyan feltételekkel, amelyekkel nem <em>igazán</em> ért egyet, de mégis elfogadja, mert mások is elfogadták.</p>
+<p>Ez nem ismeretlen fogalom. A tudósok <a href="https://en.wikipedia.org/wiki/Network_effect">hálózati hatásnak</a> nevezik: egy hálózat hasznossága attól függ, hogy hány felhasználója van. Az olyan cégek, mint a Whatsapp, ezt a koncepciót kihasználják ellened: a Signalra való átállás remek ötletnek hangzik, de csak akkor működik, ha <strong>mindenki</strong> a nyomodba lép.</p>
+<h3 id="censorship-is-executed-freely-by-a-company">A cenzúrát szabadon végzi egy cég</h3>
+<p>Ha a Facebook nem értékeli az Ön tagságát a platformjukon, bármikor megszüntetheti a tagságát - a szervereiken tárolt, Önre vonatkozó adatokkal együtt. Ez bármit jelenthet, a számos fiókot ok és magyarázat nélkül, <a href="https://www.youtube.com/watch?v=pWaz7ofl5wQ">[6]</a> fontos politikai személyiségek <a href="https://blog.twitter.com/en_us/topics/company/2020/suspension.html">[7]</a> fiókjait, vagy akár külső vásárlásokat, például VR-játékszoftvereket. <a href="https://www.extremetech.com/gaming/316326-facebook-is-permabanning-oculus-quest-2-owners-for-owning-an-oculus-quest-2">[8]</a> Ráadásul az olyan vállalatok, mint a Facebook, az Egyesült Államokban a Communications Decency Act 230. szakasza, <a href="https://en.wikipedia.org/wiki/Section_230">[9]</a> és más országokban a hasonló törvények következtében minden felelősség alól mentesülnek.</p>
+<p>A gyakorlatban ez azt jelenti, hogy bármelyik közösségi médiavállalat bármikor feltétel nélkül megszüntetheti a szolgáltatást Önnel, amikor csak akarja. Ennek feltétele, hogy csak akkor kaphatsz tiltást, ha nem felelsz meg a (cég által) előre meghatározott felhasználási feltételeknek, bár semmiképpen sem kötelesek megmondani, hogy miért szüntették meg a szolgáltatást. Ez azt jelenti, hogy egy cég tisztességtelenül bánhat veled a preferenciáid, az ideológiád, a politikai véleményed vagy nagyjából bármi más alapján.</p>
+<p>Ezzel párhuzamosan a tanulmányok még azt is mutatják, hogy az ilyen platformok maguk sem etikusak: A Facebook az egyik legjobb platform, ha álhírek terjesztéséről van szó, <a href="https://www.nature.com/articles/s41562-020-0833-x">[10]</a> és általában ezért sem vonják őket felelősségre. Miközben a platformok látszólag jogtalanul távolítanak el embereket a platformjaikról, egyúttal profitot termelnek a félretájékoztatásból, és megússzák.</p>
+<blockquote>
+<p>A közösségi platformokat felelősségre kell vonnunk azért, hogy mit engednek meg a felhasználóiknak, hogy megosszák a platformjukon, és mit (és kit) cenzúráznak.</p>
+</blockquote>
+<p>Az Európai Parlament képviselői aggodalmuknak adtak hangot amiatt, hogy az internet a szokásos törvények helyett a helyi platformok iránymutatásaira támaszkodik. <a href="https://www.europarl.europa.eu/news/en/headlines/society/20210204STO97129/social-media-and-democracy-we-need-laws-not-platform-guidelines">[11]</a> A törvénynek kellene a szólásszabadságot és a cenzúrát előírnia, nem pedig a közösségi médiavállalatoknak.</p>
+<h3 id="the-doorbell-that-doesnt-work-when-google-is-down">A csengő, ami nem működik, ha a Google nem működik.</h3>
+<p>Még egy olyan rendszer sem tökéletes, mint a Google, és még az ő szolgáltatásukban is előfordul, hogy néha kimarad vagy megszűnik az állandó, elegendő sávszélességű kapcsolat ahhoz, hogy minden ügyfelüknek segítsen az interneten. Ez azt jelenti, hogy időről időre elkerülhetetlenül bármelyik szolgáltatásnak szembe kell néznie egy olyan időszakkal, amikor nem tud hozzáférni az internethez.</p>
+<p>Nem találom újra a képet, de az egyik vicces példa egy bejárati ajtó képe, rajta egy felirat: "<strong><code>YOU HAVE TO KNOCK BECAUSE GOOGLE IS DOWN</code></strong>". Ez az egyik tünete a központosított honlapnak: ha a Facebooknak gondjai vannak, akkor nem tudsz beszélgetni a barátaiddal. Ha a Whatsapp túlterhelődik, akkor nem tudod elérni a rokonaidat. Ha pedig a Google nem működik, akkor az okos csengőd sem fog működni. Ez azért van, mert az az egy csomópont a központi kép közepén bajban van, és ezt mindenki tapasztalni fogja.</p>
+<p>Egy decentralizált rendszerben nem fogod észrevenni, ha rajtad vagy a barátodon kívül másnak is gondjai vannak az internetkapcsolattal. Nincs <em>szükséged</em> egy emberre a középen, így a kapcsolatotok folytatódhat - még akkor is, ha ti ketten egy csoportos csevegésben beszélgettek olyan szolgáltatásokkal vagy emberekkel, akik nem kapcsolódnak. Persze, a saját szervered még mindig leállhat - de nem mindenki támaszkodik egy cég szerverének teljesítményére.</p>
+<p><br/></p>
+<h2 id="how-decentralization-solves-them">Hogyan oldja meg őket a decentralizáció</h2>
+<p>Nem megyek bele túlságosan a részletekbe - ha ismered az informatikai témákat, nyugodtan olvasd el az általam felsorolt forrásokat. Egyébként elmagyarázom, hogy a decentralizáció hogyan oldja meg hatékonyan a problémákat.</p>
+<p>Egy decentralizált hálózat nem szenved ugyanúgy a hálózati hatástól: senkit sem érdekel, hogy ki melyik platformon van. Egy olyan nyílt kommunikációs hálózat, mint a <strong>Mátrix</strong> már számtalan olyan alkalmazással rendelkezik, amelyek mind ugyanazon a hálózaton működnek: A <strong>Mátrix</strong> saját fejlesztésű alkalmazása, a <a href="https://element.io/">Element</a> látszólag a legnépszerűbb alkalmazás, de számtalan más alkalmazás is létezik, mint például a <a href="https://fluffychat.im/en/">FluffyChat</a>, a <a href="https://matrix.org/docs/projects/client/pattle">Pattle</a> és a <a href="https://nio.chat/">Nio</a>. <em>(És ha nem bízol egyik alkalmazásban sem, akkor létrehozhatsz saját alkalmazást!)</em> Én már néhány hónapja a <strong>Mátrix</strong>-on vagyok, és beszéltem olyan emberekkel, akik mind a négyet használják - sőt, magam is váltogattam ide-oda a <strong>Element</strong> és a <strong>FluffyChat</strong> között, hogy megnézzem, melyik működik nekem a legjobban.</p>
+<p>Elgondolkodhatnánk azon, hogy ha mindenkit egy központosított hálózatról egy decentralizált hálózatra helyezünk át, az nem a céltábla elmozdítása: ahelyett, hogy teljesen rákényszerülnénk, hogy a <strong>Whatsapp</strong>-on legyünk, nem azt jelenti, hogy a <strong>Mátrix</strong>-on KELL lennünk, hogy mindenkivel kommunikálhassunk? Ez azonban nem így van. Ebben a blog psotban részletesebben is kitérek a <a href="/b/decentralize-not-moving-the-goalpost.md">nyílt kommunikációs hálózatok összekapcsolására</a>.</p>
+<p>Az a probléma, hogy a közösségi médiavállalatok nem felelősek a honlapjukon található tartalmakért, egy másik probléma, és a decentralizált hálózat nem oldja meg azonnal a problémát. Azonban lehet spekulálni, hogy nehezebben terjednek az álhírek, ha nincs egy cég <em>(<em>köhögés </em>köhögés Facebook)</em>, amely profitot húz belőlük, és nehezebbé válik az emberek jogtalan cenzúrázása. A decentralizációval azonban egyik probléma sem oldódik meg igazán, és az Európai Parlament fellépése jelentősebb megoldásokat hozhatna az asztalra.</p>
+<p>Az utolsó probléma az, ami igazán tökéletessé teszi a decentralizációt: mivel te választod meg, hogy melyik szervert használod a kommunikációhoz, nem függsz egy olyan szervertől, mint a Google, hogy zökkenőmentesen működjön. És ha a kommunikáció egyszer véletlenül leállna, bármikor indíthatok egy saját szervert, és azzal a szerverrel beszélgethetek tovább.</p>
+<h2 id="what-the-eu-should-do-to-make-it-perfect">Mit kellene tennie az EU-nak, hogy tökéletes legyen</h2>
+<p>Személy szerint meg vagyok győződve arról, hogy a kommunikációnk decentralizálása nagy előrelépés lenne: megszüntetni a hálózati hatás zsarolását, hagyni, hogy mindenki választhasson egy (vagy több) preferált alkalmazást, amellyel bárkivel kommunikálhat bármilyen platformon, aki hajlandó visszabeszélni. Ezzel csak egy probléma van: a platformok nem értenek egyet. A <strong>Google</strong> és a <strong>Facebook</strong> a múltban az <strong>XMPP</strong>-t használta, de később átálltak elszigetelt, saját fejlesztésű csevegőrendszerekre. <a href="https://fsfe.org/news/2020/news-20200228-01.en.html">[12]</a></p>
+<blockquote>
+<p>Próbáld meg elmagyarázni a nagymamádnak, hogy keresnie kell egy megbízható szervert, majd kiválasztani a kívánt kliensalkalmazást, és utána csatlakozni egy decentralizált hálózathoz.</p>
+</blockquote>
+<p>Megkérhetjük a szolgáltatásokat kedvesen, hogy decentralizálják a rendszereiket - de túl sok a szolgáltatás, és valószínűleg nem fogják önként megtenni. Alternatívák után kell néznünk.</p>
+<p>Az egyik lehetőség az lenne, ha mindenki egy decentralizált hálózatba kerülne, de az én jelenlegi kritikám az olyan hálózatokkal kapcsolatban, mint az <strong>XMPP</strong>, <strong>ICQ</strong> és <strong>Matrix</strong> az, hogy túl bonyolultak. Rengeteg lépést kell megtenned ahhoz, hogy csatlakozhass a hálózathoz - és bár az egyes lépések önmagukban nem túl bonyolultak, az egész folyamat a csatlakozáshoz 15 percig is eltarthat; ami sok. Ez sokkal több, mint egyszerűen telepíteni a <strong>Signal</strong>-t a telefonra, létrehozni egy fiókot, és kész. Továbbá nem gondolom, hogy az olyan szolgáltatások, mint a <strong>Whatsapp</strong> és a <strong>Telegram</strong> nem érdemlik meg, hogy ne létezzenek - sok embernek hasznosak, és sokan vannak, akik az ilyen platformokat részesítik előnyben üzenetküldő alkalmazásként.</p>
+<p>Mindazonáltal úgy gondolom, hogy van megoldás. Mindezeket a problémákat meg tudjuk oldani - de szükségünk lesz politikusokra, hogy megértsük és alakítsuk az internetet, és ez egy nehéz téma.</p>
+<h3 id="my-proposal">Az én javaslatom</h3>
+<p>Miután az összes információt átvetted, remélem, hogy megértetted, mire gondolok a javaslatommal. Összefoglalva a következőképpen hangzik:</p>
+<blockquote>
+<p>Az Európai Bizottságnak létre kellene hoznia egy független kormányzati ügynökséget, és megbízni azzal, hogy biztosítsa az online piac versenyképességét azáltal, hogy a közösségi platformokat arra kényszeríti, hogy nyílt kommunikációs protokollon keresztül legyenek elérhetők.</p>
+</blockquote>
+<p><strong>Mit jelent ez?</strong> Azt jelenti, hogy az EU-nak egy olyan szervezetet kellene létrehoznia, amely fejbe veri a vállalatokat, ha azok nem hajlandók decentralizálni. Ebben a részben elmagyarázom, miért gondolom, hogy ez a leghatékonyabb módja a decentralizált rendszer megvalósításának.</p>
+<p>Gyakorlatilag arra kényszerítve a közösségi média cégeket, hogy decentralizálják a szervereiket, így minden ügyfélnek lehetősége(!) van arra, hogy a szolgáltatáson kívüli emberekkel is kommunikáljon. A nyílt kommunikációs protokoll meghatározása együtt járna két kötelezettséggel, amit a platformoknak be kell tartaniuk:</p>
+<ol>
+<li>
+<p>Egy platform szolgáltatásainak elérésekor a felhasználó nem köteles a platform által szállított <em>(például okostelefonos alkalmazások, előre megírt HTML-oldalak vagy más szoftverek)</em> szoftvereket használni, hanem képesnek kell lennie arra, hogy olyan harmadik féltől származó szoftvert használjon, amely az Európai Bizottság által meghatározott protokoll szerint csatlakozik a szerverhez;</p>
+</li>
+<li>
+<p>A platformnak lehetővé kell tennie, hogy a harmadik féltől származó szolgáltatások az Európai Bizottság által meghatározott protokoll szerint csatlakozhassanak a platform szerveréhez, amennyiben szándékukban áll támogatni a platformok, szerverek és saját üzemeltetésű szoftverek közötti interoperábilis kommunikációt;</p>
+</li>
+</ol>
+<p>Nem vagyok se jogász, se politikus, se bármi más, úgyhogy ezt ne vegyék túlságosan jogi zsargonnak. Ha ezek a szabályok bármiben nem egyértelműek, küldjetek üzenetet, és megváltoztatom őket.</p>
+<h3 id="how-to-realise-your-goals-while-fighting-big-companies">Hogyan valósítsd meg a céljaidat a nagyvállalatokkal való harcban</h3>
+<p>Bár új törvények megalkotásával sokat tehetünk az eszményeink megvalósításáért, gyakran előfordul, hogy a nagyvállalatoknak sikerül kibújniuk a tervezett korlátozások alól - vegyük például <a href="https://ruben.verborgh.org/">Ruben Verborgh</a>, aki 2019 januárjában törölte a Facebookot, és azóta is próbálja megszerezni az összes személyes adatát a Facebookról. Ahelyett, hogy betartaná a törvényeket, a Facebook azt állítja, hogy nincs szükségük az adatok megosztására, és hosszú és unalmas e-mailekben folyamatosan megtagadja a választ. <a href="https://ruben.verborgh.org/facebook/">[13]</a> Egyesek azt gondolhatják, hogy a nagy technológiai vállalatoknak mindig sikerül kiskapukat találniuk az újonnan hozott törvényekben - de vajon igaz ez?</p>
+<p><div class="img-center"><img alt="Facebook menu that allows you to delete your Facebook account" src="../images/delete-facebook.jpg" title="With the enactment of the GDPR, Facebook will now delete all unanonymous information about you from their servers. But what exactly did they store and know about you? This question remains unanswered."/></div></p>
+<p>Beleástam magam Hollandia történelmébe, és találtam néhány érdekességet, amit nem tudtam. Egy kormányzati ügynökségről van szó, a <em>Független Posta- és Távközlési Hatóság</em>, röviden <strong>OPTA</strong>. <a href="https://en.wikipedia.org/wiki/Onafhankelijke_Post_en_Telecommunicatie_Autoriteit">[14]</a> Egyik fő feladatuk az volt, hogy biztosítsák az EU-ban a távközlési szolgáltatók közötti átjárhatóságot.</p>
+<p>Ez azt jelentette, hogy az OPTA biztosította, hogy nem számít, melyik holland távközlési szolgáltatót választja, mindig képes lesz kommunikálni a különböző vállalatok előfizetéseivel rendelkező emberekkel. Képzelje el, hogy szüksége van egy <strong><a href="https://en.wikipedia.org/wiki/Vodafone">Vodafone</a></strong> előfizetésre a kollégáival való telefonáláshoz, egy <strong><a href="https://en.wikipedia.org/wiki/Deutsche_Telekom">Deutsche Telekom</a></strong> előfizetésre a családjával való telefonáláshoz, és egy másik <strong><a href="https://en.wikipedia.org/wiki/SoftBank_Group">SoftBank</a></strong> előfizetésre a tengerentúli barátaival való telefonáláshoz! Ehelyett a kormány az OPTA-t jelölte ki, hogy biztosítsa, hogy nem számít, melyik szolgáltatót használod. <a href="https://nl.wikipedia.org/wiki/Europees_telecommunicatierecht">[15]</a> Ismerősen cseng?</p>
+<p>Manapság a piac annyira szabad, hogy az OPTA már nem létezik, és néhány más ügynökséggel együtt egyesültek a Holland Fogyasztói és Piacfelügyeleti Hatóságba, amely még mindig passzívan felügyeli a távközlési piacot. <a href="https://en.wikipedia.org/wiki/Netherlands_Authority_for_Consumers_and_Markets">[16]</a> Manapság a szolgáltatóváltás olyan egyszerű, mint <em>megmondani</em>, hogy váltani akarsz, és a szolgáltatók mindent elintéznek helyetted. Ha a szolgáltatója bármikor olyan gyanús feltételekkel áll elő, amelyek nem tetszenek Önnek, egyszerűen kijelenti, hogy váltani fog, és továbblép.</p>
+<blockquote>
+<p>Az emberek a szolgáltató minősége alapján választanak mobil-előfizetést. Senki sem próbálja meggyőzni a másikat, hogy váltson szolgáltatót.</p>
+</blockquote>
+<p>Ez számomra ideális világnak hangzik: ilyenkor a fogyasztó valóban szabadon választhat a termék közül. A cég <em>minősége</em> alapján választja ki, amit szeretne, nem pedig az alapján, hogy egy szolgáltatónál el tud-e érni a rokonokat - mert bármelyiknél el tud érni őket.</p>
+<p>Szükségünk van egy OPTA 2.0-ra, egy új ügynökségre az Európai Unióban, amely nemcsak a távközlési, hanem a digitális kommunikációs piacot is valóban tisztességesnek és szabadnak tekinti.</p>
+<h3 id="what-would-opta-20-do">Mit tenne az OPTA 2.0?</h3>
+<p>Az OPTA 2.0 a decentralizációt a <a href="https://matrix.org/docs/develop">hogy a Matrix meghatározza a protokollját</a>-hoz hasonló módon biztosíthatja: egy nyílt kommunikációs protokoll előzetes meghatározásával, amelyet a vállalatoknak támogatniuk kell. Ezt is nagyon egyszerűen ellenőrizni lehet - ha a meghatározott protokoll segítségével hozzáférhetünk a fiókunkhoz, akkor a vállalat megfelel a szabályoknak. Ha nem tudsz így hozzáférni a számládhoz, akkor a vállalat nem felel meg a szabályoknak.</p>
+<p>Ráadásul az OPTA 2.0 döntési jogköre hasonló lenne ahhoz, ahogyan az OPTA döntései működtek: követeléseik kötelező érvényűek lennének a nagy techcégek számára, ugyanakkor követeléseiket a bíróságon felül lehet bírálni. Ez elegendő végrehajtó hatalmat biztosít az OPTA 2.0-nak ahhoz, hogy kellően gyors döntéseket hozzon az internet folyamatosan változó környezetében.</p>
+<p>Az OPTA 2.0 fő célja egy olyan nyílt kommunikációs protokoll kialakítása és meghatározása lenne, amely minden európai polgár igényeinek megfelel, amikor online kommunikációról van szó: egy olyan protokoll, mint például az <strong>XMPP</strong>, szilárd keretrendszerrel rendelkezik, de kevésbé összpontosít azokra a funkciókra, amelyeket manapság triviálisnak tartunk, pl. csoportos csevegések az 1 az 1 elleni beszélgetések helyett, reakciók az üzenetekre stb. Egy jó uniós nyílt kommunikációs protokoll az emberek igényeinek támogatása körül forogna.</p>
+<p>Ezenkívül a nyílt kommunikációs protokollnak könnyen áthidalhatónak kell lennie egy másik nyílt kommunikációs protokollal. Így az embereknek még az is megmarad a szabadságuk, hogy alternatív módon kommunikáljanak. Ez a decentralizált rendszer legfontosabb jellemzője: még csak nem is kell ugyanazt a protokollt használni, és mégis beszélhetünk egymással. A vállalatoknak legalább <em>mindenképpen</em> támogatniuk kell az OPTA 2.0 protokoll szerinti kommunikációt, az egyének szabadon használhatják azt a protokollt vagy platformot, amelyet akarnak.</p>
+<h3 id="why-hasnt-it-happened-yet">Miért nem történt még meg?</h3>
+<p>Ha még mindig ezt a cikket olvasod, <em>(köszönöm!)</em> akkor valószínűleg azon gondolkodsz, hogy ez miért nem történt még meg - és a válasz az, hogy ez bonyolult. Az Európai Bizottság már javaslatot tett <a href="https://ec.europa.eu/digital-single-market/en/digital-services-act-package">a digitális szolgáltatásokról szóló törvénycsomagokra</a>, amelyek megkönnyítik a versenyt az online piacon.</p>
+<p>Ezzel párhuzamosan a holland politikusok nem túl tájékozottak, ha digitális témákról van szó, és általában nincsenek konkrét ötleteik, amelyekért dolgozhatnának. <a href="https://www.agconnect.nl/artikel/it-kennisniveau-politiek-laag-maar-wordt-beter">[17]</a> Éppen ezért szándékoztam megosztani a kommunikációnk decentralizálásának ötletét - de kevés sikerrel.</p>
+<p>Amikor felvettem a kapcsolatot a holland politikai pártokkal, nem biztosítottak arról, hogy a decentralizált kommunikációs protokollokat már fontolóra vették volna. A <a href="https://en.wikipedia.org/wiki/GroenLinks">GroenLinks</a> és a <a href="https://en.wikipedia.org/wiki/Labour_Party_(Hollandia)">PvdA</a> elismerte, hogy fogalmuk sincs, mi az a nyílt kommunikációs hálózat, a <a href="https://en.wikipedia.org/wiki/Socialist_Party_(Hollandia)">SP</a> egy tanácsadó bizottságot kíván létrehozni, amely tájékoztatja őket a számítógépes témákról, a <a href="https://en.wikipedia.org/wiki/People%27s_Party_for_Freedom_and_Democracy">VVD</a>, Hollandia legnagyobb pártja pedig még azt is gondolta, hogy egy alkalmazást akarok eladni nekik, mondván, a kormánynak nem kellene kifejlesztenie a Whatsapp saját verzióját.</p>
+<blockquote>
+<p>A probléma nem az, hogy az ötlet irreális vagy ellentmondásos - a probléma az, hogy senki sem tudja, mi az. A politikusok sem tudják.</p>
+</blockquote>
+<p>Ez az ötlet biztosíthatná a szabad és tisztességes digitális piacot, lehetővé tenné, hogy mindenki elhagyhassa a neki nem tetsző platformot, megszüntetné a zsarolást a közösségi média platformokon, és mindenkinek megadná a szabadságot, hogy azzal kommunikáljon, akivel akar.</p>
+<p><br/></p>
+<h2 id="what-you-can-do-about-it">Mit tehetsz ellene</h2>
+<p>A probléma nem bonyolult vagy ellentmondásos, egyszerűen csak egy ismeretlen téma! Ha azt szeretnéd, hogy az alkalmazásaid decentralizáltak legyenek, gondoskodj arról, hogy az emberek tudjanak erről a koncepcióról. Nem vagyok politikus, így nem tudom ezeket a politikákat életbe léptetni, de a legjobb módja annak, hogy bármi ilyesmit életbe léptessünk, a mentalitásunk megváltoztatása: ha mindenki decentralizációt akar, a politikusok elég hamar felkapják az ötletet, és egészséges megoldásként fogják bemutatni.</p>
+<blockquote>
+<p>Tegyük a cégek sikerét a minőségükre, ne pedig a platformjuk elhagyásának nehézségére alapozzuk.</p>
+</blockquote>
+<p>Ha történetesen egyetértesz, mit tudsz <em>tenni</em>? A következő lépéseket teheti meg:</p>
+<ul>
+<li><strong><ins>Nézz meg egy élő bemutatót</ins></strong> az <a href="https://www.youtube.com/watch?v=v5Y8zCwIxjI">ezen a YouTube-videón</a>, amelyet én készítettem. Segítségével világos képet kaphatsz arról, hogyan működik egy nyílt kommunikációs hálózat;</li>
+<li><strong><ins>Olvass el néhány további infót és választ a kritikákra</ins></strong>, hogy még jobban átgondold a témát. A <a href="/b/decentralize-nem-mozdul-az-goalpost.md">a cikket itt</a> találod;</li>
+<li><strong><ins>Megosztja ezt a cikket</ins></strong> az ismerőseivel. Ez azonban csak rajtad múlik;</li>
+<li><strong><ins>Szembesítse politikusait a koncepcióval.</ins></strong> Túl sok politikus manapság levélben, e-mailben vagy néha még Whatsappon is elérhető. Kérdezd meg, mi a véleményük a decentralizációról, és hogy tetszik-e nekik az ötlet. Legrosszabb esetben elgondolkodtatod őket;</li>
+<li><strong><ins>Szólj hozzám.</ins></strong> Ha van kiegészítés, bármilyen árnyalat vagy bármi más, amit szeretnél hozzátenni, nyugodtan lépj kapcsolatba velem <a href="mailto:decentralization@bram.blmgroep.nl">E-mail</a>, <a href="https://discord.gg/uctWsYv">Discord</a> vagy <a href="https://www.reddit.com/r/Noordstar/">Reddit</a>. A <strong>Matrix</strong>-on is elérhető vagyok a <code>#opta_2.0:nltrix.net</code> szobában, ha szeretnéd kipróbálni a <strong>Matrix</strong>-ot magadnak.</li>
+</ul>
+<p>Remélem, hogy ez a cikk érdekes olvasmány volt az Ön számára. Ha szükséges, a jövőben frissíteni fogom ezt a cikket, és figyelemmel kísérem a reakciókat, megjegyzéseket és frissítéseket. Szabaduljunk meg azoktól a platformoktól, amelyekből elegünk van - és szabaduljunk meg azoktól az emberektől, akik megpróbálnak meggyőzni, hogy telepítsünk még több kommunikációs alkalmazást!</p>
+<p><br/>
+<br/></p>
+<h2 id="sources">Források</h2>
+<p>[1] Dweb: Decentralizált, valós idejű, interoperábilis kommunikáció Mátrixszal <a href="https://hacks.mozilla.org/2018/10/dweb-decentralised-real-time-interoperable-communication-with-matrix/">https://hacks.mozilla.org/2018/10/dweb-decentralised-real-time-interoperable-communication-with-matrix/</a></p>
+<p>[2] Végponttól végpontig terjedő titkosítás végrehajtási útmutató <a href="https://matrix.org/docs/guides/end-to-end-encryption-implementation-guide">https://matrix.org/docs/guides/end-to-end-encryption-implementation-guide</a></p>
+<p>[3] A Matrix és a Riot megerősítette, hogy a francia Secure Instant Messenger alkalmazás <a href="https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app">https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app</a> alapját képezi.</p>
+<p>[4] A Slack-rivális Element nyerte el az eddigi legnagyobb együttműködési szoftverüzletet <a href="https://sifted.eu/articles/element-germany-deal/">https://sifted.eu/articles/element-germany-deal/</a></p>
+<p>[5] A WhatsApp szerint nem kell aggódni amiatt, hogy személyes adatokat oszt meg a Facebookkal. A szakértők szerint inkább váltson a "nagy bizalommal bíró" Signalra. <a href="https://www.businessinsider.com/whatsapp-experts-users-worry-about-sharing-personal-data-with-facebook-2021-1?international=true&amp;r=US&amp;IR=T">https://www.businessinsider.com/whatsapp-experts-users-worry-about-sharing-personal-data-with-facebook-2021-1?international=true&amp;r=US&amp;IR=T</a></p>
+<p>[6] A YouTube-nak hatalmas problémája van... - Markiplier, YouTube <a href="https://www.youtube.com/watch?v=pWaz7ofl5wQ">https://www.youtube.com/watch?v=pWaz7ofl5wQ</a></p>
+<p>[7] A @realDonaldTrump <a href="https://blog.twitter.com/en_us/topics/company/2020/suspension.html">https://blog.twitter.com/en_us/topics/company/2020/suspension.html</a> végleges felfüggesztése.</p>
+<p>[8] A Facebook engedélyezi az Oculus Quest 2 tulajdonosok számára az Oculus Quest 2 birtoklását <a href="https://www.extremetech.com/gaming/316326-facebook-is-permabanning-oculus-quest-2-owners-for-owning-an-oculus-quest-2">https://www.extremetech.com/gaming/316326-facebook-is-permabanning-oculus-quest-2-owners-for-owning-an-oculus-quest-2</a></p>
+<p>[9] 230. szakasz - Wikipédia <a href="https://en.wikipedia.org/wiki/Section_230">https://en.wikipedia.org/wiki/Section_230</a></p>
+<p>[10] A 2016-os amerikai választások során nem megbízható weboldalaknak való kitettség <a href="https://www.nature.com/articles/s41562-020-0833-x">https://www.nature.com/articles/s41562-020-0833-x</a></p>
+<p>[11] Közösségi média és demokrácia: törvényekre van szükségünk, nem platformirányelvekre <a href="https://www.europarl.europa.eu/news/en/headlines/society/20210204STO97129/social-media-and-democracy-we-need-laws-not-platform-guidelines">https://www.europarl.europa.eu/news/en/headlines/society/20210204STO97129/social-media-and-democracy-we-need-laws-not-platform-guidelines</a></p>
+<p>[12] A WhatsApp körüli biztonsági botrány megmutatja, hogy decentralizált üzenetküldőkre és digitális szuverenitásra van szükség <a href="https://fsfe.org/news/2020/news-20200228-01.en.html">https://fsfe.org/news/2020/news-20200228-01.en.html</a></p>
+<p>[13] Személyes adataim kiszedése a Facebookról <a href="https://ruben.verborgh.org/facebook/">https://ruben.verborgh.org/facebook/</a></p>
+<p>[14] Onafhankelijke Post en Telecommunicatie Autoriteit - Wikipedia <a href="https://en.wikipedia.org/wiki/Onafhankelijke_Post_en_Telecommunicatie_Autoriteit">https://en.wikipedia.org/wiki/Onafhankelijke_Post_en_Telecommunicatie_Autoriteit</a>.</p>
+<p>[15] Europees telecommunicatierecht - Wikipédia <a href="https://nl.wikipedia.org/wiki/Europees_telecommunicatierecht">https://nl.wikipedia.org/wiki/Europees_telecommunicatierecht</a></p>
+<p>[16] Holland Fogyasztóvédelmi és Piacfelügyeleti Hatóság <a href="https://en.wikipedia.org/wiki/Netherlands_Authority_for_Consumers_and_Markets">https://en.wikipedia.org/wiki/Netherlands_Authority_for_Consumers_and_Markets</a></p>
+<p>[17] Az IT-szakma politikai színvonala lanyhul, de ez jobb - AG Connect <a href="https://www.agconnect.nl/artikel/it-kennisniveau-politiek-laag-maar-wordt-beter">https://www.agconnect.nl/artikel/it-kennisniveau-politiek-laag-maar-wordt-beter</a></p>
+</article>
+</section>
+<footer>
+<p>Ezt a weboldalt a <a href="https://noordstar.me/">BramvdnHeuvel</a> készítette.<br/> Kapcsolatba léphet velük <a href="mailto:digital-rights@bram.blmgroep.nl">E-mail</a> vagy a <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Mátrix</a> oldalon.</p>
+<script src="https://digital-justice.com/js/expand-iframes.js"></script>
+<script src="https://digital-justice.com/js/language-picker.js"></script>
+</footer>
+</body>
+</html>

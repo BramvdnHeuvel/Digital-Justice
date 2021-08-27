@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Open Sans font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet"/>
+<!-- Playfair Display font-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" id="u-page-google-font" rel="stylesheet"/>
+<!-- CSS -->
+<link href="../all.css" rel="stylesheet" type="text/css"/>
+<!-- Meta tags -->
+<!-- Primary Meta Tags -->
+<title>Kā pievienoties Matrix tīklam</title>
+<meta content="Kā pievienoties Matrix tīklam" name="title"/>
+<meta content="Ir gan humāni, gan ekonomiski iemesli, lai pievienotos Matrix. Lūk, kā jūs sākat piedalīties Matrix!" name="description"/>
+<!-- FontAwesome -->
+<link href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://digital-justice.com/" property="og:url"/>
+<meta content="Kā pievienoties Matrix tīklam" property="og:title"/>
+<meta content="Ir gan humāni, gan ekonomiski iemesli, lai pievienotos Matrix. Lūk, kā jūs sākat piedalīties Matrix!" property="og:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://digital-justice.com/" property="twitter:url"/>
+<meta content="Kā pievienoties Matrix tīklam" property="twitter:title"/>
+<meta content="Ir gan humāni, gan ekonomiski iemesli, lai pievienotos Matrix. Lūk, kā jūs sākat piedalīties Matrix!" property="twitter:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="twitter:image"/>
+<!-- Favicon -->
+<!-- Favicon -->
+<link href="https://digital-justice.com/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://digital-justice.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://digital-justice.com/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://digital-justice.com/icons/site.webmanifest" rel="manifest"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="../index.html"><i class="fas fa-home"></i> Sākums</a>
+<a href="../rights.html">Digitālās tiesības</a>
+<a href="index.html">Raksti</a>
+<div id="language-picker"></div>
+<a class="hamburger" href="javascript:void(0)" onclick="openHamburger()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+<script src="https://digital-justice.com/js/open-hamburger.js"></script>
+</header>
+<section class="simple-orange">
+<article class="essay-title">
+<h1>Kā pievienoties Matrix tīklam</h1>
+<p>Skatiet oriģinālo rakstu <a href="https://noordstar.me/b/how-to-join-matrix.md">šeit</a> vai turpiniet lasīt.</p>
+<p>Paredzamais lasīšanas laiks: <img class="icon" src="../images/clock.svg"/> 3 min.</p>
+</article>
+</section>
+<section class="simple-gray flex-container">
+<article class="blog">
+<span class="card-type">Mācību pamācība</span>
+<hr/>
+<h1 id="how-to-join-the-matrix-network">Kā pievienoties Matrix tīklam</h1>
+<p>Ir <a href="https://noordstar.me/b/decentralize.md" target="_blank">humāni apsvērumi</a>, kā arī <a href="https://www.youtube.com/watch?v=PTL-8Lc_nAI&amp;" target="_blank">ekonomiski iemesli</a>, lai pievienotos Matrix. Šajā rakstā tiek pieņemts, ka tu esi gatavs to izmēģināt, un es tev izskaidrošu, kā tai pievienoties!</p>
+<p>Matrix garantē privātumu un datu suverenitāti, taču var būt sarežģīti un mulsinoši pievienoties šim tīklam. Šī ir vienkārša pamācība, kas palīdzēs jums izveidot Matrix kontu.</p>
+<div>
+<ul>
+<li><a href="#how-to-join-the-matrix-network">Kā pievienoties Matrix tīklam</a>
+<ul>
+<li><a href="#quick-guide">Īss ceļvedis</a></li>
+<li><a href="#step-1-choose-a-client">1. solis: izvēlieties klientu</a>
+<ul>
+<li><a href="#element">Elements</a></li>
+<li><a href="#fluffychat">FluffyChat</a></li>
+<li><a href="#matrixcli">matrixcli</a></li>
+<li><a href="#miitrix">Miitrix</a></li>
+</ul>
+</li>
+<li><a href="#step-2-choose-a-homeserver">2. solis: izvēlieties mājas serveri</a></li>
+<li><a href="#step-3-create-an-account">3. solis: izveidojiet kontu</a></li>
+<li><a href="#step-4-connect-to-your-friends">4. solis: izveidojiet savienojumu ar draugiem</a></li>
+<li><a href="#step-5-connect-with-people-on-other-platforms">5. solis: savienojieties ar cilvēkiem citās platformās</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="quick-guide">Īss ceļvedis</h2>
+<p>Ja nevarat izvēlēties, izmantojiet šādas iespējas. 1. solī izvēlieties <strong>Elementu</strong>. Izvēlieties <strong>nltrix.net</strong>, ja protat holandiešu valodu un dzīvojat Eiropā, pretējā gadījumā 2. solī izvēlieties <strong>matrix.org</strong>.</p>
+<h2 id="step-1-choose-a-client">1. solis: izvēlieties klientu</h2>
+<p>Lai runātu ar Matricu, ir jāizmanto lietotne. Tomēr nav svarīgi, kuru lietotni jūs izvēlaties! Visas ir piemērotas, un ar visām var sazināties savā starpā. Turklāt jūs vienmēr varat nomainīt lietotni, kad vien pārdomājat.</p>
+<p>Ja vēlaties pats izvēlēties klientu, varat <a href="https://matrix.org/clients/">atrast pieejamo klientu sarakstu šeit</a>. Pretējā gadījumā ļaujiet man sniegt jums dažus ieteikumus.</p>
+<h3 id="element">Elements</h3>
+<div class="img-center">
+<img alt="Element logo" src="../images/element.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://element.io/">Element</a> ir lietotne, kuru aktīvi uztur Matrix organizācija.</p>
+<p><strong>Platformas:</strong> Pārlūkprogramma, Windows, Linux, Android, iOS</p>
+<ul>
+<li>✅ Parasti visātrāk lietotne saņem jaunākos atjauninājumus;</li>
+<li>✅ Oficiāli atbalsta organizācija Matrix;</li>
+<li>✅ Atbalsta visu Matrix funkcionalitāti;</li>
+<li>❌ Izgatavots programmētājiem un dažkārt var būt nedaudz sarežģīts.</li>
+</ul>
+<h3 id="fluffychat">FluffyChat</h3>
+<div class="img-center">
+<img alt="FluffyChat logo" src="../images/fluffychat.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://fluffychat.im/">FluffyChat</a> ir atvērtā koda lietotne, kas ir viegli lietojama un ļoti draudzīga lietotājam. Tās funkcionalitāte ir ierobežota, kas nozīmē, ka tā ir gan viegli saprotama, bet arī ierobežota tajā, ko tā ļauj darīt Matrix. Šī lietotne vislabāk ir piemērota bērniem un cilvēkiem, kuri nav pārāk labi pazīstami ar sociālajiem medijiem.</p>
+<p><strong>Platformas:</strong> Pārlūkprogramma, Linux, Android, iOS</p>
+<ul>
+<li>✅ Viegli lietojams un uztverams;</li>
+<li>✅ Vienkārša lietotāja saskarne;</li>
+<li>❌ Ierobežota funkcionalitāte.</li>
+</ul>
+<h3 id="matrixcli">matrixcli</h3>
+<p>Ja esat programmētājs, kurš ienīst grafiskos interfeisus un mīl izpildīt tiešas komandas terminālī visām savām komandām, tad <a href="https://github.com/saadrushd/matrixcli">matrixcli</a> ir tieši tas, kas jums nepieciešams.</p>
+<p>Ko tur teikt? Tas ir komandrindas klients. Varu derēt, ka Vim cienītājiem šāds klients patiks.</p>
+<ul>
+<li>✅ Ļoti minimāla ietekme uz datora veiktspēju;</li>
+<li>❌ Liels "nē" cilvēkiem, kuri neprot programmēt;</li>
+<li>❌ Interfeisa trūkums dažiem cilvēkiem to var padarīt garlaicīgu lietošanā.</li>
+</ul>
+<h3 id="miitrix">Miitrix</h3>
+<div class="img-center">
+<img alt="Miitrix on a Nintendo 3DS" src="../images/miitrix-600.jpg" style="max-width:450px;"/>
+</div>
+<p>Ko?! Jūs varat sazināties ar Matrix tīklu no sava Nintendo 3DS?! Tieši tā, ar <a href="https://github.com/Sorunome/miitrix">Miitrix</a> jūs varat! Es nezinu, kāpēc tu to vēlies, bet es domāju, ka vari.</p>
+<ul>
+<li>✅ To var izmantot Nintendo 3DS;</li>
+<li>❌ To var izmantot tikai ar Nintendo 3DS.</li>
+</ul>
+<h2 id="step-2-choose-a-homeserver">2. solis: izvēlieties mājas serveri</h2>
+<p>Jūs varat brīvi izmantot jebkuru serveri, kas jums patīk. Uz šī servera tiks izvietots jūsu konts un dati. Pašlaik jūs nevarat pārvietot kontus uz dažādiem mājasserveriem, tāpēc pašlaik varat tikai <em>pārslēgties</em> starp mājasserveriem, izveidojot jaunu kontu.</p>
+<p>Es ieteiktu kādu no šādiem mājas serveriem. Alternatīvi varat izvēlēties mājasserveri paši. Mājasserveriem <a href="https://publiclist.anchel.nl/">no šī saraksta</a> vajadzētu būt piemērotiem.</p>
+<table border="1">
+<thead>
+<tr>
+<th>Servera nosaukums</th>
+<th>Domēns</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://app.element.io/">Matricas serveris</a></td>
+<td>matrix.org</td>
+<td>
+<ul>
+<li>Oficiālais Matrix serveris</li>
+<li>Aktuāla garantija</li>
+<li>Dažreiz kavējas, jo ir pārāk daudz lietotāju</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://element.nltrix.net/">NLtrix serveris</a></td>
+<td>nltrix.net</td>
+<td>
+<ul>
+<li>Augstas veiktspējas bezmaksas holandiešu serveris</li>
+<li>Ļoti ātri Nīderlandes iedzīvotājiem</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://webchat.kde.org/">KDE serveris</a></td>
+<td>kur.modular.im</td>
+<td>
+<ul>
+<li>Nodrošināts ar ziedojumiem no kopienas</li>
+<li>Patiesi rūpējas par privātumu</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-3-create-an-account">3. solis: izveidojiet kontu</h2>
+<p>Instalējiet 1. solī izvēlēto lietotni. Pārliecinieties, ka esat izvēlējies pareizo mājasserveri <strong>pirms</strong> izveidojat savu kontu. Piemēram, ja 2. solī izvēlējāties <strong>NLtrix serveri</strong>, pārliecinieties, ka esat izveidojis kontu domēnā <code>nltrix.net</code>. Lielākajā daļā lietotņu pēc noklusējuma ir <code>matrix.org</code>.</p>
+<h2 id="step-4-connect-to-your-friends">4. solis: izveidojiet savienojumu ar draugiem</h2>
+<p>Ja nepieciešama palīdzība, pievienojieties istabai <code>#matrix:matrix.org</code>. Šeit svešinieki internetā labprāt palīdzēs jums virzīties uz priekšu. Turklāt sazinieties ar mani pa e-pastu <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</a>, lai saņemtu atbalstu.</p>
+<p>Ja šo rakstu jums atsūtīja kāds draugs, viņam, iespējams, ir konts, un esmu pārliecināts, ka viņš labprāt jums palīdzēs. Nosūtiet viņiem tērzēšanas pieprasījumu, un jums būs sava pilnībā end-to-end šifrēta ziņa ar draugu!</p>
+<h2 id="step-5-connect-with-people-on-other-platforms">5. solis: savienojieties ar cilvēkiem citās platformās</h2>
+<p>Visa Matrix būtība ir tāda, ka tā var sarunāties pat ar cilvēkiem citās platformās! Es drīzumā rakstīšu rakstus par to, kā tu vari savienot savas Telegram un Discord sarunas. Kad es tos būsim uzrakstījuši, es tos publicēšu šeit.</p>
+<p>To var noskaidrot arī pats <a href="https://t2bot.io/">t2bot.io</a>.</p>
+<p>Pagaidām izbaudiet savas patiesi privātās sarunas Matricā!</p>
+</article>
+</section>
+<footer>
+<p>Šo tīmekļa vietni izveidoja <a href="https://noordstar.me/">BramvdnHeuvel</a>.<br/> Jūs varat sazināties ar viņiem pa <a href="mailto:digital-rights@bram.blmgroep.nl">pastu</a> vai <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Matrix</a>.</p>
+<script src="https://digital-justice.com/js/language-picker.js"></script>
+</footer>
+</body>
+</html>

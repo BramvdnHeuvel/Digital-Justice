@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Open Sans font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet"/>
+<!-- Playfair Display font-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" id="u-page-google-font" rel="stylesheet"/>
+<!-- CSS -->
+<link href="../all.css" rel="stylesheet" type="text/css"/>
+<!-- Meta tags -->
+<!-- Primary Meta Tags -->
+<title>Sådan bliver du medlem af Matrix-netværket</title>
+<meta content="Sådan bliver du medlem af Matrix-netværket" name="title"/>
+<meta content="Der er både humanitære og økonomiske grunde til at tilslutte sig Matrix. Her er hvordan du kommer i gang med Matrix!" name="description"/>
+<!-- FontAwesome -->
+<link href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://digital-justice.com/" property="og:url"/>
+<meta content="Sådan bliver du medlem af Matrix-netværket" property="og:title"/>
+<meta content="Der er både humanitære og økonomiske grunde til at tilslutte sig Matrix. Her er hvordan du kommer i gang med Matrix!" property="og:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://digital-justice.com/" property="twitter:url"/>
+<meta content="Sådan bliver du medlem af Matrix-netværket" property="twitter:title"/>
+<meta content="Der er både humanitære og økonomiske grunde til at tilslutte sig Matrix. Her er hvordan du kommer i gang med Matrix!" property="twitter:description"/>
+<meta content="https://digital-justice.com/images/software-autonomy-nologo.png" property="twitter:image"/>
+<!-- Favicon -->
+<!-- Favicon -->
+<link href="https://digital-justice.com/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://digital-justice.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://digital-justice.com/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://digital-justice.com/icons/site.webmanifest" rel="manifest"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="../index.html"><i class="fas fa-home"></i> Forside</a>
+<a href="../rights.html">Digitale rettigheder</a>
+<a href="index.html">Artikler</a>
+<div id="language-picker"></div>
+<a class="hamburger" href="javascript:void(0)" onclick="openHamburger()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+<script src="https://digital-justice.com/js/open-hamburger.js"></script>
+</header>
+<section class="simple-orange">
+<article class="essay-title">
+<h1>Sådan bliver du medlem af Matrix-netværket</h1>
+<p>Se den oprindelige artikel <a href="https://noordstar.me/b/how-to-join-matrix.md">her</a>, eller læs videre.</p>
+<p>Anslået læsetid: <img class="icon" src="../images/clock.svg"/> 3 min.</p>
+</article>
+</section>
+<section class="simple-gray flex-container">
+<article class="blog">
+<span class="card-type">Vejledning</span>
+<hr/>
+<h1 id="how-to-join-the-matrix-network">Sådan bliver du medlem af Matrix-netværket</h1>
+<p>Der er <a href="https://noordstar.me/b/decentralize.md" target="_blank">humanitære grunde</a> såvel som <a href="https://www.youtube.com/watch?v=PTL-8Lc_nAI&amp;" target="_blank">økonomiske grunde</a> til at tilslutte sig Matrix. Denne artikel forudsætter, at du er villig til at give det et forsøg, og jeg vil forklare dig, hvordan du kan tilslutte dig det!</p>
+<p>Privatliv og datasuverænitet er garanteret på Matrix, men det kan være svært og forvirrende at tilmelde sig netværket. Dette er en simpel vejledning, der hjælper dig med at oprette din Matrix-konto.</p>
+<div>
+<ul>
+<li><a href="#how-to-join-the-matrix-network">Sådan bliver du medlem af Matrix-netværket</a>
+<ul>
+<li><a href="#quick-guide">Hurtig vejledning</a></li>
+<li><a href="#step-1-choose-a-client">Trin 1: vælg en kunde</a>
+<ul>
+<li><a href="#element">Element</a></li>
+<li><a href="#fluffychat">FluffyChat</a></li>
+<li><a href="#matrixcli">matrixcli</a></li>
+<li><a href="#miitrix">Miitrix</a></li>
+</ul>
+</li>
+<li><a href="#step-2-choose-a-homeserver">Trin 2: vælg en hjemmeserver</a></li>
+<li><a href="#step-3-create-an-account">Trin 3: opret en konto</a></li>
+<li><a href="#step-4-connect-to-your-friends">Trin 4: opret forbindelse til dine venner</a></li>
+<li><a href="#step-5-connect-with-people-on-other-platforms">Trin 5: opret kontakt med folk på andre platforme</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="quick-guide">Hurtig vejledning</h2>
+<p>Hvis du ikke kan vælge, kan du vælge mellem følgende muligheder. Vælg <strong>Element</strong> på trin 1. Vælg <strong>nltrix.net</strong>, hvis du taler nederlandsk og bor i Europa, ellers vælg <strong>matrix.org</strong> på trin 2.</p>
+<h2 id="step-1-choose-a-client">Trin 1: vælg en kunde</h2>
+<p>Du skal bruge en app for at tale på Matrix. Det er dog ligegyldigt, hvilken app du vælger! Alle er fine, og alle kan kommunikere med hinanden. Desuden kan du altid skifte app, når du skifter mening.</p>
+<p>Hvis du selv ønsker at vælge en klient, kan du <a href="https://matrix.org/clients/">finde en liste over tilgængelige klienter her</a>. Ellers kan jeg give dig nogle anbefalinger.</p>
+<h3 id="element">Element</h3>
+<div class="img-center">
+<img alt="Element logo" src="../images/element.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://element.io/">Element</a> er den app, der aktivt vedligeholdes af Matrix-organisationen.</p>
+<p><strong>Platforme:</strong> Browser, Windows, Linux, Android, iOS</p>
+<ul>
+<li>✅ Normalt er det den hurtigste app til at få de seneste opdateringer;</li>
+<li>✅ Officielt støttet af Matrix-organisationen;</li>
+<li>✅ Understøtter alle Matrix-funktioner;</li>
+<li>❌ Lavet til programmører og kan nogle gange være lidt kompliceret.</li>
+</ul>
+<h3 id="fluffychat">FluffyChat</h3>
+<div class="img-center">
+<img alt="FluffyChat logo" src="../images/fluffychat.png" style="max-width:450px;"/>
+</div>
+<p><a href="https://fluffychat.im/">FluffyChat</a> er en open source-app, der er let at bruge og meget brugervenlig. Dens funktionalitet er begrænset, hvilket betyder, at den både er let at forstå, men også begrænset i forhold til, hvad den lader dig gøre på Matrix. Denne app er bedst egnet til børn og til folk, der ikke er meget fortrolige med sociale medier.</p>
+<p><strong>Platforme:</strong> Browser, Linux, Android, iOS</p>
+<ul>
+<li>✅ Let at bruge og tage i brug;</li>
+<li>✅ Enkel brugergrænseflade;</li>
+<li>❌ Begrænset funktionalitet.</li>
+</ul>
+<h3 id="matrixcli">matrixcli</h3>
+<p>Hvis du er en programmør, der hader GUI'er og elsker at køre direkte kommandoer i terminalen for alle sine kommandoer, så er <a href="https://github.com/saadrushd/matrixcli">matrixcli</a> lige hvad du har brug for.</p>
+<p>Hvad er der at sige? Det er en kommandolinjeklient. Jeg vil vædde med, at Vim-elskere nyder denne slags klient.</p>
+<ul>
+<li>✅ Super minimalistisk på din computers ydeevne;</li>
+<li>❌ Et stort nej for folk, der ikke kan programmere;</li>
+<li>❌ Den manglende grænseflade kan gøre det trættende at bruge for nogle mennesker.</li>
+</ul>
+<h3 id="miitrix">Miitrix</h3>
+<div class="img-center">
+<img alt="Miitrix on a Nintendo 3DS" src="../images/miitrix-600.jpg" style="max-width:450px;"/>
+</div>
+<p>Hvad?! Du kan tale med Matrix-netværket fra din Nintendo 3DS?! Det er rigtigt, med <a href="https://github.com/Sorunome/miitrix">Miitrix</a> kan du det! Jeg ved ikke, hvorfor du ville have lyst til det, men det kan du vel.</p>
+<ul>
+<li>✅ Du kan bruge det på en Nintendo 3DS;</li>
+<li>❌ Du kan kun bruge den på en Nintendo 3DS.</li>
+</ul>
+<h2 id="step-2-choose-a-homeserver">Trin 2: vælg en hjemmeserver</h2>
+<p>Det står dig frit for at bruge den server, som du ønsker. Denne server vil være vært for din konto og dine data. I øjeblikket kan du ikke flytte konti til forskellige hjemmeservere, så du kan i øjeblikket kun <em>skifte</em> mellem hjemmeservere ved at oprette en ny konto.</p>
+<p>Jeg vil anbefale en af følgende homeservere. Alternativt kan du selv vælge en homeserver. Homeserverne <a href="https://publiclist.anchel.nl/">fra denne liste</a> burde være fine.</p>
+<table border="1">
+<thead>
+<tr>
+<th>Servernavn</th>
+<th>Domæne</th>
+<th>Beskrivelse</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://app.element.io/">Matrix Server</a></td>
+<td>matrix.org</td>
+<td>
+<ul>
+<li>Officiel Matrix-server</li>
+<li>Opdateret garanti</li>
+<li>Nogle gange laggy, fordi den har for mange brugere</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://element.nltrix.net/">NLtrix-server</a></td>
+<td>nltrix.net</td>
+<td>
+<ul>
+<li>Højtydende gratis hollandsk server med høj ydeevne</li>
+<li>Meget hurtigt for indbyggere i Nederlandene</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="https://webchat.kde.org/">KDE-server</a></td>
+<td>kde.modular.im</td>
+<td>
+<ul>
+<li>Drevet af en donation fra et fællesskab</li>
+<li>Er virkelig interesseret i privatlivets fred</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-3-create-an-account">Trin 3: opret en konto</h2>
+<p>Installer den app, du valgte i trin 1. Sørg for at vælge den rigtige hjemmeserver <strong>før</strong> du opretter din konto. Hvis du f.eks. vælger <strong>NLtrix-serveren</strong> i trin 2, skal du sørge for, at du opretter en konto på domænet <code>nltrix.net</code>. De fleste apps har <code>matrix.org</code> som standard.</p>
+<h2 id="step-4-connect-to-your-friends">Trin 4: opret forbindelse til dine venner</h2>
+<p>Hvis du har brug for hjælp, kan du deltage i rummet <code>#matrix:matrix.org</code>. Her hjælper fremmede mennesker på internettet dig gerne med at komme videre. Derudover er du velkommen til at kontakte mig på <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</a> for at få hjælp.</p>
+<p>Hvis en ven har sendt denne artikel til dig, har han/hun sikkert en konto, og jeg er sikker på, at han/hun gerne vil hjælpe dig. Send en chatforespørgsel til dem, og du vil have din egen fuldt end-to-end-krypterede besked med din ven!</p>
+<h2 id="step-5-connect-with-people-on-other-platforms">Trin 5: opret kontakt med folk på andre platforme</h2>
+<p>Hele pointen med Matrix er, at den endda kan tale med folk på andre platforme! Jeg vil snart skrive artikler om, hvordan du kan forbinde dine Telegram- og Discord-samtaler. Når jeg har skrevet dem, vil jeg poste dem hernede her.</p>
+<p>Du kan også selv finde ud af det på <a href="https://t2bot.io/">t2bot.io</a>.</p>
+<p>Indtil videre kan du nyde dine helt private samtaler på Matrix!</p>
+</article>
+</section>
+<footer>
+<p>Dette websted er bygget af <a href="https://noordstar.me/">BramvdnHeuvel</a>.<br/> Du kan kontakte dem via <a href="mailto:digital-rights@bram.blmgroep.nl">email</a> eller på <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Matrix</a>.</p>
+<script src="https://digital-justice.com/js/language-picker.js"></script>
+</footer>
+</body>
+</html>
