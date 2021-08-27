@@ -39,7 +39,7 @@ for (lan in languages) {
 
 document.getElementById("language-picker").innerHTML = `
 <div>
-    <img src="icons/flags/${currentLanguage}.jpg" style="height: 30px;">
+    <img src="https://digital-justice.com/icons/flags/${currentLanguage}.jpg" style="height: 30px;">
 </div>
 <div id="picker"></div>
 `;
@@ -50,7 +50,7 @@ let languagePicker = "";
 for (lan in languages) {
     languagePicker = languagePicker.concat(`
         <a href="${lan}/${route}">
-            <img src="icons/flags/${lan}.jpg">
+            <img src="https://digital-justice.com/icons/flags/${lan}.jpg">
             <span>${languages[lan]}</span>
         </a>
     `);
