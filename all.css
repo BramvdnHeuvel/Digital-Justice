@@ -86,6 +86,32 @@ nav a.hamburger {
     float: right;
     display: none;
 }
+nav #language-picker {
+    padding: 8px 14px 5px;
+    float: right;
+}
+nav #picker {
+    position: absolute;
+    top: 47.2px;
+    right: 0;
+    z-index: 1;
+    background-color: var(--shade-black-5);
+    display: none;
+}
+nav #language-picker:hover #picker {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 440px;
+}
+nav #picker > a {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2px;
+}
+nav #picker > a:hover {
+    background-color: var(--shade-gray-4);
+}
 
 footer {
     text-align: center;

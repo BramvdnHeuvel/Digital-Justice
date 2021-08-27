@@ -48,9 +48,10 @@
 <body>
     <header>
         <nav>
-            <a href="/"><i class="fas fa-home"></i> Home</a>
-            <a href="/rights.html">Digital rights</a>
-            <a href="/articles">Articles</a>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="rights.html">Digital rights</a>
+            <a href="articles/index.html">Articles</a>
+            <div id="language-picker"></div>
             <a href="javascript:void(0)" class="hamburger" onclick="openHamburger()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -59,7 +60,7 @@
     </header>
     <section class="simple-orange">
         <article class="essay-title">
-            <img src="images/software-autonomy-transparent.png">
+            <img src="https://digital-justice.com/images/software-autonomy-transparent.png">
             <h1>Liberate devices to maintain <b>software autonomy</b></h1>
             <p>
                 The manufacturer of an electronic device does not need a monopoly to deliver a good product. Separate the copyrights between hardware and software to maintain an open market on existing and new devices.
@@ -100,10 +101,10 @@
     <section class="light-green">
         <article class="two-parts">
             <div class="image" style="max-width: 440px;">
-                <img src="images/pexels-eren-li-7241423.jpg">
+                <img src="https://digital-justice.com/images/pexels-eren-li-7241423.jpg">
             </div>
             <div class="black-text large text" style="max-width: 550px;">
-                <img src="images/vr-glasses.svg" style="width: 50px;height: 50px;margin: 30px auto 0;filter: invert(50%) sepia(36%) saturate(674%) hue-rotate(115deg) brightness(91%) contrast(91%);">
+                <img src="https://digital-justice.com/images/vr-glasses.svg" style="width: 50px;height: 50px;margin: 30px auto 0;filter: invert(50%) sepia(36%) saturate(674%) hue-rotate(115deg) brightness(91%) contrast(91%);">
                 <h2>Oculus Quest 2</h2>
                 <p>A typical example would be <a href="https://www.oculus.com/quest-2/" target="_blank">Facebook's Oculus Quest 2</a>, which doesn't allow you to use the VR headset without using a Facebook account and can even <a href="https://www.eurogamer.net/articles/2020-10-15-oculus-quest-2s-are-being-bricked-by-facebook-account-merge-issues" target="_blank">remotely prohibit you from using your own device</a>, which means <a href="https://foundation.mozilla.org/en/privacynotincluded/oculus-quest-2-vr-headset/" target="_blank">you cannot use the headset privately</a>. (The alternative exists to buy <a href="https://www.gizmodo.com.au/2021/04/oculus-quest-facebook-cost/" target="_blank">a separate and significantly more expensive headset</a>.)</p>
                 <p>There are several rumours that jailbreaks have been built, and the non-profit organisation Extended Reality Safety Initiative (XRSI in short) <a href="https://www.eurogamer.net/articles/2020-10-28-hackers-reportedly-jailbreak-the-oculus-quest-2-bypassing-its-forced-facebook-login" target="_blank">has validated a jailbreak</a>, but many jailbreakers are hesitant to publish their work, fearing that an army of Facebook lawyers may harm their career.</p>
@@ -128,7 +129,7 @@
                 </p>
             </div>
             <div class="image">
-                <img src="images/neimod-getting-stalked.png">
+                <img src="https://digital-justice.com/images/neimod-getting-stalked.png">
                 <p>
                     The full document can be found <a href="https://www.docdroid.net/b39lzeo/final-enforcement-proposal-neimod-4-5-13-pdf#page=2" target="_blank">here</a>. The report contains their (full) name, where they live, their usual weekly behaviour and a fully worked out plan on how to approach the hacker.
                 </p>
@@ -142,9 +143,9 @@
         <h4>Learn more</h4>
         <h1 style="font-family: 'Playfair Display', serif;">Similar rights</h1>
         <div class="flex-container" style="align-content: stretch;flex-flow:column nowrap;margin: 0 auto;max-width: 868px;">
-            <a href="/freedom-of-installation.html"><article class="simple-orange small-preview">
+            <a href="freedom-of-installation.html"><article class="simple-orange small-preview">
                 <div class="image">
-                    <img src="images/installation-freedom-nologo.png">
+                    <img src="https://digital-justice.com/images/installation-freedom-nologo.png">
                 </div>
                 <div class="text">
                     <h6>Freedom of Installation</h6>
@@ -153,9 +154,9 @@
                     </p>
                 </div>
             </article></a>
-            <a href="/abandonware-continuity.html"><article class="simple-orange small-preview">
+            <a href="abandonware-continuity.html"><article class="simple-orange small-preview">
                 <div class="image">
-                    <img src="images/abandonware-continuity-nologo.png">
+                    <img src="https://digital-justice.com/images/abandonware-continuity-nologo.png">
                 </div>
                 <div class="text">
                     <h6>Abandonware continuity</h6>
@@ -164,9 +165,9 @@
                     </p>
                 </div>
             </article></a>
-            <a href="/right-to-repair.html"><article class="simple-orange small-preview">
+            <a href="right-to-repair.html"><article class="simple-orange small-preview">
                 <div class="image">
-                    <img src="images/right-to-repair-nologo.png">
+                    <img src="https://digital-justice.com/images/right-to-repair-nologo.png">
                 </div>
                 <div class="text">
                     <h6>Right to Repair</h6>
@@ -182,6 +183,7 @@
             This website was built by <a href="https://noordstar.me/">BramvdnHeuvel</a>.<br>
             You can contact them per <a href="mailto:digital-rights@bram.blmgroep.nl">email</a> or on <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Matrix</a>.
         </p>
+        <script src="https://digital-justice.com/js/language-picker.js"></script>
     </footer>
 </body>
 </html>

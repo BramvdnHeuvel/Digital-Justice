@@ -44,9 +44,10 @@
 <body>
     <header>
         <nav>
-            <a href="https://digital-justice.com/"><i class="fas fa-home"></i> Home</a>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
             <a href="rights.html">Digital rights</a>
-            <a href="articles">Articles</a>
+            <a href="articles/index.html">Articles</a>
+            <div id="language-picker"></div>
             <a href="javascript:void(0)" class="hamburger" onclick="openHamburger()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -72,7 +73,7 @@
                 <a href="articles/skip-signal.html">Read more...</a>
             </div>
         </div>
-        <p>Or subscribe to <a href="feed.rss">our RSS feed</a>.</p>
+        <p>Or subscribe to <a href="https://digital-justice.com/feed.rss">our RSS feed</a>.</p>
     </section>
     <section class="light-green">
         <h4>Ideals</h4>
@@ -81,46 +82,46 @@
             <article class="medium-preview">
                 <div class="flex-container">
                     <div>
-                        <img src="images/software-warranty.png">
+                        <img src="https://digital-justice.com/images/software-warranty.png">
                     </div>
                     <div>
                         <h4>Software Warranty</h4>
                         <p>Software doesn't erode from natural causes, therefore deserves a longer life expectancy.</p>
-                        <a class="btn filled big round" href="/software-warranty.html">More</a>
+                        <a class="btn filled big round" href="software-warranty.html">More</a>
                     </div>
                 </div>
             </article>            
             <article class="medium-preview">
                 <div class="flex-container">
                     <div>
-                        <img src="images/installation-freedom.png">
+                        <img src="https://digital-justice.com/images/installation-freedom.png">
                     </div>
                     <div>
                         <h4>Freedom of Installation</h4>
                         <p>No one should be required or expected to run specific software on their electronic device.</p>
-                        <a class="btn filled big round" href="/freedom-of-installation.html">More</a>
+                        <a class="btn filled big round" href="freedom-of-installation.html">More</a>
                     </div>
                 </div>
             </article>
             <article class="medium-preview">
                 <div class="flex-container">
                     <div>
-                        <img src="images/software-autonomy.png">
+                        <img src="https://digital-justice.com/images/software-autonomy.png">
                     </div>
                     <div>
                         <h4>Software Autonomy</h4>
                         <p>Walled gardens limit freedom. Anyone should have the right to reprogram their device.</p>
-                        <a class="btn filled big round" href="/software-autonomy.html">More</a>
+                        <a class="btn filled big round" href="software-autonomy.html">More</a>
                     </div>
                 </div>
             </article>
         </div>
-        <p><a class="btn big round" href="/rights.html">View All...</a></p>
+        <p><a class="btn big round" href="rights.html">View All...</a></p>
     </section>
     <section>
         <article class="two-parts">
             <div class="image" style="flex: 0 1 550px;">
-                <img src="images/pexels-george-milton-6954194.jpg">
+                <img src="https://digital-justice.com/images/pexels-george-milton-6954194.jpg">
             </div>
             <div class="four-cards">
                 <div style="background-color: var(--shade-orange-1);"><h3>Learn how we can achieve digital justice</h3></div>
@@ -138,10 +139,10 @@
                     It is better to embrace new technologies and overcome new challenges than to pretend we still live in the past.
                     <br>Help us raise awareness!
                 </p>
-                <a href="/rights.html" class="btn" style="width: 96px;">Learn More</a>
+                <a href="rights.html" class="btn" style="width: 96px;">Learn More</a>
             </div>
             <div class="image">
-                <img src="images/pexels-karolina-grabowska-76934921.jpg">
+                <img src="https://digital-justice.com/images/pexels-karolina-grabowska-76934921.jpg">
             </div>
         </article>
     </section>
@@ -150,7 +151,10 @@
             This website was built by <a href="https://noordstar.me/">BramvdnHeuvel</a>.<br>
             You can contact them per <a href="mailto:digital-rights@bram.blmgroep.nl">email</a> or on <a href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">Matrix</a>.
         </p>
+        <script src="https://digital-justice.com/js/language-picker.js"></script>
+        <!--
         <script src="https://digital-justice.com/js/preview-ideals.js"></script>
+        -->
     </footer>
 </body>
 </html>

@@ -4,10 +4,10 @@ nav a:not(:first-child) {
 nav a.hamburger {
     display: block;
 }
-nav a:not(:first-child):not(.hamburger) {
+nav > a:not(:first-child):not(.hamburger) {
     background-color: var(--shade-gray-4);
 }
-nav a:not(:first-child):not(.hamburger):hover {
+nav > a:not(:first-child):not(.hamburger):hover {
     background-color: var(--shade-gray-3);
     color: var(--color-black);
 }
