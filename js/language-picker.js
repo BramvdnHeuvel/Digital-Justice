@@ -49,7 +49,7 @@ let languagePicker = "";
 
 for (lan in languages) {
     languagePicker = languagePicker.concat(`
-        <a href="${lan}/${route}">
+        <a href="https://digital-justice.com/${lan}/${route}">
             <img src="https://digital-justice.com/icons/flags/${lan}.jpg">
             <span>${languages[lan]}</span>
         </a>
