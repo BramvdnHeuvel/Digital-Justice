@@ -1,0 +1,44 @@
+<rss version="2.0">
+    <channel>
+        <title>Digital Justice Blog</title>
+        <link>https://digital-justice.com/</link>
+        <description>Blog on digital rights</description>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <image>
+            <title>Digital Justice</title>
+            <link>https://digital-justice.com/</link>
+            <url>https://digital-justice.com/icons/android-chrome-512x512.png</url>
+            <width>512</width>
+            <height>512</height>
+        </image>
+        <item>
+            <title>New digital right: right to repair</title>
+            <pubDate>Sat, 21 Aug 2021 12:58:00</pubDate>
+            <link>https://digital-justice.com/right-to-repair.html</link>
+            <description>Learn more about this new digital right: it's the &lt;a href="https://digital-justice.com/right-to-repair.html"&gt;right to repair&lt;/a&gt;!]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Skip Signal and move to Matrix before it's too late</title>
+            <pubDate>Thu, 19 Aug 2021 23:09:00</pubDate>
+            <link>https://digital-justice.com/articles/skip-signal.html</link>
+            <description>Signal sounds like a great alternative to WhatsApp, but it's better to move to Matrix instead before it's too late.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Dear politicians of the EU, it's time to decentralize the internet</title>
+            <pubDate>Thu, 19 Aug 2021 19:09:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/decentralize.html</link>
+            <description>It's time for politicians to recognize that decentralization of communication is neccessary. Read a full article &lt;a href="https://digital-justice.com/articles/decentralize.html"&gt;here&lt;/a&gt; on how and why.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>How to join Matrix</title>
+            <pubDate>Thu, 19 Aug 2021 18:47:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/how-to-join-matrix.html</link>
+            <description>Find a tutorial &lt;a href="https://digital-justice.com/articles/how-to-join-matrix.html"&gt;here&lt;/a&gt; on how to join Matrix!</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+    </channel>
+</rss>

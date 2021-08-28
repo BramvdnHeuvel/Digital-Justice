@@ -1,0 +1,44 @@
+<rss version="2.0">
+    <channel>
+        <title>Digitális igazságszolgáltatás blog</title>
+        <link>https://digital-justice.com/</link>
+        <description>Blog a digitális jogokról</description>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <image>
+            <title>Digitális igazságszolgáltatás</title>
+            <link>https://digital-justice.com/</link>
+            <url>https://digital-justice.com/icons/android-chrome-512x512.png</url>
+            <width>512</width>
+            <height>512</height>
+        </image>
+        <item>
+            <title>Új digitális jog: a javításhoz való jog</title>
+            <pubDate>Sat, 21 Aug 2021 12:58:00</pubDate>
+            <link>https://digital-justice.com/right-to-repair.html</link>
+            <description>Tudjon meg többet erről az új digitális jogról: ez a &lt;a href="https://digital-justice.com/right-to-repair.html"&gt;javítási jog&lt;/a&gt;!]&amp;gt;!</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Hagyd ki a Signal-t és térj át a Matrix-ra, mielőtt túl késő lenne.</title>
+            <pubDate>Thu, 19 Aug 2021 23:09:00</pubDate>
+            <link>https://digital-justice.com/articles/skip-signal.html</link>
+            <description>A Signal remek alternatívának tűnik a WhatsApp helyett, de jobb, ha inkább a Mátrixra váltasz, mielőtt túl késő lenne]&amp;gt;.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Kedves uniós politikusok, ideje decentralizálni az internetet!</title>
+            <pubDate>Thu, 19 Aug 2021 19:09:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/decentralize.html</link>
+            <description>Itt az ideje, hogy a politikusok felismerjék, hogy a kommunikáció decentralizálása szükséges. Olvassa el a teljes cikket &lt;a href="https://digital-justice.com/articles/decentralize.html"&gt;itt&lt;/a&gt; arról, hogyan és miért.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Hogyan csatlakozhat a Mátrixhoz</title>
+            <pubDate>Thu, 19 Aug 2021 18:47:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/how-to-join-matrix.html</link>
+            <description>A Mátrixhoz való csatlakozásról &lt;a href="https://digital-justice.com/articles/how-to-join-matrix.html"&gt;itt&lt;/a&gt; talál egy útmutatót!</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+    </channel>
+</rss>

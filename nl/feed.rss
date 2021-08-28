@@ -1,0 +1,44 @@
+<rss version="2.0">
+    <channel>
+        <title>Digital Justice Blog</title>
+        <link>https://digital-justice.com/</link>
+        <description>Blog over digitale rechten</description>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <image>
+            <title>Digitale Justitie</title>
+            <link>https://digital-justice.com/</link>
+            <url>https://digital-justice.com/icons/android-chrome-512x512.png</url>
+            <width>512</width>
+            <height>512</height>
+        </image>
+        <item>
+            <title>Nieuw digitaal recht: recht op reparatie</title>
+            <pubDate>Sat, 21 Aug 2021 12:58:00</pubDate>
+            <link>https://digital-justice.com/right-to-repair.html</link>
+            <description>Meer informatie over dit nieuwe digitale recht: het &lt;a href="https://digital-justice.com/right-to-repair.html"&gt;recht op reparatie&lt;/a&gt;!]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Sla Signal over en stap over op Matrix voordat het te laat is.</title>
+            <pubDate>Thu, 19 Aug 2021 23:09:00</pubDate>
+            <link>https://digital-justice.com/articles/skip-signal.html</link>
+            <description>Signal klinkt als een geweldig alternatief voor WhatsApp, maar je kunt beter overstappen op Matrix voordat het te laat is.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Beste politici van de EU, het is tijd om het internet te decentraliseren.</title>
+            <pubDate>Thu, 19 Aug 2021 19:09:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/decentralize.html</link>
+            <description>Het is tijd voor politici om te erkennen dat decentralisatie van communicatie noodzakelijk is. Lees een volledig artikel &lt;a href="https://digital-justice.com/articles/decentralize.html"&gt;hier&lt;/a&gt; over hoe en waarom.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Hoe lid te worden Matrix</title>
+            <pubDate>Thu, 19 Aug 2021 18:47:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/how-to-join-matrix.html</link>
+            <description>Vind een &lt;a href="https://digital-justice.com/articles/how-to-join-matrix.html"&gt;hier&lt;/a&gt; uitleg over hoe je bij Matrix kunt komen!</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+    </channel>
+</rss>

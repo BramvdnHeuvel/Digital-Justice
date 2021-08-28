@@ -1,0 +1,44 @@
+<rss version="2.0">
+    <channel>
+        <title>Digitaalinen oikeus -blogi</title>
+        <link>https://digital-justice.com/</link>
+        <description>Blogi digitaalisista oikeuksista</description>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <image>
+            <title>Digitaalinen oikeus</title>
+            <link>https://digital-justice.com/</link>
+            <url>https://digital-justice.com/icons/android-chrome-512x512.png</url>
+            <width>512</width>
+            <height>512</height>
+        </image>
+        <item>
+            <title>Uusi digitaalinen oikeus: oikeus korjaamiseen</title>
+            <pubDate>Sat, 21 Aug 2021 12:58:00</pubDate>
+            <link>https://digital-justice.com/right-to-repair.html</link>
+            <description>Lue lisää tästä uudesta digitaalisesta oikeudesta: se on &lt;a href="https://digital-justice.com/right-to-repair.html"&gt;oikeus korjata&lt;/a&gt;!]&amp;gt;!</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Ohita Signal ja siirry Matrixiin ennen kuin on liian myöhäistä.</title>
+            <pubDate>Thu, 19 Aug 2021 23:09:00</pubDate>
+            <link>https://digital-justice.com/articles/skip-signal.html</link>
+            <description>Signal kuulostaa hyvältä vaihtoehdolta WhatsAppille, mutta sen sijaan kannattaa siirtyä Matrixiin ennen kuin on liian myöhäistä]&amp;gt;.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Hyvät EU:n poliitikot, on aika hajauttaa internet.</title>
+            <pubDate>Thu, 19 Aug 2021 19:09:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/decentralize.html</link>
+            <description>Poliitikkojen on aika tunnustaa, että viestinnän hajauttaminen on välttämätöntä. Lue koko artikkeli &lt;a href="https://digital-justice.com/articles/decentralize.html"&gt;täältä&lt;/a&gt; siitä, miten ja miksi.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Miten liittyä Matrixiin</title>
+            <pubDate>Thu, 19 Aug 2021 18:47:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/how-to-join-matrix.html</link>
+            <description>Löydät ohjeen &lt;a href="https://digital-justice.com/articles/how-to-join-matrix.html"&gt;täältä&lt;/a&gt; siitä, miten liittyä Matrixiin!</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+    </channel>
+</rss>

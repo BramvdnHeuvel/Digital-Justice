@@ -1,0 +1,44 @@
+<rss version="2.0">
+    <channel>
+        <title>Blog o digitální spravedlnosti</title>
+        <link>https://digital-justice.com/</link>
+        <description>Blog o digitálních právech</description>
+        <language>cs-us</language>
+        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <image>
+            <title>Digitální spravedlnost</title>
+            <link>https://digital-justice.com/</link>
+            <url>https://digital-justice.com/icons/android-chrome-512x512.png</url>
+            <width>512</width>
+            <height>512</height>
+        </image>
+        <item>
+            <title>Nové digitální právo: právo na opravu</title>
+            <pubDate>Sat, 21 Aug 2021 12:58:00</pubDate>
+            <link>https://digital-justice.com/right-to-repair.html</link>
+            <description>Zjistěte více o tomto novém digitálním právu: je to &lt;a href="https://digital-justice.com/right-to-repair.html"&gt;právo na opravu&lt;/a&gt;!]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Přeskočte Signal a přejděte na Matrix, než bude pozdě.</title>
+            <pubDate>Thu, 19 Aug 2021 23:09:00</pubDate>
+            <link>https://digital-justice.com/articles/skip-signal.html</link>
+            <description>Signal zní jako skvělá alternativa k WhatsApp, ale je lepší přejít raději na Matrix, než bude pozdě.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Vážení politici EU, je čas na decentralizaci internetu.</title>
+            <pubDate>Thu, 19 Aug 2021 19:09:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/decentralize.html</link>
+            <description>Je načase, aby politici uznali, že decentralizace komunikace je nezbytná. Přečtěte si celý článek &lt;a href="https://digital-justice.com/articles/decentralize.html"&gt;zde&lt;/a&gt; o tom, jak a proč.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Jak se připojit k Matrixu</title>
+            <pubDate>Thu, 19 Aug 2021 18:47:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/how-to-join-matrix.html</link>
+            <description>Návod &lt;a href="https://digital-justice.com/articles/how-to-join-matrix.html"&gt;zde&lt;/a&gt;, jak se připojit k Matrixu!</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,44 @@
+<rss version="2.0">
+    <channel>
+        <title>Digital Justice Blog</title>
+        <link>https://digital-justice.com/</link>
+        <description>Blog über digitale Rechte</description>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <image>
+            <title>Digitale Justiz</title>
+            <link>https://digital-justice.com/</link>
+            <url>https://digital-justice.com/icons/android-chrome-512x512.png</url>
+            <width>512</width>
+            <height>512</height>
+        </image>
+        <item>
+            <title>Neues digitales Recht: Recht auf Reparatur</title>
+            <pubDate>Sat, 21 Aug 2021 12:58:00</pubDate>
+            <link>https://digital-justice.com/right-to-repair.html</link>
+            <description>Erfahren Sie mehr über dieses neue digitale Recht: es ist das &lt;a href="https://digital-justice.com/right-to-repair.html"&gt;Recht auf Reparatur&lt;/a&gt;!]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Überspringen Sie Signal und wechseln Sie zu Matrix, bevor es zu spät ist.</title>
+            <pubDate>Thu, 19 Aug 2021 23:09:00</pubDate>
+            <link>https://digital-justice.com/articles/skip-signal.html</link>
+            <description>Signal klingt wie eine großartige Alternative zu WhatsApp, aber es ist besser, zu Matrix zu wechseln, bevor es zu spät ist.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Liebe Politiker der EU, es ist Zeit, das Internet zu dezentralisieren.</title>
+            <pubDate>Thu, 19 Aug 2021 19:09:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/decentralize.html</link>
+            <description>Es ist an der Zeit, dass die Politiker erkennen, dass eine Dezentralisierung der Kommunikation notwendig ist. Lesen Sie einen vollständigen Artikel &lt;a href="https://digital-justice.com/articles/decentralize.html"&gt;hier&lt;/a&gt; über das Wie und Warum.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Wie man der Matrix beitritt</title>
+            <pubDate>Thu, 19 Aug 2021 18:47:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/how-to-join-matrix.html</link>
+            <description>Eine Anleitung für den Beitritt zu Matrix finden Sie &lt;a href="https://digital-justice.com/articles/how-to-join-matrix.html"&gt;hier&lt;/a&gt;!</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+    </channel>
+</rss>

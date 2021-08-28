@@ -1,0 +1,44 @@
+<rss version="2.0">
+    <channel>
+        <title>Blogg om digital rättvisa</title>
+        <link>https://digital-justice.com/</link>
+        <description>Blogg om digitala rättigheter</description>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <image>
+            <title>Digital rättvisa</title>
+            <link>https://digital-justice.com/</link>
+            <url>https://digital-justice.com/icons/android-chrome-512x512.png</url>
+            <width>512</width>
+            <height>512</height>
+        </image>
+        <item>
+            <title>Ny digital rättighet: rätten till reparation</title>
+            <pubDate>Sat, 21 Aug 2021 12:58:00</pubDate>
+            <link>https://digital-justice.com/right-to-repair.html</link>
+            <description>Läs mer om denna nya digitala rättighet: det är &lt;a href="https://digital-justice.com/right-to-repair.html"&gt;Rätten att reparera&lt;/a&gt;!]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Hoppa över Signal och övergå till Matrix innan det är för sent.</title>
+            <pubDate>Thu, 19 Aug 2021 23:09:00</pubDate>
+            <link>https://digital-justice.com/articles/skip-signal.html</link>
+            <description>Signal låter som ett bra alternativ till WhatsApp, men det är bättre att gå över till Matrix innan det är för sent.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Kära politiker i EU, det är dags att decentralisera Internet.</title>
+            <pubDate>Thu, 19 Aug 2021 19:09:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/decentralize.html</link>
+            <description>Det är dags för politikerna att inse att det är nödvändigt att decentralisera kommunikationen. Läs en fullständig artikel &lt;a href="https://digital-justice.com/articles/decentralize.html"&gt;här&lt;/a&gt; om hur och varför.</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+        <item>
+            <title>Hur man ansluter sig till Matrix</title>
+            <pubDate>Thu, 19 Aug 2021 18:47:00 GMT</pubDate>
+            <link>https://digital-justice.com/articles/how-to-join-matrix.html</link>
+            <description>Hitta en handledning &lt;a href="https://digital-justice.com/articles/how-to-join-matrix.html"&gt;här&lt;/a&gt; om hur du går med i Matrix!</description>
+            <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
+        </item>
+    </channel>
+</rss>
