@@ -1,13 +1,13 @@
 <rss version="2.0">
     <channel>
         <title>Blog de Justiça Digital</title>
-        <link>https://digital-justice.com/</link>
+        <link>https://digital-justice.com/pt</link>
         <description>Blog sobre direitos digitais</description>
         <language>pt-us</language>
         <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
         <image>
             <title>Justiça Digital</title>
-            <link>https://digital-justice.com/</link>
+            <link>https://digital-justice.com/pt</link>
             <url>https://digital-justice.com/icons/android-chrome-512x512.png</url>
             <width>512</width>
             <height>512</height>
@@ -15,28 +15,28 @@
         <item>
             <title>Novo direito digital: direito de reparação</title>
             <pubDate>Sat, 21 Aug 2021 12:58:00</pubDate>
-            <link>https://digital-justice.com/right-to-repair.html</link>
+            <link>https://digital-justice.com/pt/right-to-repair.html</link>
             <description>Saiba mais sobre este novo direito digital: é o &lt;a href="https://digital-justice.com/right-to-repair.html"&gt; direito de reparação&lt;/a&gt;!]&amp;gt;</description>
             <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
         </item>
         <item>
             <title>Saltar o sinal e mudar para a Matrix antes que seja tarde demais</title>
             <pubDate>Thu, 19 Aug 2021 23:09:00</pubDate>
-            <link>https://digital-justice.com/articles/skip-signal.html</link>
+            <link>https://digital-justice.com/pt/articles/skip-signal.html</link>
             <description>O sinal parece ser uma grande alternativa ao WhatsApp, mas é melhor mudar para a Matrix antes que seja tarde demais.]&amp;gt;</description>
             <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
         </item>
         <item>
             <title>Caros políticos da UE, é tempo de descentralizar a Internet</title>
             <pubDate>Thu, 19 Aug 2021 19:09:00 GMT</pubDate>
-            <link>https://digital-justice.com/articles/decentralize.html</link>
+            <link>https://digital-justice.com/pt/articles/decentralize.html</link>
             <description>É tempo de os políticos reconhecerem que a descentralização da comunicação é necessária. Leia um artigo completo &lt;a href="https://digital-justice.com/articles/decentralize.html"&gt;here&lt;/a&gt; sobre como e porquê.</description>
             <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
         </item>
         <item>
             <title>Como aderir à Matrix</title>
             <pubDate>Thu, 19 Aug 2021 18:47:00 GMT</pubDate>
-            <link>https://digital-justice.com/articles/how-to-join-matrix.html</link>
+            <link>https://digital-justice.com/pt/articles/how-to-join-matrix.html</link>
             <description>Encontre um tutorial &lt;a href="https://digital-justice.com/articles/how-to-join-matrix.html"&gt;here&lt;/a&gt; sobre como aderir à Matrix!</description>
             <author src="matrix" href="https://matrix.to/#/@bramvdnheuvel:nltrix.net">@bramvdnheuvel:nltrix.net</author>
         </item>
