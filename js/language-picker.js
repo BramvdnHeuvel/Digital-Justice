@@ -36,6 +36,9 @@ for (lan in languages) {
         break;
     }
 }
+while (route.startsWith("/")) {
+    route = route.slice(1,);
+}
 
 document.getElementById("language-picker").innerHTML = `
 <div>
