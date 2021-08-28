@@ -32,7 +32,7 @@ var currentLanguage = "en";
 for (lan in languages) {
     if (route.startsWith("/" + lan + "/")) {
         currentLanguage = route.slice(1, 3);
-        route = route.slice(3,);
+        route = route.slice(4,);
         break;
     }
 }
