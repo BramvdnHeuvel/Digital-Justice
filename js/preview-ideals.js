@@ -139,16 +139,14 @@ const amountOfCards = 3;
 
 function buildIdealCard(ideal) {
     return `
-        <article class="medium-preview">
-            <div class="flex-container">
-                <div>
-                    <img src="${ideal.image}">
-                </div>
-                <div>
-                    <h4>${ideal.name}</h4>
-                    <p>${ideal.description[currentLanguage]}</p>
-                    <a class="btn filled big round" href="${ideal.page}">More</a>
-                </div>
+        <article class="horizontal medium-preview">
+            <div>
+                <img src="${ideal.image}">
+            </div>
+            <div>
+                <h4>${ideal.name}</h4>
+                <p>${ideal.description[currentLanguage]}</p>
+                <a class="btn filled big round" href="${ideal.page}l">More</a>
             </div>
         </article>
     `;
