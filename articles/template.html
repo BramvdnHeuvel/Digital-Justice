@@ -1,0 +1,182 @@
+<!--
+    This document is an example of how you write an article.
+
+    There's a handy guide a bit further down the document, it'll help you out big time. :)
+
+    If you're editing this file, make sure to open it in your browser 
+    every now and then to check if it looks good. And don't forget to save regularly!
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+
+    <link rel="stylesheet" type="text/css" href="https://digital-justice.com/all.css">
+    <link rel="stylesheet" media="screen and (max-width: 48em)" href="https://digital-justice.com/small.css">
+    <link rel="stylesheet" type="text/css" href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="https://digital-justice.com/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://digital-justice.com/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://digital-justice.com/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://digital-justice.com/icons/site.webmanifest">
+
+    <!-- Meta tags -->
+    <!-- Primary Meta Tags -->
+    <title>{{ TITLE }}</title>
+    <meta name="title" content="{{ TITLE }}">
+    <meta name="description" content="{{ DESCRIPTION }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://digital-justice.com/">
+    <meta property="og:title" content="{{ TITLE }}">
+    <meta property="og:description" content="{{ DESCRIPTION }}">
+    <meta property="og:image" content="{{ IMAGE }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://digital-justice.com/">
+    <meta property="twitter:title" content="{{ TITLE }}">
+    <meta property="twitter:description" content="{{ DESCRIPTION }}">
+    <meta property="twitter:image" content="{{ IMAGE }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+
+            <a href="../rights.html">Digital rights</a>
+            <a href="index.html">Articles</a>
+            
+            <div id="language-picker"></div>
+            <a href="javascript:void(0)" class="hamburger" onclick="openHamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <script src="https://digital-justice.com/js/open-hamburger.js"></script>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>{{ TITLE }}</h1>
+
+                <!-- 
+                    If you've written this article elsewhere before, 
+                    you can add a link to the original article at the tag
+                    {{ ORIGINAL }} in the following tag.
+                -->
+                <p>
+                    View the original <a href="{{ ORIGINAL }}">here</a>, or keep reading.
+                </p>
+                <!-- Otherwise, you can use this tag. -->
+                <p>
+                    This is an authentic article written by <a href="{{ SOCIALS }}">{{ AUTHOR }}</a>.
+                </p>
+                <!-- end of tag -->
+
+                <p>
+                    Estimated reading time: <img src="https://digital-justice.com/images/clock.svg" class="icon"> {{ DURATION }} mins.
+                </p>
+            </article>
+        </section>
+        <section color="gray">
+            <article>
+                <div>
+                    <!--
+                        You can write your article inside this div container.
+
+
+                        Also make sure to fill out the meta tags at the top!
+                        That will make sure this webpage gives a nice preview when someone shares a link to it.
+                        You can find 3 tags over there, which mean the following:
+
+                        {{ TITLE }}           -   A short title,                  maximum  65 characters
+                        {{ DESCRIPTION }}     -   A description of your article,  maximum 155 characters
+                        {{ IMAGE }}           -   A link to an image,             located in the images/ folder
+
+                        {{ AUTHOR }}          -   Your (user)name,                as whom you want to be identified
+                        {{ SOCIALS }}         -   A link to you,                  any URL
+
+                        {{ DURATION }}        -   Article reading duration,       any number
+                        
+                        if you don't have a preference for an image, you can use this one:
+                                    https://digital-justice.com/images/data-sovereignty-nologo.png
+
+
+
+                        You can safely find and replace these tags, or use Ctrl + F to find them.
+
+
+
+                        That's it! Make sure to follow all the steps as described in README.md
+
+                        Oh, and feel free to leave out these humongous comments. ;)
+
+
+                        
+
+                        Need help writing an article?
+                        Here's an example to help you get started:
+                    -->
+
+                    <!--
+                        <h1> The title of your article </h1>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu metus purus. Nullam commodo pharetra posuere. Pellentesque varius leo magna, tincidunt hendrerit sem vulputate non. Cras porta tincidunt porta. Morbi ultrices nulla sit amet lectus egestas tempus. Nulla cursus nulla sed nunc dapibus varius. Integer mollis neque quis tincidunt ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin molestie eros a ipsum lacinia, in cursus risus dictum. 
+                        </p>
+
+                        <p>
+                            Donec fringilla dui vel nulla rutrum venenatis. Vivamus ut elementum diam. Vestibulum placerat sed ligula non molestie. Proin in est at nulla porta semper. In pulvinar sapien nisl, eget aliquam ipsum consectetur quis. Pellentesque aliquet nisi non nibh auctor condimentum. Mauris egestas sit amet ex in aliquet. Aenean semper aliquet nisi in pellentesque. Nunc commodo egestas lectus id mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+                        </p>
+
+                        <h2> Images </h2>
+
+                        <p>
+                            If you want to add an image, you can have it scale automatically with the following tags:
+                        </p>
+
+                        <div class="img-center">
+                            <img src="">
+                        </div>
+
+                        <p>
+                            For availability, make sure your images are stored in the images/ folder.
+                        </p>
+
+                        <h2> iFrames </h2>
+
+                        <p>
+                            You can also add iframes, which scale automatically based on the device's screen size.
+                        </p>
+
+                        <p>
+                            For that, give it the class "expanding-iframe" to have it auto-scale.
+                        </p>
+
+                        <iframe class="expanding-iframe"></iframe>
+
+                        <p>
+                            I hope that this helps you enough! If not, you can always peek at the other HTML files. :)
+                        </p>
+
+                    -->
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            This website was founded by <a href="https://noordstar.me/">BramvdnHeuvel</a>. Here's <a href="https://github.com/BramvdnHeuvel/Digital-Justice">the source code.</a><br>
+            You can contact them per <a href="mailto:digital-rights@bram.blmgroep.nl">email</a> or on <a href="https://matrix.to/#/#digital-justice:noordstar.me">Matrix</a>.
+        </p>
+        <script src="https://digital-justice.com/js/expand-iframes.js"></script>
+        <script src="https://digital-justice.com/js/language-picker.js"></script>
+    </footer>
+</body>
+</html>

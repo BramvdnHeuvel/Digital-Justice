@@ -57,15 +57,193 @@
 
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Source Sans Pro', sans-serif;
+/*
+** Pure HTML semantics styling
+*/
+a {
+    color: var(--color-green);
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
 }
-
+article {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+    article:not(:first-child) {
+        margin-top: 30px;
+    }
 body {
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+div {
+    text-align: left;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.25rem;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+}
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+}
+h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+}
+li {
+    font-size: 1.125rem;
+}
+p {
+    font-size: 1.125rem;
+}
+section {
+    text-align: center;
+    padding: 40px;
 }
 
+
+/*
+** Flexbox ordering page
+*/
+.horizontal {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+.horizontal.reverse {
+    flex-flow: row-reverse wrap;
+}
+.horizontal.stick-to-top {
+    align-items: flex-start;
+}
+.horizontal > * {
+    flex: 250px 1 0;
+}
+.horizontal > *:not(:last-child) {
+    margin-right: 20px;
+}
+.horizontal > img:not(:only-child) {
+    max-width: 50%;
+}
+.horizontal > * > img {
+    max-width: 100%;
+}
+.vertical {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    flex-flow: column nowrap;
+}
+
+/*
+** Specific classes for specific blocks
+*/
+.icon {
+    position: relative;
+    width: 20px;
+    top: 5px;
+}
+
+img.page-logo {
+    width: 250px;
+}
+article > div > img {
+    max-width: 100%;
+}
+
+a.small-preview {
+    background-color: var(--shade-orange-2);
+    color: var(--shade-black-6);
+
+    padding: 20px;
+    margin-bottom: 30px;
+
+    justify-content: center;
+}
+a.small-preview img {
+    flex: 110px 0 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+
+    margin: 0 20px;
+}
+a.small-preview h6 {
+    margin-top: 20px;
+}
+
+article.medium-preview {
+    border-radius: 15px;
+    padding: 15px 15px 30px;
+    margin: 20px 10px 0px;
+
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+article.medium-preview:not(:last-child) {
+    margin: 20px 10px 0px;
+}
+article.medium-preview > div:nth-child(2) {
+    text-align: center;
+}
+
+article.large-preview {
+    background-color: var(--shade-gray-2);
+    min-width: 270px;
+}
+article.large-preview div:first-child {
+    margin-right: 0;
+    background-color: var(--color-white);
+}
+article.large-preview div:nth-child(2) {
+    padding: 15px;
+}
+
+.four-cards {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+    flex: 1 1 600px;
+}
+.four-cards > * {
+    flex: 1 0 250px;
+    min-width: 40%;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+/*
+** Navbar
+*/
 nav {
     background-color: var(--shade-black-5);
     overflow: hidden;
@@ -113,6 +291,9 @@ nav #picker > a:hover {
     background-color: var(--shade-gray-4);
 }
 
+/*
+** Footer
+*/
 footer {
     text-align: center;
     background-color: var(--shade-black-5);
@@ -123,358 +304,149 @@ footer a {
     color: var(--shade-green-3);
 }
 
-a {
-    color: var(--color-green);
-    text-decoration: none;
-    cursor: pointer;
-}
-
 /*
- * Color schemes
- */
-a.btn {
+** Color schemes
+*/
+main section:only-child {
+    background-color: var(--shade-white-3);
     color: var(--color-black);
-    background-color: var(--color-orange);
-    border-color: var(--color-orange);
 }
 
-/* Light green */
-.light-green, .section-list section:nth-child(4n+1) {
-    background-color: var(--shade-greeny-2);
-    color: var(--shade-green-4);
-}
-.light-green img.icon, .section-list section:nth-child(4n+1) img.icon {
-    filter: invert(47%) sepia(14%) saturate(1488%) hue-rotate(115deg) brightness(100%) contrast(100%);
-}
-.light-green a.btn, .section-list section:nth-child(4n+1) a.btn {
-    background-color: initial;
-    border-color: var(--shade-green-4);
-    color: var(--shade-green-4);
-}
-.light-green a.btn.filled, .light-green a.btn:hover, 
-.section-list section:nth-child(4n+1) a.btn.filled, 
-.section-list section:nth-child(4n+1) a.btn:hover {
-    background-color: var(--shade-green-4);
-    color: var(--color-white);
-}
-.light-green article p , .section-list section:nth-child(4n+1) article p {
-    color: var(--shade-green-5);
-}
-/* Full green */
-.full-green, .section-list section:nth-child(4n+3) {
-    background-color: var(--color-green);
-    color: var(--color-white);
-}
-.full-green img.icon, .section-list section:nth-child(4n+3) img.icon {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(130deg) brightness(103%) contrast(103%);
-}
-.full-green a.btn, .section-list section:nth-child(4n+3) a.btn {
-    background-color: initial;
-    color: var(--color-white);
-    border-color: var(--color-white);
-}
-.full-green a.btn.filled, .full-green a.btn:hover, 
-.section-list section:nth-child(4n+3) a.btn.filled, 
-.section-list section:nth-child(4n+3) a.btn:hover {
-    border-color: var(--color-green);
-}
-/* Simple gray */
-.simple-gray, .section-list section:nth-child(4n+2) {
-    background-color: var(--shade-gray-2);
-    color: var(--color-black);
-}
-/* Simple orange */
-.simple-orange {
+/* color 1
+** orange
+*/
+section:nth-child(5n+1),
+main section[color="orange"] {
     background-color: var(--shade-orange-2);
     color: var(--shade-black-6);
 }
-/* Full orange */
-.half-orange {
+    section:nth-child(5n+1) a.btn,
+    main section[color="gray"] a.btn {
+        color: var(--color-black);
+        border-color: var(--color-orange);
+    }
+    section:nth-child(5n+1) a.btn.filled,
+    section:nth-child(5n+1) a.btn:hover,
+    main section[color="gray"] a.btn.filled,
+    main section[color="gray"] a.btn:hover {
+        background-color: var(--color-orange);
+    }
+    
+
+/* color 2
+** white
+*/
+section:nth-child(5n+2),
+main section[color="white"] {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+    section:nth-child(5n+2) a.btn,
+    main section[color="white"] a.btn {
+        color: var(--color-black);
+        border-color: var(--color-black);
+    }
+    section:nth-child(5n+2) a.btn.filled,
+    section:nth-child(5n+2) a.btn:hover,
+    main section[color="white"] a.btn.filled,
+    main section[color="white"] a.btn:hover {
+        background-color: var(--color-black);
+        color: var(--color-white);
+    }
+
+/* color 3
+** light-green
+*/
+section:nth-child(5n+3),
+main section[color="light-green"] {
+    background-color: var(--shade-greeny-2);
+    color: var(--shade-green-4);
+}
+    section:nth-child(5n+3) a.btn,
+    main section[color="light-green"] a.btn {
+    color: var(--shade-green-4);
+        border-color: var(--shade-green-4);
+    }
+    section:nth-child(5n+3) a.btn.filled,
+    section:nth-child(5n+3) a.btn:hover,
+    main section[color="light-green"] a.btn.filled, 
+    main section[color="light-green"] a.btn:hover {
+        color: var(--color-white);
+        background-color: var(--shade-green-4);
+    }
+    section:nth-child(5n+3) .icon,
+    main section[color="light-green"] .icon {
+        filter: invert(47%) sepia(14%) saturate(1488%) hue-rotate(115deg) brightness(100%) contrast(100%);
+    }
+
+/* color 4
+** gray
+*/
+section:nth-child(5n+4),
+main section[color="gray"] {
+    background-color: var(--shade-gray-2);
+    color: var(--color-black);
+}
+    section:nth-child(5n+4) a.btn,
+    main section[color="gray"] a.btn {
+        border-color: var(--shade-black-6);
+        color: var(--shade-black-6);
+    }
+    section:nth-child(5n+4) a.btn.filled,
+    section:nth-child(5n+4) a.btn:hover,
+    main section[color="gray"] a.btn.filled,
+    main section[color="gray"] a.btn:hover {
+        background-color: var(--shade-black-6);
+        color: var(--shade-gray-2);
+    }
+    
+/* color 5
+** green
+*/
+section:nth-child(5n+5),
+main section[color="green"] {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+    section:nth-child(5n+5) a.btn,
+    main section[color="green"] a.btn {
+        color: var(--color-white);
+        border-color: var(--color-white);
+    }
+    section:nth-child(5n+5) a.btn.filled,
+    section:nth-child(5n+5) a.btn:hover,
+    main section[color="green"] a.btn.filled,
+    main section[color="green"] a.btn:hover {
+        background-color: var(--color-white);
+        color: var(--color-green);
+    }
+    section:nth-child(5n+5) .icon,
+    main section[color="green"] .icon {
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(130deg) brightness(103%) contrast(103%);
+    }
+
+/* dark-orange
+*/
+main section[color="dark-orange"] {
     background-color: var(--shade-orange-3);
     color: var(--color-black);
 }
-/* Black text */
-.black-text {
-    color: var(--color-black);
-}
 
-/*
- * Sections
- */
-section {
-    position: relative;
-    padding: 40px;
-}
-section > h1, section > h2, section > h3,
-section > h4, section > h5, section > h6,
-section > p,  section > span {
-    text-align: center;
-}
-section > h4 {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-style: normal;
-    font-weight: 400;
-}
 
-section > h1 {
-    font-size: 2.25rem;
-    font-style: normal;
-    font-weight: 600;
-}
-section > h4 {
-    font-size: 1.5rem;
-}
-
-/*
- * Articles
- */
-article {
-    position: relative;
-}
-article:not(:last-child) {
-    margin-bottom: 40px;
-}
-article img {
-    max-width: 100%;
-}
-section article img.icon {
-    width: 50px;
-    position: relative;
-    top: 18px;
-}
-section article small > img.icon {
-    width: 20px;
-    top: 5px;
-}
-article p, article ul {
-    font-size: 1.125rem;
-}
-
-/* Small preview
- */
-article.small-preview {
-    padding: 30px;
-    margin-bottom: 20px;
-
-    display: flex;
-    flex-flow: row nowrap;
-}
-article.small-preview .image {
-    flex: 0 0 110px;
-    margin-right: 20px;
-}
-article.small-preview .image img {
-    width: 110px;
-    height: 110px;
-    border-radius: 100%;
-}
-article.small-preview .text h6 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 400;
-    font-size: 1.125rem;
-    margin-top: 22.5px
-}
-article.small-preview .text * {
-    margin-bottom: 0;
-}
-/* Medium preview
- */
-article.medium-preview {
-    max-width: 500px;
-    text-align: center;
-    background-color: var(--color-white);
-    border-radius: 15px;
-
-    margin: 20px;
-    padding: 40px 20px;
-}
-/* Large preview
- */
-article.large-preview {
-    font-size: 1.5rem;
-
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto
-}
-article.large-preview h1 {
-    font-size: 3rem;
-}
-article.large-preview .text {
-    padding-bottom: 20px;
-}
-article.large-preview .text > * {
-    margin-bottom: 0;
-    margin-top: 0;
-    color: var(--color-black);
-    background-color: initial;
-}
-article.large-preview .text > p + p {
-    margin-top: 10px;
-}
-/* Two-parts
- */
-article.two-parts {
-    display: flex;
-    flex-flow: row wrap;
-    align-content: stretch;
-    justify-content: center;
-
-    position: relative;
-}
-article.two-parts.reverse {
-    flex-direction: row-reverse;
-}
-article.two-parts > div {
-    flex: 1 0 50%;
-    min-width: 270px;
-}
-article.two-parts .four-cards {
-    position: relative;
-
-    display: flex;
-    flex-flow: row wrap;
-    align-content: stretch;
-
-    flex: 1 1 600px;
-}
-article.two-parts .four-cards > div {
-    flex: 1 0 250px;
-    min-width: 40%;
-
-    text-align: center;
-    margin: 5px;
-    padding: 20px;
-
-    font-size: 1.6rem;
-    line-height: 1.2;
-}
-article.two-parts > .image {
-    position: relative;
-}
-article.two-parts > .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: flex-start;
-
-    margin-bottom: 7px;
-}
-article.two-parts > .text > * {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-article.two-parts .large.text {
-    text-align: center;
-}
-article.two-parts .large.text h2 {
-    font-weight: 400;
-    font-size: 4rem;
-}
-/* Essay title
- */
-article.essay-title {
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto;
-}
-article.essay-title h1, article.essay-title h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    margin-top: 0;
-}
-article.essay-title h1 {
-    font-size: 4rem;
-}
-article.essay-title h2 {
-    font-size: 3rem;
-}
-article.essay-title h4 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 400;
-    font-size: 1.125rem;
-}
-article.essay-title p {
-    font-size: 1.5rem;
-}
-article.essay-title img {
-    width: 250px;
-}
-/* Essay
- */
-article.essay {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-article.essay .text, article.two-parts .text {
-    min-width: 350px;
-}
-article.essay h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    margin: 0 auto 10px;
-    font-size: 2.5rem;
-}
-article.essay h4 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 400;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-article.essay h6 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 400;
-    font-size: 1.125rem;
-    margin: 0 auto 15px;
-}
-article.essay > .text > p {
-    padding-right: 30px;
-}
-/* Blog
- */
-article.blog {
-    max-width: 820px;
-}
-article.blog .img-center {
+.img-center {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
 }
-article.blog img {
+.img-center img {
     max-height: 500px;
     max-width: 100%;
     margin: 0 auto;
 }
-article.blog table {
+table {
     margin: 0 auto;
 }
-article.blog h1, article.blog h2, article.blog h3, 
-article.blog h4, article.blog h5, article.blog h6 {
-    font-family: 'Playfair Display', serif;
-}
-article.blog h1 {
-    font-size: 2rem;
-}
-article.blog h2 {
-    font-size: 1.75rem;
-}
-article.blog h3 {
-    font-size: 1.5rem;
-}
-article.blog h4 {
-    font-size: 1.25rem;
-}
-article.blog h5 {
-    font-size: 1rem;
-}
-article.blog h6 {
-    font-size: 0.75rem;
-}
+
 
 /*
  * Buttons
@@ -487,6 +459,8 @@ a.btn {
     padding: 6px 46px 7px 45px;
     text-decoration: none;
     cursor: pointer;
+
+    background-color: inherit;
 }
 a.btn.big {
     text-transform: uppercase;
@@ -495,21 +469,3 @@ a.btn.round {
     border-radius: 30px;
 }
 
-/*
- * Flexboxes
- */
-.flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-.flex-container article {
-    flex: 1 0 250px;
-}
-article.medium-preview > .flex-container {
-    align-content: space-between;
-    height: 100%;
-}
-article.medium-preview > .flex-container > * {
-    flex: 1 0 250px;
-}
