@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/bg</link>
         <description>Блог за цифровите права</description>
         <language>bg-bg</language>
-        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 00:45:00 GMT</lastBuildDate>
         <image>
             <title>Цифрово правосъдие</title>
             <link>https://digital-justice.com/bg</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Талибаните знаят кои сте - какво сега?</title>
+            <pubDate>Sat, 18 Sep 2021 00:45:00</pubDate>
+            <link>https://digital-justice.com/articles/taliban-knows-you.html</link>
+            <description>Неотдавнашното превземане на Афганистан доведе до това, че талибаните се сдобиха с данни от предшестващото ги правителство, което накара афганистанците да поставят под въпрос своята цифрова безопасност.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Фейсбук се извини за класифицирането на чернокожите мъже като примати</title>
             <pubDate>Sat, 4 Sep 2021 18:50:00</pubDate>

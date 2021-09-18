@@ -6,3 +6,4 @@ No.     File                                Author          Name
 2       decentralize.html                   BramvdnHeuvel   Dear politicians of the EU, it's time to decentralize the internet
 3       skip-signal.html                    BramvdnHeuvel   Skip Signal and move to Matrix before it's too late
 4       facebook-black-men-primates.html    BramvdnHeuvel   Facebook apologises for classifying black men as primates
+5       taliban-knows-you.html              BramvdnHeuvel   The Taliban knows who you are - what now?

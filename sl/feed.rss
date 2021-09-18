@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/sl</link>
         <description>Blog o digitalnih pravicah</description>
         <language>sl-sl</language>
-        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 00:45:00 GMT</lastBuildDate>
         <image>
             <title>Digitalna pravičnost</title>
             <link>https://digital-justice.com/sl</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Talibani vedo, kdo ste - kaj zdaj?</title>
+            <pubDate>Sat, 18 Sep 2021 00:45:00</pubDate>
+            <link>https://digital-justice.com/articles/taliban-knows-you.html</link>
+            <description>Zaradi nedavnega prevzema oblasti v Afganistanu so talibani pridobili podatke od vlade, ki jih je pred tem prevzela, zato se Afganistanci sprašujejo o svoji digitalni varnosti.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook se je opravičil, ker je črnce uvrstil med primate</title>
             <pubDate>Sat, 4 Sep 2021 18:50:00</pubDate>

@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/el</link>
         <description>Ιστολόγιο για τα ψηφιακά δικαιώματα</description>
         <language>el-el</language>
-        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 00:45:00 GMT</lastBuildDate>
         <image>
             <title>Ψηφιακή δικαιοσύνη</title>
             <link>https://digital-justice.com/el</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Οι Ταλιμπάν γνωρίζουν ποιος είστε - τι γίνεται τώρα;</title>
+            <pubDate>Sat, 18 Sep 2021 00:45:00</pubDate>
+            <link>https://digital-justice.com/articles/taliban-knows-you.html</link>
+            <description>Η πρόσφατη κατάληψη του Αφγανιστάν είχε ως αποτέλεσμα οι Ταλιμπάν να αποκτήσουν δεδομένα από την προηγούμενη κυβέρνηση, αφήνοντας τους Αφγανούς να αναρωτιούνται για την ψηφιακή τους ασφάλεια]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Το Facebook ζητά συγγνώμη για την ταξινόμηση των μαύρων ανδρών ως πρωτεύοντα θηλαστικά</title>
             <pubDate>Sat, 4 Sep 2021 18:50:00</pubDate>

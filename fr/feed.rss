@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/fr</link>
         <description>Blog sur les droits numériques</description>
         <language>fr-fr</language>
-        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 00:45:00 GMT</lastBuildDate>
         <image>
             <title>Justice numérique</title>
             <link>https://digital-justice.com/fr</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Les talibans savent qui vous êtes - et maintenant ?</title>
+            <pubDate>Sat, 18 Sep 2021 00:45:00</pubDate>
+            <link>https://digital-justice.com/articles/taliban-knows-you.html</link>
+            <description>Les talibans ont acquis des données du gouvernement qui les a précédés, ce qui amène les Afghans à s'interroger sur leur sécurité numérique]&amp;gt;.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook s'excuse d'avoir classé les hommes noirs comme des primates</title>
             <pubDate>Sat, 4 Sep 2021 18:50:00</pubDate>

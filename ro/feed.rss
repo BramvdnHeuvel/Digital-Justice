@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/ro</link>
         <description>Blog despre drepturile digitale</description>
         <language>ro-ro</language>
-        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 00:45:00 GMT</lastBuildDate>
         <image>
             <title>Justiție digitală</title>
             <link>https://digital-justice.com/ro</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Talibanii știu cine ești - ce urmează?</title>
+            <pubDate>Sat, 18 Sep 2021 00:45:00</pubDate>
+            <link>https://digital-justice.com/articles/taliban-knows-you.html</link>
+            <description>Recenta preluare a puterii de către afgani a făcut ca talibanii să achiziționeze date de la guvernul care i-a predecedat, ceea ce i-a făcut pe afgani să se întrebe despre siguranța lor digitală]&amp;gt;.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook își cere scuze pentru că a clasificat bărbații de culoare drept primate</title>
             <pubDate>Sat, 4 Sep 2021 18:50:00</pubDate>

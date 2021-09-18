@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/da</link>
         <description>Blog om digitale rettigheder</description>
         <language>da-da</language>
-        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 00:45:00 GMT</lastBuildDate>
         <image>
             <title>Digital retfærdighed</title>
             <link>https://digital-justice.com/da</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Taliban ved, hvem du er - hvad nu?</title>
+            <pubDate>Sat, 18 Sep 2021 00:45:00</pubDate>
+            <link>https://digital-justice.com/articles/taliban-knows-you.html</link>
+            <description>Afghanernes nylige magtovertagelse har resulteret i, at Taliban har erhvervet data fra den forhenværende regering, hvilket får afghanerne til at sætte spørgsmålstegn ved deres digitale sikkerhed.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook undskylder for at klassificere sorte mænd som primater</title>
             <pubDate>Sat, 4 Sep 2021 18:50:00</pubDate>

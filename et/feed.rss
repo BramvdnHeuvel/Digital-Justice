@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/et</link>
         <description>Blogi digitaalsete õiguste kohta</description>
         <language>et-et</language>
-        <lastBuildDate>Sat, 21 Aug 2021 12:58:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 00:45:00 GMT</lastBuildDate>
         <image>
             <title>Digitaalne õigusemõistmine</title>
             <link>https://digital-justice.com/et</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Taliban teab, kes sa oled - mis nüüd?</title>
+            <pubDate>Sat, 18 Sep 2021 00:45:00</pubDate>
+            <link>https://digital-justice.com/articles/taliban-knows-you.html</link>
+            <description>Afganistani hiljutine võimuletulek on toonud kaasa selle, et Taliban on omandanud andmeid oma eelkäija valitsuselt, mistõttu afgaanid peavad kahtlema oma digitaalses turvalisuses.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook vabandab, et klassifitseeris mustanahalisi mehi primaatideks</title>
             <pubDate>Sat, 4 Sep 2021 18:50:00</pubDate>
