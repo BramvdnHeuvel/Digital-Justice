@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/de</link>
         <description>Blog über digitale Rechte</description>
         <language>de-de</language>
-        <lastBuildDate>Sat, 18 Sep 2021 00:45:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 06:15:00 GMT</lastBuildDate>
         <image>
             <title>Digitale Justiz</title>
             <link>https://digital-justice.com/de</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Instagram könnte für 6 Prozent der Selbstmorde von Teenagern verantwortlich sein</title>
+            <pubDate>Sat, 18 Sep 2021 06:15:00</pubDate>
+            <link>https://digital-justice.com/articles/suicide-by-instagram.html</link>
+            <description>Instagram hat jahrelang damit geworben, dass die Nutzung für Kinder gesund sei - und gleichzeitig intern eingeräumt, dass sie für 6 % aller Selbstmorde verantwortlich seien.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Die Taliban wissen, wer Sie sind - was nun?</title>
             <pubDate>Sat, 18 Sep 2021 00:45:00</pubDate>

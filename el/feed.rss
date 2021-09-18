@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/el</link>
         <description>Ιστολόγιο για τα ψηφιακά δικαιώματα</description>
         <language>el-el</language>
-        <lastBuildDate>Sat, 18 Sep 2021 00:45:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 06:15:00 GMT</lastBuildDate>
         <image>
             <title>Ψηφιακή δικαιοσύνη</title>
             <link>https://digital-justice.com/el</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Το Instagram μπορεί να ευθύνεται για το 6% των αυτοκτονιών εφήβων</title>
+            <pubDate>Sat, 18 Sep 2021 06:15:00</pubDate>
+            <link>https://digital-justice.com/articles/suicide-by-instagram.html</link>
+            <description>Το Instagram διαφήμιζε για χρόνια ότι ήταν υγιές για τα παιδιά να το χρησιμοποιούν - ενώ εσωτερικά συμπέραινε ότι ήταν υπεύθυνο για το 6% όλων των αυτοκτονιών]&amp;gt;.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Οι Ταλιμπάν γνωρίζουν ποιος είστε - τι γίνεται τώρα;</title>
             <pubDate>Sat, 18 Sep 2021 00:45:00</pubDate>
