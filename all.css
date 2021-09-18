@@ -73,6 +73,14 @@ article {
     article:not(:first-child) {
         margin-top: 30px;
     }
+blockquote {
+    font-family: monospace;
+    font-size: 1.4rem;
+    background-color: var(--color-gray);
+
+    border-radius: 15px;
+    padding: 15px;
+}
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -163,6 +171,11 @@ section {
 /*
 ** Specific classes for specific blocks
 */
+section:nth-child(2):last-child article div:only-child {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 .icon {
     position: relative;
     width: 20px;
