@@ -146,7 +146,7 @@ function buildIdealCard(ideal) {
             <div>
                 <h4>${ideal.name}</h4>
                 <p>${ideal.description[currentLanguage]}</p>
-                <a class="btn filled big round" href="${ideal.page}l">More</a>
+                <a class="btn filled big round" href="${ideal.page}">More</a>
             </div>
         </article>
     `;
