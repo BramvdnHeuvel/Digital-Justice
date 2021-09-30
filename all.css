@@ -421,6 +421,10 @@ main section[color="green"] {
     background-color: var(--color-green);
     color: var(--color-white);
 }
+    section:nth-child(5n+5) a,
+    main section[color="green"] a {
+        color: var(--shade-green-2);
+    }
     section:nth-child(5n+5) a.btn,
     main section[color="green"] a.btn {
         color: var(--color-white);
