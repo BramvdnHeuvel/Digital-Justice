@@ -133,7 +133,57 @@ var ideals = [{
     },
     "image": 'https://digital-justice.com/images/right-to-repair.png',
     "page": 'right-to-repair.html'
+}, {
+    "name": "Interoperability",
+    "description": {
+        "bg": "Комуникацията не трябва да се ограничава до използваната от вас платформа. Всеки заслужава да комуникира с всеки, независимо от приложението, което използва.",
+        "cs": "Komunikace by neměla být omezena na používanou platformu. Každý si zaslouží komunikaci s kýmkoli bez ohledu na to, jakou aplikaci používá.",
+        "da": "Kommunikation bør ikke være begrænset til den platform, du bruger. Alle fortjener at kunne kommunikere med alle, uanset hvilken app de bruger.",
+        "nl": "Communicatie mag niet beperkt zijn tot het platform dat je gebruikt. Iedereen heeft recht op communicatie met wie dan ook, ongeacht de app die hij gebruikt.",
+        "en": "Communication should not be limited to the platform you use. Everyone deserves communication with anyone, regardless of the app they use.",
+        "et": "Side ei tohiks piirduda kasutatava platvormiga. Igaüks väärib suhtlemist ükskõik kellega, olenemata sellest, millist rakendust ta kasutab.",
+        "fi": "Viestintää ei pitäisi rajoittaa käytettävään alustaan. Jokainen ansaitsee kommunikoinnin kenen tahansa kanssa riippumatta siitä, mitä sovellusta hän käyttää.",
+        "fr": "La communication ne doit pas être limitée à la plateforme que vous utilisez. Chacun mérite de pouvoir communiquer avec n'importe qui, quelle que soit l'application qu'il utilise.",
+        "de": "Die Kommunikation sollte nicht auf die von Ihnen verwendete Plattform beschränkt sein. Jeder hat das Recht, mit jedem zu kommunizieren, unabhängig davon, welche App er benutzt.",
+        "el": "Η επικοινωνία δεν πρέπει να περιορίζεται στην πλατφόρμα που χρησιμοποιείτε. Ο καθένας δικαιούται να επικοινωνεί με οποιονδήποτε, ανεξάρτητα από την εφαρμογή που χρησιμοποιεί.",
+        "hu": "A kommunikáció nem korlátozódhat a használt platformra. Mindenki megérdemli a kommunikációt bárkivel, függetlenül attól, hogy milyen alkalmazást használ.",
+        "it": "La comunicazione non dovrebbe essere limitata alla piattaforma che si usa. Tutti meritano di comunicare con chiunque, indipendentemente dall'applicazione che usano.",
+        "lv": "Saziņai nevajadzētu aprobežoties tikai ar izmantoto platformu. Ikviens ir pelnījis saziņu ar jebkuru, neatkarīgi no lietotnes, ko viņš izmanto.",
+        "lt": "Bendravimas neturėtų apsiriboti vien tik naudojama platforma. Kiekvienas nusipelno bendravimo su bet kuo, nepriklausomai nuo to, kokia programa jis naudojasi.",
+        "pl": "Komunikacja nie powinna być ograniczona do platformy, z której korzystasz. Każdy zasługuje na komunikację z każdym, niezależnie od aplikacji, której używa.",
+        "pt": "A comunicação não deve ser limitada à plataforma que utiliza. Todos merecem comunicação com qualquer pessoa, independentemente da aplicação que utilizem.",
+        "ro": "Comunicarea nu ar trebui să se limiteze la platforma pe care o utilizați. Toată lumea merită să comunice cu oricine, indiferent de aplicația pe care o utilizează.",
+        "sk": "Komunikácia by nemala byť obmedzená na používanú platformu. Každý si zaslúži komunikáciu s kýmkoľvek bez ohľadu na to, akú aplikáciu používa.",
+        "sl": "Komunikacija ne sme biti omejena na platformo, ki jo uporabljate. Vsakdo si zasluži komunikacijo s komer koli, ne glede na aplikacijo, ki jo uporablja.",
+        "es": "La comunicación no debe limitarse a la plataforma que se utilice. Todo el mundo merece comunicarse con cualquiera, independientemente de la aplicación que utilice.",
+        "sv": "Kommunikationen bör inte begränsas till den plattform du använder. Alla förtjänar att kommunicera med vem som helst, oavsett vilken app de använder."
+    },
+    "image": 'https://digital-justice.com/images/interoperability.png',
+    "page": 'interoperability.html'
 }];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const amountOfCards = 3;
 
