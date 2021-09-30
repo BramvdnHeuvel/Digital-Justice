@@ -333,13 +333,13 @@ main section[color="orange"] {
     background-color: var(--shade-orange-2);
     color: var(--shade-black-6);
 }
-    section:nth-child(5n+1) a.btn,
+    section:nth-child(5n+1):not([color]) a.btn,
     main section[color="gray"] a.btn {
         color: var(--color-black);
         border-color: var(--color-orange);
     }
-    section:nth-child(5n+1) a.btn.filled,
-    section:nth-child(5n+1) a.btn:hover,
+    section:nth-child(5n+1):not([color]) a.btn.filled,
+    section:nth-child(5n+1):not([color]) a.btn:hover,
     main section[color="gray"] a.btn.filled,
     main section[color="gray"] a.btn:hover {
         background-color: var(--color-orange);
@@ -354,13 +354,13 @@ main section[color="white"] {
     background-color: var(--color-white);
     color: var(--color-black);
 }
-    section:nth-child(5n+2) a.btn,
+    section:nth-child(5n+2):not([color]) a.btn,
     main section[color="white"] a.btn {
         color: var(--color-black);
         border-color: var(--color-black);
     }
-    section:nth-child(5n+2) a.btn.filled,
-    section:nth-child(5n+2) a.btn:hover,
+    section:nth-child(5n+2):not([color]) a.btn.filled,
+    section:nth-child(5n+2):not([color]) a.btn:hover,
     main section[color="white"] a.btn.filled,
     main section[color="white"] a.btn:hover {
         background-color: var(--color-black);
@@ -375,19 +375,19 @@ main section[color="light-green"] {
     background-color: var(--shade-greeny-2);
     color: var(--shade-green-4);
 }
-    section:nth-child(5n+3) a.btn,
+    section:nth-child(5n+3):not([color]) a.btn,
     main section[color="light-green"] a.btn {
     color: var(--shade-green-4);
         border-color: var(--shade-green-4);
     }
-    section:nth-child(5n+3) a.btn.filled,
-    section:nth-child(5n+3) a.btn:hover,
+    section:nth-child(5n+3):not([color]) a.btn.filled,
+    section:nth-child(5n+3):not([color]) a.btn:hover,
     main section[color="light-green"] a.btn.filled, 
     main section[color="light-green"] a.btn:hover {
         color: var(--color-white);
         background-color: var(--shade-green-4);
     }
-    section:nth-child(5n+3) .icon,
+    section:nth-child(5n+3):not([color]) .icon,
     main section[color="light-green"] .icon {
         filter: invert(47%) sepia(14%) saturate(1488%) hue-rotate(115deg) brightness(100%) contrast(100%);
     }
@@ -400,13 +400,13 @@ main section[color="gray"] {
     background-color: var(--shade-gray-2);
     color: var(--color-black);
 }
-    section:nth-child(5n+4) a.btn,
+    section:nth-child(5n+4):not([color]) a.btn,
     main section[color="gray"] a.btn {
         border-color: var(--shade-black-6);
         color: var(--shade-black-6);
     }
-    section:nth-child(5n+4) a.btn.filled,
-    section:nth-child(5n+4) a.btn:hover,
+    section:nth-child(5n+4):not([color]) a.btn.filled,
+    section:nth-child(5n+4):not([color]) a.btn:hover,
     main section[color="gray"] a.btn.filled,
     main section[color="gray"] a.btn:hover {
         background-color: var(--shade-black-6);
@@ -421,23 +421,23 @@ main section[color="green"] {
     background-color: var(--color-green);
     color: var(--color-white);
 }
-    section:nth-child(5n+5) a,
+    section:nth-child(5n+5):not([color]) a,
     main section[color="green"] a {
         color: var(--shade-green-2);
     }
-    section:nth-child(5n+5) a.btn,
+    section:nth-child(5n+5):not([color]) a.btn,
     main section[color="green"] a.btn {
         color: var(--color-white);
         border-color: var(--color-white);
     }
-    section:nth-child(5n+5) a.btn.filled,
-    section:nth-child(5n+5) a.btn:hover,
+    section:nth-child(5n+5):not([color]) a.btn.filled,
+    section:nth-child(5n+5):not([color]) a.btn:hover,
     main section[color="green"] a.btn.filled,
     main section[color="green"] a.btn:hover {
         background-color: var(--color-white);
         color: var(--color-green);
     }
-    section:nth-child(5n+5) .icon,
+    section:nth-child(5n+5):not([color]) .icon,
     main section[color="green"] .icon {
         filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(130deg) brightness(103%) contrast(103%);
     }
