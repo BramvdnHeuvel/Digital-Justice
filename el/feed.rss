@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/el</link>
         <description>Ιστολόγιο για τα ψηφιακά δικαιώματα</description>
         <language>el-el</language>
-        <lastBuildDate>Sat, 18 Sep 2021 06:15:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
         <image>
             <title>Ψηφιακή δικαιοσύνη</title>
             <link>https://digital-justice.com/el</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Νέο ψηφιακό δικαίωμα: η διαλειτουργικότητα</title>
+            <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>
+            <link>https://digital-justice.com/interoperability.html</link>
+            <description>Μάθετε περισσότερα για αυτό το νέο ψηφιακό δικαίωμα: είναι η &lt;a href="https://digital-justice.com/right-to-repair.html"&gt;διαλειτουργικότητα&lt;/a&gt;!]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>YouTube: Ελευθερία εγκατάστασης σε 60 δευτερόλεπτα</title>
             <pubDate>Tue, 28 Sep 2021 15:45:00</pubDate>

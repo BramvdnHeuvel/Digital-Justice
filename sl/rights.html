@@ -50,7 +50,12 @@
 <script src="https://digital-justice.com/js/open-hamburger.js"></script>
 </header>
 <main>
-<section>
+<style>
+            #shuffle article:nth-child(2n) {
+                flex-flow: row-reverse wrap;
+            }
+        </style>
+<section id="shuffle">
 <article class="horizontal large-preview">
 <div>
 <img src="https://digital-justice.com/images/software-autonomy-nologo.png"/>
@@ -63,7 +68,7 @@
 </p>
 </div>
 </article>
-<article class="reverse horizontal large-preview">
+<article class="horizontal large-preview">
 <div>
 <img src="https://digital-justice.com/images/installation-freedom-nologo.png"/>
 </div>
@@ -87,7 +92,7 @@
 </p>
 </div>
 </article>
-<article class="reverse horizontal large-preview">
+<article class="horizontal large-preview">
 <div>
 <img src="https://digital-justice.com/images/abandonware-continuity-nologo.png"/>
 </div>
@@ -111,11 +116,34 @@
 </p>
 </div>
 </article>
+<article class="horizontal large-preview">
+<div>
+<img src="https://digital-justice.com/images/interoperability-nologo.png"/>
+</div>
+<div>
+<h1>Interoperabilnost</h1>
+<p>Komunikacija ne sme biti omejena na platformo, ki jo uporabljate. Vsakdo si zasluži komunikacijo s komer koli, ne glede na aplikacijo, ki jo uporablja.</p>
+<p>
+<a class="btn filled big" href="interoperability.html">Preberi več</a>
+</p>
+</div>
+</article>
 </section>
 </main>
 <footer>
 <p>To spletno stran je ustanovil <a href="https://noordstar.me/">BramvdnHeuvel</a>. Tukaj je <a href="https://github.com/BramvdnHeuvel/Digital-Justice">izvorna koda.</a><br/> Z njima se lahko povežeš po <a href="mailto:digital-rights@bram.blmgroep.nl">pošti</a> ali na <a href="https://matrix.to/#/#digital-justice:noordstar.me">Matrici</a>.</p>
 <script src="https://digital-justice.com/js/language-picker.js"></script>
+<script>
+            let shuffleBox = document.getElementById("shuffle");
+
+            // Shuffle rights with the Fisher-Yates shuffle algorithm
+            // https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order
+            for (let i = shuffleBox.children.length; i >= 0; i--) {
+                shuffleBox.appendChild(
+                    shuffleBox.children[Math.random() * i | 0]
+                );
+            }
+        </script>
 </footer>
 </body>
 </html>

@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/it</link>
         <description>Blog sui diritti digitali</description>
         <language>it-it</language>
-        <lastBuildDate>Sat, 18 Sep 2021 06:15:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
         <image>
             <title>Giustizia digitale</title>
             <link>https://digital-justice.com/it</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Nuovo diritto digitale: l'interoperabilità</title>
+            <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>
+            <link>https://digital-justice.com/interoperability.html</link>
+            <description>Per saperne di più su questo nuovo diritto digitale: è l'&lt;a href="https://digital-justice.com/right-to-repair.html"&gt;interoperabilità&lt;/a&gt;!]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>YouTube: Libertà di installazione in 60 secondi</title>
             <pubDate>Tue, 28 Sep 2021 15:45:00</pubDate>

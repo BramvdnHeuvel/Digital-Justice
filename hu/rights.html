@@ -50,7 +50,12 @@
 <script src="https://digital-justice.com/js/open-hamburger.js"></script>
 </header>
 <main>
-<section>
+<style>
+            #shuffle article:nth-child(2n) {
+                flex-flow: row-reverse wrap;
+            }
+        </style>
+<section id="shuffle">
 <article class="horizontal large-preview">
 <div>
 <img src="https://digital-justice.com/images/software-autonomy-nologo.png"/>
@@ -63,7 +68,7 @@
 </p>
 </div>
 </article>
-<article class="reverse horizontal large-preview">
+<article class="horizontal large-preview">
 <div>
 <img src="https://digital-justice.com/images/installation-freedom-nologo.png"/>
 </div>
@@ -87,7 +92,7 @@
 </p>
 </div>
 </article>
-<article class="reverse horizontal large-preview">
+<article class="horizontal large-preview">
 <div>
 <img src="https://digital-justice.com/images/abandonware-continuity-nologo.png"/>
 </div>
@@ -111,11 +116,34 @@
 </p>
 </div>
 </article>
+<article class="horizontal large-preview">
+<div>
+<img src="https://digital-justice.com/images/interoperability-nologo.png"/>
+</div>
+<div>
+<h1>Átjárhatóság</h1>
+<p>A kommunikáció nem korlátozódhat a használt platformra. Mindenki megérdemli a kommunikációt bárkivel, függetlenül attól, hogy milyen alkalmazást használ.</p>
+<p>
+<a class="btn filled big" href="interoperability.html">Bővebben</a>
+</p>
+</div>
+</article>
 </section>
 </main>
 <footer>
 <p>Ezt a weboldalt <a href="https://noordstar.me/">BramvdnHeuvel</a> alapította. Itt van <a href="https://github.com/BramvdnHeuvel/Digital-Justice">a forráskód.</a><br/> A kapcsolatot <a href="mailto:digital-rights@bram.blmgroep.nl">E-mail</a> vagy <a href="https://matrix.to/#/#digital-justice:noordstar.me">Mátrix</a> címen veheti fel velük.</p>
 <script src="https://digital-justice.com/js/language-picker.js"></script>
+<script>
+            let shuffleBox = document.getElementById("shuffle");
+
+            // Shuffle rights with the Fisher-Yates shuffle algorithm
+            // https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order
+            for (let i = shuffleBox.children.length; i >= 0; i--) {
+                shuffleBox.appendChild(
+                    shuffleBox.children[Math.random() * i | 0]
+                );
+            }
+        </script>
 </footer>
 </body>
 </html>
