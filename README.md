@@ -10,7 +10,7 @@ The website aims to educate and motivate people to move towards establishing dig
 Everyone is welcome to help this website! Your articles will be published on the website upon approval by the administrators.
 
 1. Fork the repository and create your own branch;
-2. Make a new HTML-file in the folder `articles/`. You can use [`articles/article-template.html`](articles/template.html) as a template;
+2. Make a new HTML-file in the folder `articles/`. You can use [`articles/template.html`](articles/template.html) as a template;
 3. Write your article in your newly created HTML file;
 4. Add your article to the table in [`articles/index.txt`](articles/index.txt);
 5. Add a link to your article at the top of the list on [`articles/index.html`](articles/index.html);

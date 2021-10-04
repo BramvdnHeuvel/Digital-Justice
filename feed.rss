@@ -14,6 +14,20 @@
             <height>512</height>
         </image>
         <item>
+            <title>Facebook is down - time to move to Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description><![CDATA[While one of the world's largest tech companies is down, it's time to move to a chat app without single points of failures.]]>]></description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Software Autonomy in 60 seconds</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description><![CDATA[A new video was made for the Digital Justice website. In this video, Bram explains what software autonomy is and why it's so important.]]>]></description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
             <title>New digital right: interoperability</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>
             <link>https://digital-justice.com/interoperability.html</link>

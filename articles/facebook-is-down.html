@@ -1,0 +1,130 @@
+<!--
+    This document is an example of how you write an article.
+
+    There's a handy guide a bit further down the document, it'll help you out big time. :)
+
+    If you're editing this file, make sure to open it in your browser 
+    every now and then to check if it looks good. And don't forget to save regularly!
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+
+    <link rel="stylesheet" type="text/css" href="https://digital-justice.com/all.css">
+    <link rel="stylesheet" media="screen and (max-width: 48em)" href="https://digital-justice.com/small.css">
+    <link rel="stylesheet" type="text/css" href="https://digital-justice.com/icons/fontawesome-free-5.13.0-web/css/all.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="https://digital-justice.com/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://digital-justice.com/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://digital-justice.com/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://digital-justice.com/icons/site.webmanifest">
+
+    <!-- Meta tags -->
+    <!-- Primary Meta Tags -->
+    <title>Facebook is down - time to move to Matrix</title>
+    <meta name="title" content="Facebook is down - time to move to Matrix">
+    <meta name="description" content="While one of the world's largest tech companies is down, it's time to move to a chat app without single points of failures.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://digital-justice.com/">
+    <meta property="og:title" content="Facebook is down - time to move to Matrix">
+    <meta property="og:description" content="While one of the world's largest tech companies is down, it's time to move to a chat app without single points of failures.">
+    <meta property="og:image" content="https://digital-justice.com/images/central-breaks.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://digital-justice.com/">
+    <meta property="twitter:title" content="Facebook is down - time to move to Matrix">
+    <meta property="twitter:description" content="While one of the world's largest tech companies is down, it's time to move to a chat app without single points of failures.">
+    <meta property="twitter:image" content="https://digital-justice.com/images/central-breaks.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+
+            <a href="../rights.html">Digital rights</a>
+            <a href="index.html">Articles</a>
+            
+            <div id="language-picker"></div>
+            <a href="javascript:void(0)" class="hamburger" onclick="openHamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <script src="https://digital-justice.com/js/open-hamburger.js"></script>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>Facebook is down - time to move to Matrix</h1>
+
+                <p>
+                    This is an authentic article written by <a href="https://matrix.to/#/@bram:noordstar.me">BramvdnHeuvel</a>.
+                </p>
+
+                <p>
+                    Estimated reading time: <img src="https://digital-justice.com/images/clock.svg" class="icon"> 3 mins.
+                </p>
+            </article>
+        </section>
+        <section color="gray">
+            <article>
+                <div>
+                    <h1>Facebook is down - time to move to Matrix</h1>
+
+                    <p>
+                        As a result of a Facebook employee making a small BGP mistake, Facebook's entire infrastructure is down: Facebook, Instagram and WhatsApp are all no longer accessible for a while.
+                    </p>
+                    <p>
+                        According to <a href="https://www.jeffgeerling.com/" target="_blank">Jeff Geerling</a> as told in the video below, the problem goes even further where Facebook employees cannot even enter Facebook buildings as a result of the keycards being connected to Facebook's infrastructure, making solving the issues even more difficult.
+                    </p>
+                    <div class="img-center">
+                        <iframe class="expanding-iframe" swidth="560" sheight="315" src="https://www.youtube.com/embed/KLqH8p1QVpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <h2>Why move to Matrix?</h2>
+                    <p>
+                        As the platform <a href="https://matrix.org/" target="_blank">claims on their website</a>, Matrix' decentralised nature allows for no single points of failure. No single Matrix employee could disrupt or even block the entire network's communication for any amount of time.
+                    </p>
+                    <p>
+                        Matrix works in federated servers: everyone has the option (and is encouraged) to create their own server and add it to the Matrix network. That way, if one server goes down, all the other servers are still available for online business.
+                    </p>
+                    <p>
+                        The example below shows how a centralized service like Facebook has an obvious server node that would cancel all communication if it were to gain issues, (like as of the time of writing the article) whereas no such point exists in a decentralized service like Matrix.
+                    </p>
+
+                    <div class="img-center">
+                        <img src="https://digital-justice.com/images/central-vs-decentral.png">
+                    </div>
+
+                    <h2>How do I move to Matrix?</h2>
+                    <p>
+                        Install either <a href="https://element.io/" target="_blank">Element</a> or <a href="https://fluffychat.im/" target="_blank">FluffyChat</a> on your phone. Either app is fine, and they're both connected to the Matrix network. Choose a homeserver like <b>matrix.org</b>, <b>chat.privacytools.io</b> or <b>chat.weho.st</b> and you'll be good to go. Both apps respect your privacy, have end-to-end encryption by default and allow you to connect to whomever you want.
+                    </p>
+                    <p>
+                        If you have any questions, you can always contact me on <a href="https://matrix.to/#/#noordstar-general:nltrix.net" target="_blank">Matrix</a>, <a href="https://discord.gg/uctWsYv" target="_blank">Discord</a> or <a href="https://t.me/joinchat/zshp_24wA14yZGNk" target="_blank">Telegram</a>, as they're all connected to my Matrix account.
+                    </p>
+                    <p>
+                        This is the perfect moment to <b>#deletefacebook</b>. And if you're still hesitating, read up more on <a href="../interoperability.html" target="_blank">interoperability</a>, <a href="decentralize.html" target="_blank">decentralization</a> and <a href="../rights.html" target="_blank">other rights</a>.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            This website was founded by <a href="https://noordstar.me/">BramvdnHeuvel</a>. Here's <a href="https://github.com/BramvdnHeuvel/Digital-Justice">the source code.</a><br>
+            You can contact them per <a href="mailto:digital-rights@bram.blmgroep.nl">email</a> or on <a href="https://matrix.to/#/#digital-justice:noordstar.me">Matrix</a>.
+        </p>
+        <script src="https://digital-justice.com/js/expand-iframes.js"></script>
+        <script src="https://digital-justice.com/js/language-picker.js"></script>
+    </footer>
+</body>
+</html>
