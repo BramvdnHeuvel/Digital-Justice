@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/lv</link>
         <description>Blogs par digitālajām tiesībām</description>
         <language>lv-lv</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digitālais taisnīgums</title>
             <link>https://digital-justice.com/lv</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook nedarbojas - laiks pāriet uz Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Kamēr viens no pasaules lielākajiem tehnoloģiju uzņēmumiem ir cietuši neveiksmi, ir pienācis laiks pāriet uz tērzēšanas lietotni bez atsevišķiem kļūmes punktiem.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Programmatūras autonomija 60 sekundēs</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Tīmekļa vietnei Digital Justice tika uzņemts jauns video. Šajā video Brams skaidro, kas ir programmatūras autonomija un kāpēc tā ir tik svarīga.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Jaunās digitālās tiesības: sadarbspēja</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

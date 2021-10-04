@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/bg</link>
         <description>Блог за цифровите права</description>
         <language>bg-bg</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Цифрово правосъдие</title>
             <link>https://digital-justice.com/bg</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook не работи - време е да преминете към Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Докато една от най-големите технологични компании в света е в криза, е време да преминете към приложение за чат без единични точки на провал.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Софтуерна автономия за 60 секунди</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Направен е нов видеоклип за уебсайта Digital Justice. В това видео Брам обяснява какво е софтуерна автономия и защо е толкова важна.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Новото цифрово право: оперативна съвместимост</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

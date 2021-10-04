@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/sl</link>
         <description>Blog o digitalnih pravicah</description>
         <language>sl-sl</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digitalna pravičnost</title>
             <link>https://digital-justice.com/sl</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook ne deluje - čas za prehod na Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Medtem ko eno največjih tehnoloških podjetij na svetu ne deluje, je čas za prehod na aplikacijo za klepet brez posameznih točk napak.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Avtonomija programske opreme v 60 sekundah</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Za spletno mesto Digital Justice je bil posnet nov videoposnetek. V njem Bram razloži, kaj je avtonomija programske opreme in zakaj je tako pomembna.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Nova digitalna pravica: interoperabilnost</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

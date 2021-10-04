@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/fi</link>
         <description>Blogi digitaalisista oikeuksista</description>
         <language>fi-fi</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digitaalinen oikeus</title>
             <link>https://digital-justice.com/fi</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook on kaatunut - aika siirtyä Matrixiin</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Kun yksi maailman suurimmista teknologiayrityksistä on kaatunut, on aika siirtyä chat-sovellukseen, jossa ei ole yksittäisiä vikapisteitä.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Autonominen ohjelmisto 60 sekunnissa</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Digital Justice -sivustolle on tehty uusi video. Tässä videossa Bram selittää, mitä ohjelmistojen autonomia on ja miksi se on niin tärkeää.]]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Uusi digitaalinen oikeus: yhteentoimivuus</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

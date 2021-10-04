@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/cs</link>
         <description>Blog o digitálních právech</description>
         <language>cs-cs</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digitální spravedlnost</title>
             <link>https://digital-justice.com/cs</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook je mimo provoz - je čas přejít na Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Zatímco jedna z největších technologických společností na světě je v nečinnosti, je čas přejít na chatovací aplikaci bez jediného chybového bodu.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Autonomie softwaru za 60 sekund</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Pro web Digital Justice bylo natočeno nové video. V tomto videu Bram vysvětluje, co je to softwarová autonomie a proč je tak důležitá.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Nové digitální právo: interoperabilita</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

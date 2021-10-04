@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/da</link>
         <description>Blog om digitale rettigheder</description>
         <language>da-da</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digital retfærdighed</title>
             <link>https://digital-justice.com/da</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook er nede - tid til at flytte til Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Mens en af verdens største teknologivirksomheder er gået ned, er det på tide at skifte til en chat-app uden enkeltstående fejl.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Softwareautonomi på 60 sekunder</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Der blev lavet en ny video til Digital Justice-webstedet. I denne video forklarer Bram, hvad softwareautonomi er, og hvorfor det er så vigtigt.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Ny digital rettighed: interoperabilitet</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

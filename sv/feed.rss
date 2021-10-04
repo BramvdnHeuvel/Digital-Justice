@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/sv</link>
         <description>Blogg om digitala rättigheter</description>
         <language>sv-sv</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digital rättvisa</title>
             <link>https://digital-justice.com/sv</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook är nere - dags att gå över till Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Medan ett av världens största teknikföretag ligger nere är det dags att gå över till en chattapp utan enstaka felpunkter.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Autonomi av programvara på 60 sekunder</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>En ny video har gjorts för webbplatsen Digital Justice. I videon förklarar Bram vad mjukvaruautonomi är och varför det är så viktigt.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Ny digital rättighet: interoperabilitet</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

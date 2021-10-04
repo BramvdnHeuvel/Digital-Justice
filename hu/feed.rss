@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/hu</link>
         <description>Blog a digitális jogokról</description>
         <language>hu-hu</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digitális igazságszolgáltatás</title>
             <link>https://digital-justice.com/hu</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>A Facebook leállt - ideje áttérni a Matrixra</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Miközben a világ egyik legnagyobb technológiai vállalata leállt, itt az ideje, hogy egy olyan csevegőalkalmazásra váltsunk, ahol nincsenek egyetlen hibapontok.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Szoftver-autonómia 60 másodpercben</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Új videó készült a Digital Justice weboldalához. Ebben a videóban Bram elmagyarázza, hogy mi a szoftver-autonómia, és miért olyan fontos.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Új digitális jog: az átjárhatóság</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

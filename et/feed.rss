@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/et</link>
         <description>Blogi digitaalsete õiguste kohta</description>
         <language>et-et</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digitaalne õigusemõistmine</title>
             <link>https://digital-justice.com/et</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook on alla käinud - aeg kolida Matrixile</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Kuigi üks maailma suurimaid tehnoloogiafirmasid on alla käinud, on aeg minna üle juturakendusele, kus ei ole ühtegi viga.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Tarkvara autonoomia 60 sekundiga</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Digital Justice'i veebisaidile tehti uus video. Selles videos selgitab Bram, mis on tarkvara autonoomia ja miks see nii oluline on.]] &amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Uus digitaalne õigus: koostalitlusvõime</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

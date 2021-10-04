@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/ro</link>
         <description>Blog despre drepturile digitale</description>
         <language>ro-ro</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Justiție digitală</title>
             <link>https://digital-justice.com/ro</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook nu mai funcționează - este timpul să trecem la Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>În timp ce una dintre cele mai mari companii de tehnologie din lume este la pământ, este timpul să trecem la o aplicație de chat fără puncte unice de eșec.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Autonomia software în 60 de secunde</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>A fost realizat un nou videoclip pentru site-ul Digital Justice. În acest videoclip, Bram explică ce este autonomia software și de ce este atât de importantă.]&amp;gt;.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Noul drept digital: este vorba despre interoperabilitate</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

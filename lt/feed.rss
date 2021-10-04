@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/lt</link>
         <description>Tinklaraštis apie skaitmenines teises</description>
         <language>lt-lt</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Skaitmeninis teisingumas</title>
             <link>https://digital-justice.com/lt</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>"Facebook" neveikia - laikas pereiti prie "Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Kol viena didžiausių pasaulio technologijų bendrovių patiria nesėkmę, laikas pereiti prie pokalbių programos, kurioje nėra vieno nesėkmės taško.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>"YouTube": Programinės įrangos autonomija per 60 sekundžių</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Skaitmeninio teisingumo svetainei sukurtas naujas vaizdo įrašas. Šiame vaizdo įraše Bramas paaiškina, kas yra programinės įrangos autonomija ir kodėl ji tokia svarbi.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Nauja skaitmeninė teisė: sąveikumas</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

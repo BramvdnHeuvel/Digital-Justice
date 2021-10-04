@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/de</link>
         <description>Blog über digitale Rechte</description>
         <language>de-de</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digitale Justiz</title>
             <link>https://digital-justice.com/de</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook ist down - Zeit, zu Matrix zu wechseln</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Während eines der weltweit größten Technologieunternehmen ausfällt, ist es an der Zeit, zu einer Chat-App ohne einzelne Fehlerquellen zu wechseln.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Software Autonomy in 60 Sekunden</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Für die Website von Digital Justice wurde ein neues Video gedreht. In diesem Video erklärt Bram, was Software-Autonomie ist und warum sie so wichtig ist.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Neues digitales Recht: Interoperabilität</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

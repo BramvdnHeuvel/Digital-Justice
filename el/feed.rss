@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/el</link>
         <description>Ιστολόγιο για τα ψηφιακά δικαιώματα</description>
         <language>el-el</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Ψηφιακή δικαιοσύνη</title>
             <link>https://digital-justice.com/el</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Το Facebook δεν λειτουργεί - ώρα να μετακινηθείτε στο Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Ενώ μια από τις μεγαλύτερες εταιρείες τεχνολογίας στον κόσμο είναι εκτός λειτουργίας, είναι καιρός να μεταβείτε σε μια εφαρμογή συνομιλίας χωρίς ενιαία σημεία αποτυχίας.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Λογισμικό Αυτονομίας σε 60 δευτερόλεπτα</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Ένα νέο βίντεο δημιουργήθηκε για τον ιστότοπο Digital Justice. Σε αυτό το βίντεο, ο Bram εξηγεί τι είναι η αυτονομία λογισμικού και γιατί είναι τόσο σημαντική.]&amp;gt;</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Νέο ψηφιακό δικαίωμα: η διαλειτουργικότητα</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

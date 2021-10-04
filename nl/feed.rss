@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/nl</link>
         <description>Blog over digitale rechten</description>
         <language>nl-nl</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Digitale Justitie</title>
             <link>https://digital-justice.com/nl</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook is down - tijd om te verhuizen naar Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Terwijl een van 's werelds grootste techbedrijven plat ligt, is het tijd om over te stappen op een chat-app zonder single points of failures.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube: Software Autonomie in 60 seconden</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Er is een nieuwe video gemaakt voor de Digital Justice website. In deze video legt Bram uit wat software autonomie is en waarom het zo belangrijk is.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Nieuw digitaal recht: interoperabiliteit</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>

@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/fr</link>
         <description>Blog sur les droits numériques</description>
         <language>fr-fr</language>
-        <lastBuildDate>Thu, 30 Sep 2021 22:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
         <image>
             <title>Justice numérique</title>
             <link>https://digital-justice.com/fr</link>
@@ -12,6 +12,20 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Facebook est en panne - il est temps de passer à Matrix</title>
+            <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
+            <link>https://digital-justice.com/articles/facebook-is-down.html</link>
+            <description>Alors que l'une des plus grandes entreprises technologiques du monde est en panne, il est temps de passer à une application de chat sans points de défaillance uniques.]&amp;gt; &amp;gt;.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
+        <item>
+            <title>YouTube : L'autonomie logicielle en 60 secondes</title>
+            <pubDate>Sun, 02 Oct 2021 13:30:00</pubDate>
+            <link>https://www.youtube.com/watch?v=baKv9K6Ykso</link>
+            <description>Une nouvelle vidéo a été réalisée pour le site Digital Justice. Dans cette vidéo, Bram explique ce qu'est l'autonomie logicielle et pourquoi elle est si importante.]&amp;gt;.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Nouveau droit numérique : l'interopérabilité</title>
             <pubDate>Thu, 30 Sep 2021 22:00:00</pubDate>
