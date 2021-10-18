@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/cs</link>
         <description>Blog o digitálních právech</description>
         <language>cs-cs</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Digitální spravedlnost</title>
             <link>https://digital-justice.com/cs</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Čtyři vyhledávače varovaly před Googlem - kdo to je?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/cs/articles/search-engines-vs-google.html</link>
+            <description>Společnosti DuckDuckGo, Ecosia, Qwant a Lilo zaslaly Evropské komisi otevřený dopis, ve kterém doufají, že DMA vytvoří spravedlivý a otevřený trh pro vyhledávače.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook je mimo provoz - je čas přejít na Matrix</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

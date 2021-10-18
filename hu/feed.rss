@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/hu</link>
         <description>Blog a digitális jogokról</description>
         <language>hu-hu</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Digitális igazságszolgáltatás</title>
             <link>https://digital-justice.com/hu</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 keresőmotor figyelmeztetett a Google-ra - kik ők?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/hu/articles/search-engines-vs-google.html</link>
+            <description>A DuckDuckGo, az Ecosia, a Qwant és a Lilo nyílt levelet küldött az Európai Bizottságnak, remélve, hogy a DMA tisztességes és nyílt piacot teremt a keresőmotorok számára.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>A Facebook leállt - ideje áttérni a Matrixra</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

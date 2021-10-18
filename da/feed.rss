@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/da</link>
         <description>Blog om digitale rettigheder</description>
         <language>da-da</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Digital retfærdighed</title>
             <link>https://digital-justice.com/da</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 søgemaskiner advarede mod Google - hvem er de?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/da/articles/search-engines-vs-google.html</link>
+            <description>DuckDuckGo, Ecosia, Qwant og Lilo har sendt et åbent brev til Europa-Kommissionen i håb om, at DMA vil skabe et fair og åbent marked for søgemaskiner.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook er nede - tid til at flytte til Matrix</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

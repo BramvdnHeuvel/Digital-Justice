@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/lv</link>
         <description>Blogs par digitālajām tiesībām</description>
         <language>lv-lv</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Digitālais taisnīgums</title>
             <link>https://digital-justice.com/lv</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 meklētājprogrammas brīdināja par Google - kas tās ir?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/lv/articles/search-engines-vs-google.html</link>
+            <description>DuckDuckGo, Ecosia, Qwant un Lilo nosūtīja atklātu vēstuli Eiropas Komisijai, cerot, ka DMA radīs godīgu un atvērtu meklētājprogrammu tirgu.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook nedarbojas - laiks pāriet uz Matrix</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

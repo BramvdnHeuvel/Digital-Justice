@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/el</link>
         <description>Ιστολόγιο για τα ψηφιακά δικαιώματα</description>
         <language>el-el</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Ψηφιακή δικαιοσύνη</title>
             <link>https://digital-justice.com/el</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 μηχανές αναζήτησης προειδοποίησαν για την Google - ποιες είναι αυτές;</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/el/articles/search-engines-vs-google.html</link>
+            <description>Οι DuckDuckGo, Ecosia, Qwant &amp;amp; Lilo έστειλαν ανοιχτή επιστολή στην Ευρωπαϊκή Επιτροπή, ελπίζοντας ότι η DMA θα δημιουργήσει μια δίκαιη και ανοιχτή αγορά για τις μηχανές αναζήτησης.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Το Facebook δεν λειτουργεί - ώρα να μετακινηθείτε στο Matrix</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

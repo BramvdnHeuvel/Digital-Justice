@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/nl</link>
         <description>Blog over digitale rechten</description>
         <language>nl-nl</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Digitale Justitie</title>
             <link>https://digital-justice.com/nl</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 zoekmachines gewaarschuwd voor Google - wie zijn ze?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/nl/articles/search-engines-vs-google.html</link>
+            <description>DuckDuckGo, Ecosia, Qwant &amp;amp; Lilo stuurden een open brief naar de Europese Commissie, in de hoop dat de DMA een eerlijke en open markt voor zoekmachines zal creëren.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook is down - tijd om te verhuizen naar Matrix</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

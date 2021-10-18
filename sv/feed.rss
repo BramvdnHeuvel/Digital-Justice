@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/sv</link>
         <description>Blogg om digitala rättigheter</description>
         <language>sv-sv</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Digital rättvisa</title>
             <link>https://digital-justice.com/sv</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 sökmotorer varnade för Google - vilka är de?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/sv/articles/search-engines-vs-google.html</link>
+            <description>DuckDuckGo, Ecosia, Qwant och Lilo skickade ett öppet brev till Europeiska kommissionen och hoppades att DMA skulle skapa en rättvis och öppen marknad för sökmotorer.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook är nere - dags att gå över till Matrix</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

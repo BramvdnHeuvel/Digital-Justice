@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/de</link>
         <description>Blog über digitale Rechte</description>
         <language>de-de</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Digitale Justiz</title>
             <link>https://digital-justice.com/de</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 Suchmaschinen warnen vor Google - wer sind sie?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/de/articles/search-engines-vs-google.html</link>
+            <description>DuckDuckGo, Ecosia, Qwant und Lilo haben sich in einem offenen Brief an die Europäische Kommission gewandt und hoffen, dass die DMA einen fairen und offenen Markt für Suchmaschinen schaffen wird.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook ist down - Zeit, zu Matrix zu wechseln</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/es</link>
         <description>Blog sobre derechos digitales</description>
         <language>es-es</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Justicia digital</title>
             <link>https://digital-justice.com/es</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 motores de búsqueda advirtieron sobre Google - ¿quiénes son?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/es/articles/search-engines-vs-google.html</link>
+            <description>DuckDuckGo, Ecosia, Qwant y Lilo han enviado una carta abierta a la Comisión Europea, esperando que la DMA cree un mercado justo y abierto para los motores de búsqueda.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook no funciona - es hora de pasar a Matrix</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

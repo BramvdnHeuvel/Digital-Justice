@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/ro</link>
         <description>Blog despre drepturile digitale</description>
         <language>ro-ro</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Justiție digitală</title>
             <link>https://digital-justice.com/ro</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 motoare de căutare avertizate în legătură cu Google - cine sunt acestea?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/ro/articles/search-engines-vs-google.html</link>
+            <description>DuckDuckGo, Ecosia, Qwant &amp;amp; Lilo au trimis o scrisoare deschisă Comisiei Europene, în speranța că DMA va crea o piață corectă și deschisă pentru motoarele de căutare.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook nu mai funcționează - este timpul să trecem la Matrix</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

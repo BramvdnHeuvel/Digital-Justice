@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/sl</link>
         <description>Blog o digitalnih pravicah</description>
         <language>sl-sl</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Digitalna pravičnost</title>
             <link>https://digital-justice.com/sl</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 iskalniki, ki so opozorili na Google - kdo so?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/sl/articles/search-engines-vs-google.html</link>
+            <description>Podjetja DuckDuckGo, Ecosia, Qwant in Lilo so Evropski komisiji poslala odprto pismo, v katerem upajo, da bo agencija DMA ustvarila pošten in odprt trg za iskalnike.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook ne deluje - čas za prehod na Matrix</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>

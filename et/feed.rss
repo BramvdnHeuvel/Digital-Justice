@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/et</link>
         <description>Blogi digitaalsete õiguste kohta</description>
         <language>et-et</language>
-        <lastBuildDate>Mon, 04 Oct 2021 21:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
         <image>
             <title>Digitaalne õigusemõistmine</title>
             <link>https://digital-justice.com/et</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>4 otsingumootorit hoiatasid Google'i eest - kes nad on?</title>
+            <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
+            <link>https://digital-justice.com/et/articles/search-engines-vs-google.html</link>
+            <description>DuckDuckGo, Ecosia, Qwant &amp;amp; Lilo saatsid Euroopa Komisjonile avatud kirja, milles loodavad, et DMA loob otsingumootoritele ausa ja avatud turu.</description>
+            <author src="matrix" href="https://matrix.to/#/@bram:noordstar.me">@bram:noordstar.me</author>
+        </item>
         <item>
             <title>Facebook on alla käinud - aeg kolida Matrixile</title>
             <pubDate>Mon, 04 Oct 2021 21:50:00</pubDate>
