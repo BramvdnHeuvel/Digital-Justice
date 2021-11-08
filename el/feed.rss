@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/el</link>
         <description>Ιστολόγιο για τα ψηφιακά δικαιώματα</description>
         <language>el-el</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Ψηφιακή δικαιοσύνη</title>
             <link>https://digital-justice.com/el</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Στέλνουμε ένα αίτημα wob στην AP</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>Στις 8 Νοεμβρίου 2021, στείλαμε ένα wob request στο AP για να μάθουμε τι έχει κάνει το AP για να αποτρέψει τη συλλογή δεδομένων από παιδιά στα δημόσια σχολεία.]&amp;gt;</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 μηχανές αναζήτησης προειδοποίησαν για την Google - ποιες είναι αυτές;</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

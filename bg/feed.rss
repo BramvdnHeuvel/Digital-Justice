@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/bg</link>
         <description>Блог за цифровите права</description>
         <language>bg-bg</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Цифрово правосъдие</title>
             <link>https://digital-justice.com/bg</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Изпращаме искане за wob до АП</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>На 8 ноември 2021 г. изпратихме wob искане до АП, за да разберем какво е направила АП, за да предотврати събирането на данни за децата в държавните училища.]&amp;gt;</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 търсачки предупредиха за Google - кои са те?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

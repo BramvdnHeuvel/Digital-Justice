@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/sl</link>
         <description>Blog o digitalnih pravicah</description>
         <language>sl-sl</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Digitalna pravičnost</title>
             <link>https://digital-justice.com/sl</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Pošiljamo zahtevo wob na AP</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>8. novembra 2021 smo na AP poslali zahtevo wob, da bi ugotovili, kaj je AP storila, da bi preprečila zbiranje podatkov o otrocih v javnih šolah.]&amp;gt;</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 iskalniki, ki so opozorili na Google - kdo so?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

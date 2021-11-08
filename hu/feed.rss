@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/hu</link>
         <description>Blog a digitális jogokról</description>
         <language>hu-hu</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Digitális igazságszolgáltatás</title>
             <link>https://digital-justice.com/hu</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Küldünk egy wob-kérelmet az AP-nek.</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>2021. november 8-án wob-kérést küldtünk az AP-nek, hogy megtudjuk, mit tett az AP az állami iskolákban élő gyerekek adatgyűjtésének megakadályozása érdekében]&amp;gt;.</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 keresőmotor figyelmeztetett a Google-ra - kik ők?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

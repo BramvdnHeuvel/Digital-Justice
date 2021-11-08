@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/da</link>
         <description>Blog om digitale rettigheder</description>
         <language>da-da</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Digital retfærdighed</title>
             <link>https://digital-justice.com/da</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Vi sender en wob-anmodning til AP</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>Den 8. november 2021 har vi sendt en wob-anmodning til AP for at finde ud af, hvad AP har gjort for at forhindre dataindsamling af børn i offentlige skoler.]&amp;gt;</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 søgemaskiner advarede mod Google - hvem er de?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

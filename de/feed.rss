@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/de</link>
         <description>Blog über digitale Rechte</description>
         <language>de-de</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Digitale Justiz</title>
             <link>https://digital-justice.com/de</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Wir senden eine Wob-Anfrage an die AP</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>Am 8. November 2021 haben wir eine Wob-Anfrage an die AP geschickt, um herauszufinden, was die AP getan hat, um die Datenerfassung von Kindern in öffentlichen Schulen zu verhindern.]</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 Suchmaschinen warnen vor Google - wer sind sie?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

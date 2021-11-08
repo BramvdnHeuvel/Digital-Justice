@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/cs</link>
         <description>Blog o digitálních právech</description>
         <language>cs-cs</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Digitální spravedlnost</title>
             <link>https://digital-justice.com/cs</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Zasíláme žádost o wob agentuře AP.</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>Dne 8. listopadu 2021 jsme odeslali wob žádost na AP, abychom zjistili, co AP udělala pro to, aby zabránila sběru dat o dětech ve veřejných školách.]&amp;gt;</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>Čtyři vyhledávače varovaly před Googlem - kdo to je?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

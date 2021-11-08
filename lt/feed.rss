@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/lt</link>
         <description>Tinklaraštis apie skaitmenines teises</description>
         <language>lt-lt</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Skaitmeninis teisingumas</title>
             <link>https://digital-justice.com/lt</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Siunčiame wob prašymą AP</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>2021 m. lapkričio 8 d. išsiuntėme AP wob užklausą, kad sužinotume, ką AP padarė, kad užkirstų kelią vaikų duomenų rinkimui valstybinėse mokyklose]&amp;gt;&amp;gt;.</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 paieškos sistemos įspėtos dėl "Google" - kas jos tokios?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

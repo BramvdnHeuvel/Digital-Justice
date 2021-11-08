@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/lv</link>
         <description>Blogs par digitālajām tiesībām</description>
         <language>lv-lv</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Digitālais taisnīgums</title>
             <link>https://digital-justice.com/lv</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Mēs nosūtām AP wob pieprasījumu</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>2021. gada 8. novembrī mēs esam nosūtījuši AP wob pieprasījumu, lai noskaidrotu, ko AP ir darījusi, lai novērstu datu vākšanu par bērniem valsts skolās]&amp;gt;&amp;gt;.</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 meklētājprogrammas brīdināja par Google - kas tās ir?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

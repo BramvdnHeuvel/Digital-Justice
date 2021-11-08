@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/nl</link>
         <description>Blog over digitale rechten</description>
         <language>nl-nl</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Digitale Justitie</title>
             <link>https://digital-justice.com/nl</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>We sturen een wob verzoek naar de AP</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>Op 8 november 2021 hebben we een wob-verzoek gestuurd naar het AP om te weten te komen wat het AP heeft gedaan om het verzamelen van gegevens van kinderen op openbare scholen tegen te gaan.]&amp;gt;</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 zoekmachines gewaarschuwd voor Google - wie zijn ze?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>

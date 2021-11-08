@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/fi</link>
         <description>Blogi digitaalisista oikeuksista</description>
         <language>fi-fi</language>
-        <lastBuildDate>Mon, 18 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
         <image>
             <title>Digitaalinen oikeus</title>
             <link>https://digital-justice.com/fi</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Lähetämme wob-pyynnön AP:lle.</title>
+            <pubDate>Mon, 08 Nov 2021 21:45:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>Olemme 8. marraskuuta 2021 lähettäneet AP:lle wob-pyynnön selvittääksemme, mitä AP on tehnyt estääkseen tietojen keräämisen lapsista julkisissa kouluissa]&amp;gt;.</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>4 hakukonetta varoitti Googlesta - keitä ne ovat?</title>
             <pubDate>Mon, 18 Oct 2021 00:00:00</pubDate>
