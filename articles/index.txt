@@ -2,12 +2,13 @@ This list sorts articles by order of published date.
 
 
 No.     File                                    Author          Name
-1       how-to-join-matrix.html                 BramvdnHeuvel   How to join the Matrix network
-2       decentralize.html                       BramvdnHeuvel   Dear politicians of the EU, it's time to decentralize the internet
-3       skip-signal.html                        BramvdnHeuvel   Skip Signal and move to Matrix before it's too late
-4       facebook-black-men-primates.html        BramvdnHeuvel   Facebook apologises for classifying black men as primates
-5       taliban-knows-you.html                  BramvdnHeuvel   The Taliban knows who you are - what now?
-6       suicide-by-instagram.html               BramvdnHeuvel   Instagram may be responsible for 6 percent of teenage suicides
-7.      facebook-is-down.html                   BramvdnHeuvel   Facebook is down - time to move to Matrix
-8.      search-engines-vs-google.html           BramvdnHeuvel   4 search engines warned about Google - who are they?
-9.      wob-request-ap.html                     BramvdnHeuvel   We're sending a wob request to the AP
+ 1.     how-to-join-matrix.html                 BramvdnHeuvel   How to join the Matrix network
+ 2.     decentralize.html                       BramvdnHeuvel   Dear politicians of the EU, it's time to decentralize the internet
+ 3.     skip-signal.html                        BramvdnHeuvel   Skip Signal and move to Matrix before it's too late
+ 4.     facebook-black-men-primates.html        BramvdnHeuvel   Facebook apologises for classifying black men as primates
+ 5.     taliban-knows-you.html                  BramvdnHeuvel   The Taliban knows who you are - what now?
+ 6.     suicide-by-instagram.html               BramvdnHeuvel   Instagram may be responsible for 6 percent of teenage suicides
+ 7.     facebook-is-down.html                   BramvdnHeuvel   Facebook is down - time to move to Matrix
+ 8.     search-engines-vs-google.html           BramvdnHeuvel   4 search engines warned about Google - who are they?
+ 9.     wob-request-ap.html                     BramvdnHeuvel   We're sending a wob request to the AP
+10.     european-search-index.html              Tutanota        Google has become too powerful - it's time for a European search index!
