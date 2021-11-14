@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/fr</link>
         <description>Blog sur les droits numériques</description>
         <language>fr-fr</language>
-        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Nov 2021 14:30:00 GMT</lastBuildDate>
         <image>
             <title>Justice numérique</title>
             <link>https://digital-justice.com/fr</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Les Digital Justice Awards 2021 sont ouverts à la nomination !</title>
+            <pubDate>Sun, 14 Nov 2021 14:30:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>Cette fois-ci, c'est VOUS qui décidez qui mérite les feux de la rampe pour la promotion des droits de l'homme dans le domaine numérique.</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>Google est devenu trop puissant - il est temps de créer un index de recherche européen !</title>
             <pubDate>Sat, 13 Nov 2021 16:00:00</pubDate>

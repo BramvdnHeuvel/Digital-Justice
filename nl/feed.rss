@@ -4,7 +4,7 @@
         <link>https://digital-justice.com/nl</link>
         <description>Blog over digitale rechten</description>
         <language>nl-nl</language>
-        <lastBuildDate>Mon, 08 Nov 2021 21:45:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Nov 2021 14:30:00 GMT</lastBuildDate>
         <image>
             <title>Digitale Justitie</title>
             <link>https://digital-justice.com/nl</link>
@@ -12,6 +12,13 @@
             <width>512</width>
             <height>512</height>
         </image>
+        <item>
+            <title>Digital Justice Awards 2021 zijn open voor nominatie!</title>
+            <pubDate>Sun, 14 Nov 2021 14:30:00</pubDate>
+            <link>https://digital-justice.com/articles/wob-request-ap.html</link>
+            <description>Deze keer, mag JIJ beslissen wie de spotlight verdient voor het promoten van digitale mensenrechten.</description>
+            <author src="mastodon" href="https://koyu.space/@bram">@bram@koyu.space</author>
+        </item>
         <item>
             <title>Google is te machtig geworden - het is tijd voor een Europese zoek index!</title>
             <pubDate>Sat, 13 Nov 2021 16:00:00</pubDate>
