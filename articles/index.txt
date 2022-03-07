@@ -13,3 +13,4 @@ No.     File                                    Author          Name
  9.     wob-request-ap.html                     BramvdnHeuvel   We're sending a wob request to the AP
 10.     european-search-index.html              Tutanota        Google has become too powerful - it's time for a European search index!
 11.     nominations-2021.html                   BramvdnHeuvel   Digital Justice Awards 2021 are open for nomination!
+12.     connection-during-conflict.html         BramvdnHeuvel   Staying online during a conflict
